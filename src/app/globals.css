@@ -1,27 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --background: #05070D;
+  --surface: #0B1020;
+  --elevated: #121A2E;
+  --foreground: #F5F7FF;
+  --secondary: #9AA4BF;
+  --cricket: #B6FF3B;
+  --football: #2D6BFF;
+  --olympics: #FF6B2C;
+  --border-subtle: rgba(28, 39, 69, 0.7);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-space-grotesk: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-jetbrains-mono: 'JetBrains Mono', monospace;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* Custom Sports-Tech Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #05070D;
+}
+::-webkit-scrollbar-thumb {
+  background: #1C2745;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2D6BFF;
+}
+
+/* Glassmorphism & Elevation */
+.glass-panel {
+  background: rgba(11, 16, 32, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(28, 39, 69, 0.7);
+}
+
+.glass-card {
+  background: rgba(18, 26, 46, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(28, 39, 69, 0.75);
+}
+
+.glass-card:hover {
+  border-color: rgba(45, 107, 255, 0.4);
+}
+
+/* Glowing Accent Borders */
+.glow-cricket {
+  border-color: rgba(182, 255, 59, 0.5);
+  box-shadow: 0 0 20px -2px rgba(182, 255, 59, 0.25);
+}
+
+.glow-football {
+  border-color: rgba(45, 107, 255, 0.5);
+  box-shadow: 0 0 20px -2px rgba(45, 107, 255, 0.25);
+}
+
+.glow-olympics {
+  border-color: rgba(255, 107, 44, 0.5);
+  box-shadow: 0 0 20px -2px rgba(255, 107, 44, 0.25);
+}
+
+/* Tech Grid Background */
+.bg-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(28, 39, 69, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(28, 39, 69, 0.25) 1px, transparent 1px);
+}
+
+/* Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
   }
 }

@@ -1,0 +1,18 @@
+{
+  "model_type": "Calibrated Logistic Regression (Sigmoid / Platt Scaling)",
+  "features": [
+    "runs_remaining",
+    "wickets_remaining",
+    "balls_remaining",
+    "current_run_rate",
+    "required_run_rate",
+    "innings_context"
+  ],
+  "metrics": {
+    "brier_score": 0.1339,
+    "log_loss": 0.4127,
+    "test_sample_size": 1250,
+    "training_sample_size": 3750
+  },
+  "description": "Baseline win-probability estimator for T20 run-chases. Estimates are statistical guides, not deterministic guarantees."
+}

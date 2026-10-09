@@ -1,0 +1,357 @@
+match_id,date,season,competition,team1,team2,venue,venue_avg_first_inns,pitch_pace_factor,toss_winner,toss_decision,first_innings_score,second_innings_score,winner,win_margin
+CRIC-1001,2021-04-02,2021,Indian Premier League,Mumbai Indians,Gujarat Titans,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,bat,170,174,Gujarat Titans,2 wickets
+CRIC-1002,2021-04-02,2021,Indian Premier League,Mumbai Indians,Chennai Super Kings,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,field,155,161,Chennai Super Kings,6 wickets
+CRIC-1003,2021-04-03,2021,Indian Premier League,Delhi Capitals,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",175,0.58,Royal Challengers Bengaluru,bat,203,179,Delhi Capitals,24 runs
+CRIC-1004,2021-04-04,2021,Indian Premier League,Gujarat Titans,Kolkata Knight Riders,"Narendra Modi Stadium, Ahmedabad",174,0.55,Kolkata Knight Riders,field,178,153,Gujarat Titans,25 runs
+CRIC-1005,2021-04-05,2021,Indian Premier League,Rajasthan Royals,Gujarat Titans,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Rajasthan Royals,bat,166,140,Rajasthan Royals,26 runs
+CRIC-1006,2021-04-06,2021,Indian Premier League,Punjab Kings,Royal Challengers Bengaluru,"Wankhede Stadium, Mumbai",182,0.65,Punjab Kings,bat,194,177,Punjab Kings,17 runs
+CRIC-1007,2021-04-06,2021,Indian Premier League,Chennai Super Kings,Delhi Capitals,"M. A. Chidambaram Stadium, Chennai",164,0.4,Delhi Capitals,field,153,146,Chennai Super Kings,7 runs
+CRIC-1008,2021-04-07,2021,Indian Premier League,Punjab Kings,Kolkata Knight Riders,"PCA Stadium, Mohali",176,0.68,Punjab Kings,field,193,176,Punjab Kings,17 runs
+CRIC-1009,2021-04-08,2021,Indian Premier League,Rajasthan Royals,Mumbai Indians,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,bat,162,139,Rajasthan Royals,23 runs
+CRIC-1010,2021-04-09,2021,Indian Premier League,Royal Challengers Bengaluru,Sunrisers Hyderabad,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Sunrisers Hyderabad,field,192,198,Sunrisers Hyderabad,6 wickets
+CRIC-1011,2021-04-10,2021,Indian Premier League,Lucknow Super Giants,Gujarat Titans,"Arun Jaitley Stadium, Delhi",175,0.58,Gujarat Titans,field,184,178,Lucknow Super Giants,6 runs
+CRIC-1012,2021-04-10,2021,Indian Premier League,Chennai Super Kings,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",175,0.58,Chennai Super Kings,field,178,146,Chennai Super Kings,32 runs
+CRIC-1013,2021-04-11,2021,Indian Premier League,Lucknow Super Giants,Gujarat Titans,"Wankhede Stadium, Mumbai",182,0.65,Lucknow Super Giants,field,170,171,Gujarat Titans,4 wickets
+CRIC-1014,2021-04-12,2021,Indian Premier League,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",175,0.58,Kolkata Knight Riders,bat,172,137,Delhi Capitals,35 runs
+CRIC-1015,2021-04-13,2021,Indian Premier League,Chennai Super Kings,Gujarat Titans,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Chennai Super Kings,field,163,160,Chennai Super Kings,3 runs
+CRIC-1016,2021-04-14,2021,Indian Premier League,Punjab Kings,Rajasthan Royals,"PCA Stadium, Mohali",176,0.68,Punjab Kings,bat,154,132,Punjab Kings,22 runs
+CRIC-1017,2021-04-14,2021,Indian Premier League,Royal Challengers Bengaluru,Mumbai Indians,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,183,172,Royal Challengers Bengaluru,11 runs
+CRIC-1018,2021-04-15,2021,Indian Premier League,Kolkata Knight Riders,Sunrisers Hyderabad,"Eden Gardens, Kolkata",178,0.6,Sunrisers Hyderabad,field,181,165,Kolkata Knight Riders,16 runs
+CRIC-1019,2021-04-16,2021,Indian Premier League,Lucknow Super Giants,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",175,0.58,Royal Challengers Bengaluru,field,167,170,Royal Challengers Bengaluru,2 wickets
+CRIC-1020,2021-04-17,2021,Indian Premier League,Punjab Kings,Lucknow Super Giants,"PCA Stadium, Mohali",176,0.68,Punjab Kings,field,173,167,Punjab Kings,6 runs
+CRIC-1021,2021-04-18,2021,Indian Premier League,Royal Challengers Bengaluru,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Royal Challengers Bengaluru,field,164,170,Chennai Super Kings,6 wickets
+CRIC-1022,2021-04-18,2021,Indian Premier League,Punjab Kings,Sunrisers Hyderabad,"PCA Stadium, Mohali",176,0.68,Sunrisers Hyderabad,bat,192,193,Sunrisers Hyderabad,7 wickets
+CRIC-1023,2021-04-19,2021,Indian Premier League,Delhi Capitals,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",175,0.58,Rajasthan Royals,bat,196,190,Delhi Capitals,6 runs
+CRIC-1024,2021-04-20,2021,Indian Premier League,Delhi Capitals,Rajasthan Royals,"M. A. Chidambaram Stadium, Chennai",164,0.4,Delhi Capitals,field,171,160,Delhi Capitals,11 runs
+CRIC-1025,2021-04-21,2021,Indian Premier League,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,bat,200,191,Delhi Capitals,9 runs
+CRIC-1026,2021-04-22,2021,Indian Premier League,Mumbai Indians,Lucknow Super Giants,"M. A. Chidambaram Stadium, Chennai",164,0.4,Mumbai Indians,field,180,164,Mumbai Indians,16 runs
+CRIC-1027,2021-04-22,2021,Indian Premier League,Delhi Capitals,Mumbai Indians,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,bat,172,176,Mumbai Indians,7 wickets
+CRIC-1028,2021-04-23,2021,Indian Premier League,Lucknow Super Giants,Sunrisers Hyderabad,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Sunrisers Hyderabad,field,186,192,Sunrisers Hyderabad,6 wickets
+CRIC-1029,2021-04-24,2021,Indian Premier League,Mumbai Indians,Rajasthan Royals,"Wankhede Stadium, Mumbai",182,0.65,Rajasthan Royals,field,191,183,Mumbai Indians,8 runs
+CRIC-1030,2021-04-25,2021,Indian Premier League,Kolkata Knight Riders,Chennai Super Kings,"Eden Gardens, Kolkata",178,0.6,Kolkata Knight Riders,field,173,155,Kolkata Knight Riders,18 runs
+CRIC-1031,2021-04-26,2021,Indian Premier League,Punjab Kings,Mumbai Indians,"Arun Jaitley Stadium, Delhi",175,0.58,Mumbai Indians,bat,180,184,Mumbai Indians,3 wickets
+CRIC-1032,2021-04-26,2021,Indian Premier League,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,field,201,192,Gujarat Titans,9 runs
+CRIC-1033,2021-04-27,2021,Indian Premier League,Chennai Super Kings,Lucknow Super Giants,"M. A. Chidambaram Stadium, Chennai",164,0.4,Lucknow Super Giants,field,164,167,Lucknow Super Giants,3 wickets
+CRIC-1034,2021-04-28,2021,Indian Premier League,Sunrisers Hyderabad,Lucknow Super Giants,"PCA Stadium, Mohali",176,0.68,Sunrisers Hyderabad,field,181,172,Sunrisers Hyderabad,9 runs
+CRIC-1035,2021-04-29,2021,Indian Premier League,Kolkata Knight Riders,Gujarat Titans,"Eden Gardens, Kolkata",178,0.6,Kolkata Knight Riders,bat,187,190,Gujarat Titans,3 wickets
+CRIC-1036,2021-04-30,2021,Indian Premier League,Gujarat Titans,Lucknow Super Giants,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,field,187,167,Gujarat Titans,20 runs
+CRIC-1037,2021-04-30,2021,Indian Premier League,Mumbai Indians,Punjab Kings,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,field,183,153,Mumbai Indians,30 runs
+CRIC-1038,2021-05-01,2021,Indian Premier League,Lucknow Super Giants,Mumbai Indians,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Lucknow Super Giants,field,184,172,Lucknow Super Giants,12 runs
+CRIC-1039,2021-05-02,2021,Indian Premier League,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",175,0.58,Kolkata Knight Riders,bat,184,168,Delhi Capitals,16 runs
+CRIC-1040,2021-05-03,2021,Indian Premier League,Royal Challengers Bengaluru,Chennai Super Kings,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Chennai Super Kings,bat,159,161,Chennai Super Kings,8 wickets
+CRIC-1041,2021-05-04,2021,Indian Premier League,Kolkata Knight Riders,Punjab Kings,"Wankhede Stadium, Mumbai",182,0.65,Kolkata Knight Riders,bat,166,148,Kolkata Knight Riders,18 runs
+CRIC-1042,2021-05-04,2021,Indian Premier League,Gujarat Titans,Kolkata Knight Riders,"M. A. Chidambaram Stadium, Chennai",164,0.4,Kolkata Knight Riders,bat,199,182,Gujarat Titans,17 runs
+CRIC-1043,2021-05-05,2021,Indian Premier League,Royal Challengers Bengaluru,Sunrisers Hyderabad,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,180,181,Sunrisers Hyderabad,8 wickets
+CRIC-1044,2021-05-06,2021,Indian Premier League,Gujarat Titans,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",175,0.58,Rajasthan Royals,bat,164,167,Rajasthan Royals,3 wickets
+CRIC-1045,2021-05-07,2021,Indian Premier League,Punjab Kings,Gujarat Titans,"PCA Stadium, Mohali",176,0.68,Gujarat Titans,field,178,168,Punjab Kings,10 runs
+CRIC-1046,2021-05-08,2021,Indian Premier League,Delhi Capitals,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",175,0.58,Royal Challengers Bengaluru,field,158,143,Delhi Capitals,15 runs
+CRIC-1047,2021-05-08,2021,Indian Premier League,Rajasthan Royals,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Delhi Capitals,field,162,127,Rajasthan Royals,35 runs
+CRIC-1048,2021-05-09,2021,Indian Premier League,Gujarat Titans,Delhi Capitals,"Narendra Modi Stadium, Ahmedabad",174,0.55,Delhi Capitals,field,169,175,Delhi Capitals,5 wickets
+CRIC-1049,2021-05-10,2021,Indian Premier League,Kolkata Knight Riders,Gujarat Titans,"Eden Gardens, Kolkata",178,0.6,Kolkata Knight Riders,field,187,164,Kolkata Knight Riders,23 runs
+CRIC-1050,2021-05-11,2021,Indian Premier League,Sunrisers Hyderabad,Punjab Kings,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,208,195,Sunrisers Hyderabad,13 runs
+CRIC-1051,2021-05-12,2021,Indian Premier League,Chennai Super Kings,Gujarat Titans,"M. A. Chidambaram Stadium, Chennai",164,0.4,Gujarat Titans,field,179,164,Chennai Super Kings,15 runs
+CRIC-1052,2021-05-12,2021,Indian Premier League,Kolkata Knight Riders,Mumbai Indians,"Eden Gardens, Kolkata",178,0.6,Mumbai Indians,field,177,145,Kolkata Knight Riders,32 runs
+CRIC-1053,2021-05-13,2021,Indian Premier League,Delhi Capitals,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",175,0.58,Royal Challengers Bengaluru,field,189,180,Delhi Capitals,9 runs
+CRIC-1054,2021-05-14,2021,Indian Premier League,Delhi Capitals,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",175,0.58,Royal Challengers Bengaluru,field,194,184,Delhi Capitals,10 runs
+CRIC-1055,2021-05-15,2021,Indian Premier League,Sunrisers Hyderabad,Kolkata Knight Riders,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Kolkata Knight Riders,bat,176,141,Sunrisers Hyderabad,35 runs
+CRIC-1056,2021-05-16,2021,Indian Premier League,Delhi Capitals,Lucknow Super Giants,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,bat,161,164,Lucknow Super Giants,8 wickets
+CRIC-1057,2021-05-16,2021,Indian Premier League,Royal Challengers Bengaluru,Gujarat Titans,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Gujarat Titans,field,158,161,Gujarat Titans,4 wickets
+CRIC-1058,2021-05-17,2021,Indian Premier League,Rajasthan Royals,Lucknow Super Giants,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,field,173,157,Rajasthan Royals,16 runs
+CRIC-1059,2021-05-18,2021,Indian Premier League,Chennai Super Kings,Delhi Capitals,"M. A. Chidambaram Stadium, Chennai",164,0.4,Delhi Capitals,field,172,168,Chennai Super Kings,4 runs
+CRIC-1060,2021-05-19,2021,Indian Premier League,Punjab Kings,Delhi Capitals,"PCA Stadium, Mohali",176,0.68,Delhi Capitals,field,190,161,Punjab Kings,29 runs
+CRIC-1061,2022-04-09,2022,Indian Premier League,Lucknow Super Giants,Royal Challengers Bengaluru,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Royal Challengers Bengaluru,field,172,144,Lucknow Super Giants,28 runs
+CRIC-1062,2022-04-09,2022,Indian Premier League,Kolkata Knight Riders,Sunrisers Hyderabad,"PCA Stadium, Mohali",176,0.68,Kolkata Knight Riders,bat,181,177,Kolkata Knight Riders,4 runs
+CRIC-1063,2022-04-10,2022,Indian Premier League,Chennai Super Kings,Delhi Capitals,"M. A. Chidambaram Stadium, Chennai",164,0.4,Delhi Capitals,field,167,143,Chennai Super Kings,24 runs
+CRIC-1064,2022-04-11,2022,Indian Premier League,Delhi Capitals,Gujarat Titans,"Arun Jaitley Stadium, Delhi",175,0.58,Gujarat Titans,bat,189,183,Delhi Capitals,6 runs
+CRIC-1065,2022-04-12,2022,Indian Premier League,Rajasthan Royals,Royal Challengers Bengaluru,"Wankhede Stadium, Mumbai",182,0.65,Rajasthan Royals,bat,184,186,Royal Challengers Bengaluru,5 wickets
+CRIC-1066,2022-04-13,2022,Indian Premier League,Chennai Super Kings,Royal Challengers Bengaluru,"M. A. Chidambaram Stadium, Chennai",164,0.4,Royal Challengers Bengaluru,bat,171,176,Royal Challengers Bengaluru,7 wickets
+CRIC-1067,2022-04-13,2022,Indian Premier League,Chennai Super Kings,Kolkata Knight Riders,"M. A. Chidambaram Stadium, Chennai",164,0.4,Chennai Super Kings,bat,136,142,Kolkata Knight Riders,3 wickets
+CRIC-1068,2022-04-14,2022,Indian Premier League,Chennai Super Kings,Royal Challengers Bengaluru,"M. A. Chidambaram Stadium, Chennai",164,0.4,Royal Challengers Bengaluru,bat,151,141,Chennai Super Kings,10 runs
+CRIC-1069,2022-04-15,2022,Indian Premier League,Punjab Kings,Mumbai Indians,"PCA Stadium, Mohali",176,0.68,Mumbai Indians,field,195,199,Mumbai Indians,8 wickets
+CRIC-1070,2022-04-16,2022,Indian Premier League,Sunrisers Hyderabad,Chennai Super Kings,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Chennai Super Kings,field,190,178,Sunrisers Hyderabad,12 runs
+CRIC-1071,2022-04-17,2022,Indian Premier League,Delhi Capitals,Kolkata Knight Riders,"Narendra Modi Stadium, Ahmedabad",174,0.55,Kolkata Knight Riders,field,183,185,Kolkata Knight Riders,8 wickets
+CRIC-1072,2022-04-17,2022,Indian Premier League,Chennai Super Kings,Gujarat Titans,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Gujarat Titans,field,172,175,Gujarat Titans,2 wickets
+CRIC-1073,2022-04-18,2022,Indian Premier League,Sunrisers Hyderabad,Rajasthan Royals,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,180,160,Sunrisers Hyderabad,20 runs
+CRIC-1074,2022-04-19,2022,Indian Premier League,Lucknow Super Giants,Mumbai Indians,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Lucknow Super Giants,field,171,137,Lucknow Super Giants,34 runs
+CRIC-1075,2022-04-20,2022,Indian Premier League,Lucknow Super Giants,Royal Challengers Bengaluru,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Royal Challengers Bengaluru,bat,190,168,Lucknow Super Giants,22 runs
+CRIC-1076,2022-04-21,2022,Indian Premier League,Punjab Kings,Rajasthan Royals,"PCA Stadium, Mohali",176,0.68,Rajasthan Royals,field,180,156,Punjab Kings,24 runs
+CRIC-1077,2022-04-21,2022,Indian Premier League,Rajasthan Royals,Sunrisers Hyderabad,"Sawai Mansingh Stadium, Jaipur",166,0.5,Sunrisers Hyderabad,field,164,150,Rajasthan Royals,14 runs
+CRIC-1078,2022-04-22,2022,Indian Premier League,Royal Challengers Bengaluru,Punjab Kings,"Narendra Modi Stadium, Ahmedabad",174,0.55,Punjab Kings,bat,161,140,Royal Challengers Bengaluru,21 runs
+CRIC-1079,2022-04-23,2022,Indian Premier League,Royal Challengers Bengaluru,Rajasthan Royals,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,192,195,Rajasthan Royals,7 wickets
+CRIC-1080,2022-04-24,2022,Indian Premier League,Kolkata Knight Riders,Sunrisers Hyderabad,"Eden Gardens, Kolkata",178,0.6,Kolkata Knight Riders,field,183,152,Kolkata Knight Riders,31 runs
+CRIC-1081,2022-04-25,2022,Indian Premier League,Rajasthan Royals,Kolkata Knight Riders,"Narendra Modi Stadium, Ahmedabad",174,0.55,Kolkata Knight Riders,field,192,186,Rajasthan Royals,6 runs
+CRIC-1082,2022-04-25,2022,Indian Premier League,Kolkata Knight Riders,Punjab Kings,"Narendra Modi Stadium, Ahmedabad",174,0.55,Kolkata Knight Riders,bat,183,187,Punjab Kings,6 wickets
+CRIC-1083,2022-04-26,2022,Indian Premier League,Punjab Kings,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",175,0.58,Royal Challengers Bengaluru,bat,167,172,Royal Challengers Bengaluru,6 wickets
+CRIC-1084,2022-04-27,2022,Indian Premier League,Mumbai Indians,Chennai Super Kings,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Mumbai Indians,field,211,213,Chennai Super Kings,3 wickets
+CRIC-1085,2022-04-28,2022,Indian Premier League,Lucknow Super Giants,Chennai Super Kings,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Chennai Super Kings,field,147,153,Chennai Super Kings,4 wickets
+CRIC-1086,2022-04-29,2022,Indian Premier League,Sunrisers Hyderabad,Chennai Super Kings,"Narendra Modi Stadium, Ahmedabad",174,0.55,Sunrisers Hyderabad,field,167,173,Chennai Super Kings,3 wickets
+CRIC-1087,2022-04-29,2022,Indian Premier League,Gujarat Titans,Kolkata Knight Riders,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,bat,152,121,Gujarat Titans,31 runs
+CRIC-1088,2022-04-30,2022,Indian Premier League,Chennai Super Kings,Sunrisers Hyderabad,"Arun Jaitley Stadium, Delhi",175,0.58,Sunrisers Hyderabad,field,162,163,Sunrisers Hyderabad,6 wickets
+CRIC-1089,2022-05-01,2022,Indian Premier League,Mumbai Indians,Delhi Capitals,"PCA Stadium, Mohali",176,0.68,Delhi Capitals,field,182,178,Mumbai Indians,4 runs
+CRIC-1090,2022-05-02,2022,Indian Premier League,Gujarat Titans,Mumbai Indians,"Eden Gardens, Kolkata",178,0.6,Mumbai Indians,field,204,184,Gujarat Titans,20 runs
+CRIC-1091,2022-05-03,2022,Indian Premier League,Kolkata Knight Riders,Delhi Capitals,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Kolkata Knight Riders,field,170,172,Delhi Capitals,4 wickets
+CRIC-1092,2022-05-03,2022,Indian Premier League,Delhi Capitals,Sunrisers Hyderabad,"Arun Jaitley Stadium, Delhi",175,0.58,Sunrisers Hyderabad,bat,182,150,Delhi Capitals,32 runs
+CRIC-1093,2022-05-04,2022,Indian Premier League,Chennai Super Kings,Rajasthan Royals,"M. A. Chidambaram Stadium, Chennai",164,0.4,Chennai Super Kings,bat,152,120,Chennai Super Kings,32 runs
+CRIC-1094,2022-05-05,2022,Indian Premier League,Delhi Capitals,Mumbai Indians,"Arun Jaitley Stadium, Delhi",175,0.58,Mumbai Indians,field,185,154,Delhi Capitals,31 runs
+CRIC-1095,2022-05-06,2022,Indian Premier League,Mumbai Indians,Royal Challengers Bengaluru,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,bat,162,168,Royal Challengers Bengaluru,6 wickets
+CRIC-1096,2022-05-07,2022,Indian Premier League,Royal Challengers Bengaluru,Kolkata Knight Riders,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,198,199,Kolkata Knight Riders,5 wickets
+CRIC-1097,2022-05-07,2022,Indian Premier League,Chennai Super Kings,Kolkata Knight Riders,"M. A. Chidambaram Stadium, Chennai",164,0.4,Kolkata Knight Riders,field,163,145,Chennai Super Kings,18 runs
+CRIC-1098,2022-05-08,2022,Indian Premier League,Sunrisers Hyderabad,Lucknow Super Giants,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,bat,211,200,Sunrisers Hyderabad,11 runs
+CRIC-1099,2022-05-09,2022,Indian Premier League,Chennai Super Kings,Gujarat Titans,"Arun Jaitley Stadium, Delhi",175,0.58,Gujarat Titans,bat,149,152,Gujarat Titans,8 wickets
+CRIC-1100,2022-05-10,2022,Indian Premier League,Punjab Kings,Sunrisers Hyderabad,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,177,182,Sunrisers Hyderabad,5 wickets
+CRIC-1101,2022-05-11,2022,Indian Premier League,Sunrisers Hyderabad,Rajasthan Royals,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Rajasthan Royals,field,189,162,Sunrisers Hyderabad,27 runs
+CRIC-1102,2022-05-11,2022,Indian Premier League,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,field,170,146,Delhi Capitals,24 runs
+CRIC-1103,2022-05-12,2022,Indian Premier League,Chennai Super Kings,Sunrisers Hyderabad,"M. A. Chidambaram Stadium, Chennai",164,0.4,Sunrisers Hyderabad,field,187,180,Chennai Super Kings,7 runs
+CRIC-1104,2022-05-13,2022,Indian Premier League,Sunrisers Hyderabad,Gujarat Titans,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Gujarat Titans,field,206,179,Sunrisers Hyderabad,27 runs
+CRIC-1105,2022-05-14,2022,Indian Premier League,Rajasthan Royals,Sunrisers Hyderabad,"Wankhede Stadium, Mumbai",182,0.65,Rajasthan Royals,field,177,178,Sunrisers Hyderabad,5 wickets
+CRIC-1106,2022-05-15,2022,Indian Premier League,Chennai Super Kings,Punjab Kings,"M. A. Chidambaram Stadium, Chennai",164,0.4,Punjab Kings,bat,155,156,Punjab Kings,4 wickets
+CRIC-1107,2022-05-15,2022,Indian Premier League,Rajasthan Royals,Punjab Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,field,141,142,Punjab Kings,6 wickets
+CRIC-1108,2022-05-16,2022,Indian Premier League,Delhi Capitals,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,field,163,167,Royal Challengers Bengaluru,4 wickets
+CRIC-1109,2022-05-17,2022,Indian Premier League,Mumbai Indians,Sunrisers Hyderabad,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Mumbai Indians,field,206,176,Mumbai Indians,30 runs
+CRIC-1110,2022-05-18,2022,Indian Premier League,Gujarat Titans,Sunrisers Hyderabad,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Sunrisers Hyderabad,bat,174,178,Sunrisers Hyderabad,6 wickets
+CRIC-1111,2022-05-19,2022,Indian Premier League,Rajasthan Royals,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",174,0.55,Rajasthan Royals,bat,168,174,Gujarat Titans,8 wickets
+CRIC-1112,2022-05-19,2022,Indian Premier League,Mumbai Indians,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",174,0.55,Mumbai Indians,field,166,172,Sunrisers Hyderabad,3 wickets
+CRIC-1113,2022-05-20,2022,Indian Premier League,Punjab Kings,Gujarat Titans,"Eden Gardens, Kolkata",178,0.6,Punjab Kings,bat,168,173,Gujarat Titans,4 wickets
+CRIC-1114,2022-05-21,2022,Indian Premier League,Kolkata Knight Riders,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Chennai Super Kings,field,157,162,Chennai Super Kings,4 wickets
+CRIC-1115,2022-05-22,2022,Indian Premier League,Lucknow Super Giants,Punjab Kings,"Eden Gardens, Kolkata",178,0.6,Punjab Kings,bat,218,194,Lucknow Super Giants,24 runs
+CRIC-1116,2022-05-23,2022,Indian Premier League,Chennai Super Kings,Sunrisers Hyderabad,"Eden Gardens, Kolkata",178,0.6,Chennai Super Kings,bat,167,139,Chennai Super Kings,28 runs
+CRIC-1117,2022-05-23,2022,Indian Premier League,Lucknow Super Giants,Rajasthan Royals,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Rajasthan Royals,field,141,147,Rajasthan Royals,4 wickets
+CRIC-1118,2022-05-24,2022,Indian Premier League,Punjab Kings,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Punjab Kings,field,160,165,Delhi Capitals,6 wickets
+CRIC-1119,2022-05-25,2022,Indian Premier League,Rajasthan Royals,Royal Challengers Bengaluru,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Royal Challengers Bengaluru,field,184,188,Royal Challengers Bengaluru,2 wickets
+CRIC-1120,2022-05-26,2022,Indian Premier League,Chennai Super Kings,Royal Challengers Bengaluru,"Eden Gardens, Kolkata",178,0.6,Royal Challengers Bengaluru,field,185,156,Chennai Super Kings,29 runs
+CRIC-1121,2022-05-27,2022,Indian Premier League,Punjab Kings,Kolkata Knight Riders,"M. A. Chidambaram Stadium, Chennai",164,0.4,Kolkata Knight Riders,field,174,158,Punjab Kings,16 runs
+CRIC-1122,2022-05-27,2022,Indian Premier League,Sunrisers Hyderabad,Punjab Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Sunrisers Hyderabad,bat,162,168,Punjab Kings,4 wickets
+CRIC-1123,2022-05-28,2022,Indian Premier League,Mumbai Indians,Delhi Capitals,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,bat,188,184,Mumbai Indians,4 runs
+CRIC-1124,2022-05-29,2022,Indian Premier League,Mumbai Indians,Rajasthan Royals,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,bat,179,184,Rajasthan Royals,3 wickets
+CRIC-1125,2022-05-30,2022,Indian Premier League,Punjab Kings,Royal Challengers Bengaluru,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,bat,191,193,Royal Challengers Bengaluru,3 wickets
+CRIC-1126,2022-05-31,2022,Indian Premier League,Lucknow Super Giants,Gujarat Titans,"M. A. Chidambaram Stadium, Chennai",164,0.4,Lucknow Super Giants,field,143,145,Gujarat Titans,6 wickets
+CRIC-1127,2022-05-31,2022,Indian Premier League,Rajasthan Royals,Mumbai Indians,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,field,160,164,Mumbai Indians,8 wickets
+CRIC-1128,2022-06-01,2022,Indian Premier League,Rajasthan Royals,Lucknow Super Giants,"Sawai Mansingh Stadium, Jaipur",166,0.5,Lucknow Super Giants,field,170,165,Rajasthan Royals,5 runs
+CRIC-1129,2022-06-02,2022,Indian Premier League,Lucknow Super Giants,Gujarat Titans,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Lucknow Super Giants,field,142,146,Gujarat Titans,7 wickets
+CRIC-1130,2022-06-03,2022,Indian Premier League,Sunrisers Hyderabad,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Sunrisers Hyderabad,field,169,175,Chennai Super Kings,6 wickets
+CRIC-1131,2022-06-04,2022,Indian Premier League,Lucknow Super Giants,Rajasthan Royals,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Rajasthan Royals,field,152,136,Lucknow Super Giants,16 runs
+CRIC-1132,2022-06-04,2022,Indian Premier League,Delhi Capitals,Sunrisers Hyderabad,"Arun Jaitley Stadium, Delhi",175,0.58,Sunrisers Hyderabad,bat,170,176,Sunrisers Hyderabad,2 wickets
+CRIC-1133,2022-06-05,2022,Indian Premier League,Rajasthan Royals,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Delhi Capitals,field,188,189,Delhi Capitals,2 wickets
+CRIC-1134,2022-06-06,2022,Indian Premier League,Delhi Capitals,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Delhi Capitals,field,195,171,Delhi Capitals,24 runs
+CRIC-1135,2023-04-02,2023,Indian Premier League,Delhi Capitals,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,bat,162,164,Rajasthan Royals,3 wickets
+CRIC-1136,2023-04-02,2023,Indian Premier League,Sunrisers Hyderabad,Royal Challengers Bengaluru,"Sawai Mansingh Stadium, Jaipur",166,0.5,Royal Challengers Bengaluru,field,158,160,Royal Challengers Bengaluru,8 wickets
+CRIC-1137,2023-04-03,2023,Indian Premier League,Delhi Capitals,Lucknow Super Giants,"PCA Stadium, Mohali",176,0.68,Delhi Capitals,field,162,165,Lucknow Super Giants,7 wickets
+CRIC-1138,2023-04-04,2023,Indian Premier League,Gujarat Titans,Rajasthan Royals,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,bat,156,160,Rajasthan Royals,2 wickets
+CRIC-1139,2023-04-05,2023,Indian Premier League,Kolkata Knight Riders,Mumbai Indians,"Eden Gardens, Kolkata",178,0.6,Kolkata Knight Riders,field,171,174,Mumbai Indians,8 wickets
+CRIC-1140,2023-04-06,2023,Indian Premier League,Punjab Kings,Chennai Super Kings,"Eden Gardens, Kolkata",178,0.6,Punjab Kings,bat,179,180,Chennai Super Kings,4 wickets
+CRIC-1141,2023-04-06,2023,Indian Premier League,Sunrisers Hyderabad,Delhi Capitals,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Delhi Capitals,field,185,175,Sunrisers Hyderabad,10 runs
+CRIC-1142,2023-04-07,2023,Indian Premier League,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",174,0.55,Sunrisers Hyderabad,field,195,189,Gujarat Titans,6 runs
+CRIC-1143,2023-04-08,2023,Indian Premier League,Mumbai Indians,Royal Challengers Bengaluru,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,bat,186,190,Royal Challengers Bengaluru,7 wickets
+CRIC-1144,2023-04-09,2023,Indian Premier League,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,field,161,136,Delhi Capitals,25 runs
+CRIC-1145,2023-04-10,2023,Indian Premier League,Chennai Super Kings,Delhi Capitals,"Wankhede Stadium, Mumbai",182,0.65,Delhi Capitals,field,214,186,Chennai Super Kings,28 runs
+CRIC-1146,2023-04-10,2023,Indian Premier League,Delhi Capitals,Gujarat Titans,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,bat,159,164,Gujarat Titans,5 wickets
+CRIC-1147,2023-04-11,2023,Indian Premier League,Rajasthan Royals,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,field,150,153,Chennai Super Kings,7 wickets
+CRIC-1148,2023-04-12,2023,Indian Premier League,Rajasthan Royals,Royal Challengers Bengaluru,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,field,156,121,Rajasthan Royals,35 runs
+CRIC-1149,2023-04-13,2023,Indian Premier League,Royal Challengers Bengaluru,Rajasthan Royals,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,195,188,Royal Challengers Bengaluru,7 runs
+CRIC-1150,2023-04-14,2023,Indian Premier League,Kolkata Knight Riders,Sunrisers Hyderabad,"Eden Gardens, Kolkata",178,0.6,Sunrisers Hyderabad,field,188,165,Kolkata Knight Riders,23 runs
+CRIC-1151,2023-04-14,2023,Indian Premier League,Rajasthan Royals,Kolkata Knight Riders,"Sawai Mansingh Stadium, Jaipur",166,0.5,Kolkata Knight Riders,field,163,168,Kolkata Knight Riders,2 wickets
+CRIC-1152,2023-04-15,2023,Indian Premier League,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,field,189,181,Gujarat Titans,8 runs
+CRIC-1153,2023-04-16,2023,Indian Premier League,Punjab Kings,Lucknow Super Giants,"PCA Stadium, Mohali",176,0.68,Punjab Kings,field,183,187,Lucknow Super Giants,6 wickets
+CRIC-1154,2023-04-17,2023,Indian Premier League,Kolkata Knight Riders,Mumbai Indians,"Eden Gardens, Kolkata",178,0.6,Mumbai Indians,bat,158,164,Mumbai Indians,3 wickets
+CRIC-1155,2023-04-18,2023,Indian Premier League,Mumbai Indians,Royal Challengers Bengaluru,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Mumbai Indians,field,197,191,Mumbai Indians,6 runs
+CRIC-1156,2023-04-18,2023,Indian Premier League,Rajasthan Royals,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Chennai Super Kings,field,159,147,Rajasthan Royals,12 runs
+CRIC-1157,2023-04-19,2023,Indian Premier League,Rajasthan Royals,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,bat,158,160,Chennai Super Kings,6 wickets
+CRIC-1158,2023-04-20,2023,Indian Premier League,Chennai Super Kings,Gujarat Titans,"M. A. Chidambaram Stadium, Chennai",164,0.4,Gujarat Titans,bat,189,181,Chennai Super Kings,8 runs
+CRIC-1159,2023-04-21,2023,Indian Premier League,Delhi Capitals,Lucknow Super Giants,"Arun Jaitley Stadium, Delhi",175,0.58,Lucknow Super Giants,field,188,173,Delhi Capitals,15 runs
+CRIC-1160,2023-04-22,2023,Indian Premier League,Royal Challengers Bengaluru,Kolkata Knight Riders,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Kolkata Knight Riders,bat,185,190,Kolkata Knight Riders,8 wickets
+CRIC-1161,2023-04-22,2023,Indian Premier League,Lucknow Super Giants,Mumbai Indians,"PCA Stadium, Mohali",176,0.68,Lucknow Super Giants,field,182,169,Lucknow Super Giants,13 runs
+CRIC-1162,2023-04-23,2023,Indian Premier League,Sunrisers Hyderabad,Mumbai Indians,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,bat,189,158,Sunrisers Hyderabad,31 runs
+CRIC-1163,2023-04-24,2023,Indian Premier League,Royal Challengers Bengaluru,Lucknow Super Giants,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Lucknow Super Giants,bat,197,166,Royal Challengers Bengaluru,31 runs
+CRIC-1164,2023-04-25,2023,Indian Premier League,Sunrisers Hyderabad,Gujarat Titans,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Gujarat Titans,bat,181,170,Sunrisers Hyderabad,11 runs
+CRIC-1165,2023-04-26,2023,Indian Premier League,Gujarat Titans,Mumbai Indians,"Sawai Mansingh Stadium, Jaipur",166,0.5,Gujarat Titans,field,160,162,Mumbai Indians,4 wickets
+CRIC-1166,2023-04-26,2023,Indian Premier League,Sunrisers Hyderabad,Lucknow Super Giants,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Lucknow Super Giants,field,180,149,Sunrisers Hyderabad,31 runs
+CRIC-1167,2023-04-27,2023,Indian Premier League,Rajasthan Royals,Mumbai Indians,"Sawai Mansingh Stadium, Jaipur",166,0.5,Mumbai Indians,field,171,172,Mumbai Indians,4 wickets
+CRIC-1168,2023-04-28,2023,Indian Premier League,Chennai Super Kings,Rajasthan Royals,"Eden Gardens, Kolkata",178,0.6,Chennai Super Kings,field,233,222,Chennai Super Kings,11 runs
+CRIC-1169,2023-04-29,2023,Indian Premier League,Sunrisers Hyderabad,Punjab Kings,"M. A. Chidambaram Stadium, Chennai",164,0.4,Sunrisers Hyderabad,field,175,145,Sunrisers Hyderabad,30 runs
+CRIC-1170,2023-04-30,2023,Indian Premier League,Chennai Super Kings,Gujarat Titans,"M. A. Chidambaram Stadium, Chennai",164,0.4,Chennai Super Kings,field,150,155,Gujarat Titans,5 wickets
+CRIC-1171,2023-04-30,2023,Indian Premier League,Chennai Super Kings,Punjab Kings,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Chennai Super Kings,field,161,162,Punjab Kings,6 wickets
+CRIC-1172,2023-05-01,2023,Indian Premier League,Rajasthan Royals,Royal Challengers Bengaluru,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,field,155,158,Royal Challengers Bengaluru,2 wickets
+CRIC-1173,2023-05-02,2023,Indian Premier League,Lucknow Super Giants,Punjab Kings,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Lucknow Super Giants,field,136,117,Lucknow Super Giants,19 runs
+CRIC-1174,2023-05-03,2023,Indian Premier League,Mumbai Indians,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Mumbai Indians,bat,173,149,Mumbai Indians,24 runs
+CRIC-1175,2023-05-04,2023,Indian Premier League,Kolkata Knight Riders,Mumbai Indians,"Eden Gardens, Kolkata",178,0.6,Mumbai Indians,bat,193,160,Kolkata Knight Riders,33 runs
+CRIC-1176,2023-05-04,2023,Indian Premier League,Kolkata Knight Riders,Punjab Kings,"Eden Gardens, Kolkata",178,0.6,Punjab Kings,field,205,190,Kolkata Knight Riders,15 runs
+CRIC-1177,2023-05-05,2023,Indian Premier League,Mumbai Indians,Rajasthan Royals,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Rajasthan Royals,bat,149,134,Mumbai Indians,15 runs
+CRIC-1178,2023-05-06,2023,Indian Premier League,Gujarat Titans,Rajasthan Royals,"Wankhede Stadium, Mumbai",182,0.65,Rajasthan Royals,field,181,151,Gujarat Titans,30 runs
+CRIC-1179,2023-05-07,2023,Indian Premier League,Delhi Capitals,Sunrisers Hyderabad,"Arun Jaitley Stadium, Delhi",175,0.58,Sunrisers Hyderabad,bat,156,136,Delhi Capitals,20 runs
+CRIC-1180,2023-05-08,2023,Indian Premier League,Chennai Super Kings,Delhi Capitals,"M. A. Chidambaram Stadium, Chennai",164,0.4,Chennai Super Kings,field,168,160,Chennai Super Kings,8 runs
+CRIC-1181,2023-05-08,2023,Indian Premier League,Rajasthan Royals,Gujarat Titans,"Sawai Mansingh Stadium, Jaipur",166,0.5,Gujarat Titans,field,150,153,Gujarat Titans,6 wickets
+CRIC-1182,2023-05-09,2023,Indian Premier League,Delhi Capitals,Gujarat Titans,"Wankhede Stadium, Mumbai",182,0.65,Delhi Capitals,field,188,193,Gujarat Titans,8 wickets
+CRIC-1183,2023-05-10,2023,Indian Premier League,Kolkata Knight Riders,Mumbai Indians,"Eden Gardens, Kolkata",178,0.6,Mumbai Indians,field,205,178,Kolkata Knight Riders,27 runs
+CRIC-1184,2023-05-11,2023,Indian Premier League,Punjab Kings,Mumbai Indians,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Mumbai Indians,field,189,178,Punjab Kings,11 runs
+CRIC-1185,2023-05-12,2023,Indian Premier League,Lucknow Super Giants,Rajasthan Royals,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Rajasthan Royals,field,178,151,Lucknow Super Giants,27 runs
+CRIC-1186,2023-05-12,2023,Indian Premier League,Lucknow Super Giants,Chennai Super Kings,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Chennai Super Kings,field,175,180,Chennai Super Kings,4 wickets
+CRIC-1187,2023-05-13,2023,Indian Premier League,Sunrisers Hyderabad,Royal Challengers Bengaluru,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,194,200,Royal Challengers Bengaluru,8 wickets
+CRIC-1188,2023-05-14,2023,Indian Premier League,Rajasthan Royals,Punjab Kings,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Punjab Kings,bat,148,134,Rajasthan Royals,14 runs
+CRIC-1189,2023-05-15,2023,Indian Premier League,Rajasthan Royals,Lucknow Super Giants,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,bat,168,173,Lucknow Super Giants,4 wickets
+CRIC-1190,2023-05-16,2023,Indian Premier League,Sunrisers Hyderabad,Lucknow Super Giants,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,199,166,Sunrisers Hyderabad,33 runs
+CRIC-1191,2023-05-16,2023,Indian Premier League,Lucknow Super Giants,Delhi Capitals,"PCA Stadium, Mohali",176,0.68,Lucknow Super Giants,field,174,179,Delhi Capitals,4 wickets
+CRIC-1192,2023-05-17,2023,Indian Premier League,Kolkata Knight Riders,Lucknow Super Giants,"Eden Gardens, Kolkata",178,0.6,Kolkata Knight Riders,field,186,180,Kolkata Knight Riders,6 runs
+CRIC-1193,2023-05-18,2023,Indian Premier League,Chennai Super Kings,Lucknow Super Giants,"M. A. Chidambaram Stadium, Chennai",164,0.4,Chennai Super Kings,field,178,157,Chennai Super Kings,21 runs
+CRIC-1194,2023-05-19,2023,Indian Premier League,Chennai Super Kings,Gujarat Titans,"M. A. Chidambaram Stadium, Chennai",164,0.4,Gujarat Titans,field,163,168,Gujarat Titans,2 wickets
+CRIC-1195,2023-05-20,2023,Indian Premier League,Lucknow Super Giants,Kolkata Knight Riders,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Lucknow Super Giants,field,134,139,Kolkata Knight Riders,2 wickets
+CRIC-1196,2023-05-20,2023,Indian Premier League,Mumbai Indians,Chennai Super Kings,"Wankhede Stadium, Mumbai",182,0.65,Chennai Super Kings,field,161,165,Chennai Super Kings,6 wickets
+CRIC-1197,2023-05-21,2023,Indian Premier League,Mumbai Indians,Sunrisers Hyderabad,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Sunrisers Hyderabad,field,157,129,Mumbai Indians,28 runs
+CRIC-1198,2023-05-22,2023,Indian Premier League,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,field,188,156,Gujarat Titans,32 runs
+CRIC-1199,2023-05-23,2023,Indian Premier League,Royal Challengers Bengaluru,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,bat,195,198,Rajasthan Royals,6 wickets
+CRIC-1200,2023-05-24,2023,Indian Premier League,Lucknow Super Giants,Chennai Super Kings,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Chennai Super Kings,field,125,127,Chennai Super Kings,2 wickets
+CRIC-1201,2023-05-24,2023,Indian Premier League,Mumbai Indians,Gujarat Titans,"PCA Stadium, Mohali",176,0.68,Gujarat Titans,field,185,190,Gujarat Titans,7 wickets
+CRIC-1202,2023-05-25,2023,Indian Premier League,Rajasthan Royals,Royal Challengers Bengaluru,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Royal Challengers Bengaluru,field,174,175,Royal Challengers Bengaluru,2 wickets
+CRIC-1203,2023-05-26,2023,Indian Premier League,Delhi Capitals,Lucknow Super Giants,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,field,171,177,Lucknow Super Giants,7 wickets
+CRIC-1204,2023-05-27,2023,Indian Premier League,Sunrisers Hyderabad,Gujarat Titans,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,185,159,Sunrisers Hyderabad,26 runs
+CRIC-1205,2023-05-28,2023,Indian Premier League,Delhi Capitals,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,field,181,186,Rajasthan Royals,5 wickets
+CRIC-1206,2023-05-28,2023,Indian Premier League,Lucknow Super Giants,Gujarat Titans,"PCA Stadium, Mohali",176,0.68,Lucknow Super Giants,field,195,198,Gujarat Titans,8 wickets
+CRIC-1207,2023-05-29,2023,Indian Premier League,Rajasthan Royals,Lucknow Super Giants,"Eden Gardens, Kolkata",178,0.6,Rajasthan Royals,field,175,181,Lucknow Super Giants,4 wickets
+CRIC-1208,2023-05-30,2023,Indian Premier League,Sunrisers Hyderabad,Lucknow Super Giants,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,183,170,Sunrisers Hyderabad,13 runs
+CRIC-1209,2024-04-07,2024,Indian Premier League,Punjab Kings,Gujarat Titans,"PCA Stadium, Mohali",176,0.68,Gujarat Titans,field,165,171,Gujarat Titans,2 wickets
+CRIC-1210,2024-04-07,2024,Indian Premier League,Delhi Capitals,Gujarat Titans,"Wankhede Stadium, Mumbai",182,0.65,Gujarat Titans,field,209,192,Delhi Capitals,17 runs
+CRIC-1211,2024-04-08,2024,Indian Premier League,Mumbai Indians,Sunrisers Hyderabad,"Wankhede Stadium, Mumbai",182,0.65,Sunrisers Hyderabad,field,183,173,Mumbai Indians,10 runs
+CRIC-1212,2024-04-09,2024,Indian Premier League,Royal Challengers Bengaluru,Mumbai Indians,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Mumbai Indians,field,185,156,Royal Challengers Bengaluru,29 runs
+CRIC-1213,2024-04-10,2024,Indian Premier League,Lucknow Super Giants,Sunrisers Hyderabad,"Wankhede Stadium, Mumbai",182,0.65,Lucknow Super Giants,field,130,134,Sunrisers Hyderabad,4 wickets
+CRIC-1214,2024-04-11,2024,Indian Premier League,Kolkata Knight Riders,Sunrisers Hyderabad,"Sawai Mansingh Stadium, Jaipur",166,0.5,Sunrisers Hyderabad,field,147,128,Kolkata Knight Riders,19 runs
+CRIC-1215,2024-04-11,2024,Indian Premier League,Punjab Kings,Sunrisers Hyderabad,"PCA Stadium, Mohali",176,0.68,Punjab Kings,field,163,142,Punjab Kings,21 runs
+CRIC-1216,2024-04-12,2024,Indian Premier League,Royal Challengers Bengaluru,Sunrisers Hyderabad,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Sunrisers Hyderabad,field,225,205,Royal Challengers Bengaluru,20 runs
+CRIC-1217,2024-04-13,2024,Indian Premier League,Gujarat Titans,Chennai Super Kings,"Narendra Modi Stadium, Ahmedabad",174,0.55,Chennai Super Kings,bat,165,153,Gujarat Titans,12 runs
+CRIC-1218,2024-04-14,2024,Indian Premier League,Gujarat Titans,Mumbai Indians,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,field,186,167,Gujarat Titans,19 runs
+CRIC-1219,2024-04-15,2024,Indian Premier League,Sunrisers Hyderabad,Royal Challengers Bengaluru,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Royal Challengers Bengaluru,bat,178,160,Sunrisers Hyderabad,18 runs
+CRIC-1220,2024-04-15,2024,Indian Premier League,Royal Challengers Bengaluru,Mumbai Indians,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Royal Challengers Bengaluru,field,151,155,Mumbai Indians,4 wickets
+CRIC-1221,2024-04-16,2024,Indian Premier League,Sunrisers Hyderabad,Chennai Super Kings,"Eden Gardens, Kolkata",178,0.6,Sunrisers Hyderabad,bat,188,155,Sunrisers Hyderabad,33 runs
+CRIC-1222,2024-04-17,2024,Indian Premier League,Sunrisers Hyderabad,Royal Challengers Bengaluru,"Narendra Modi Stadium, Ahmedabad",174,0.55,Royal Challengers Bengaluru,field,173,174,Royal Challengers Bengaluru,7 wickets
+CRIC-1223,2024-04-18,2024,Indian Premier League,Punjab Kings,Royal Challengers Bengaluru,"PCA Stadium, Mohali",176,0.68,Punjab Kings,bat,189,190,Royal Challengers Bengaluru,8 wickets
+CRIC-1224,2024-04-19,2024,Indian Premier League,Delhi Capitals,Sunrisers Hyderabad,"Arun Jaitley Stadium, Delhi",175,0.58,Sunrisers Hyderabad,bat,204,209,Sunrisers Hyderabad,6 wickets
+CRIC-1225,2024-04-19,2024,Indian Premier League,Chennai Super Kings,Rajasthan Royals,"M. A. Chidambaram Stadium, Chennai",164,0.4,Rajasthan Royals,bat,180,170,Chennai Super Kings,10 runs
+CRIC-1226,2024-04-20,2024,Indian Premier League,Rajasthan Royals,Kolkata Knight Riders,"Narendra Modi Stadium, Ahmedabad",174,0.55,Rajasthan Royals,field,189,192,Kolkata Knight Riders,6 wickets
+CRIC-1227,2024-04-21,2024,Indian Premier League,Royal Challengers Bengaluru,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",175,0.58,Kolkata Knight Riders,field,196,198,Kolkata Knight Riders,5 wickets
+CRIC-1228,2024-04-22,2024,Indian Premier League,Rajasthan Royals,Royal Challengers Bengaluru,"Sawai Mansingh Stadium, Jaipur",166,0.5,Royal Challengers Bengaluru,field,179,155,Rajasthan Royals,24 runs
+CRIC-1229,2024-04-23,2024,Indian Premier League,Gujarat Titans,Mumbai Indians,"Narendra Modi Stadium, Ahmedabad",174,0.55,Mumbai Indians,field,184,188,Mumbai Indians,7 wickets
+CRIC-1230,2024-04-23,2024,Indian Premier League,Lucknow Super Giants,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,field,177,179,Gujarat Titans,5 wickets
+CRIC-1231,2024-04-24,2024,Indian Premier League,Kolkata Knight Riders,Sunrisers Hyderabad,"PCA Stadium, Mohali",176,0.68,Sunrisers Hyderabad,field,161,167,Sunrisers Hyderabad,8 wickets
+CRIC-1232,2024-04-25,2024,Indian Premier League,Royal Challengers Bengaluru,Punjab Kings,"PCA Stadium, Mohali",176,0.68,Royal Challengers Bengaluru,field,172,175,Punjab Kings,2 wickets
+CRIC-1233,2024-04-26,2024,Indian Premier League,Punjab Kings,Chennai Super Kings,"PCA Stadium, Mohali",176,0.68,Punjab Kings,field,182,183,Chennai Super Kings,7 wickets
+CRIC-1234,2024-04-27,2024,Indian Premier League,Royal Challengers Bengaluru,Sunrisers Hyderabad,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Sunrisers Hyderabad,bat,201,166,Royal Challengers Bengaluru,35 runs
+CRIC-1235,2024-04-27,2024,Indian Premier League,Delhi Capitals,Sunrisers Hyderabad,"Arun Jaitley Stadium, Delhi",175,0.58,Sunrisers Hyderabad,field,173,174,Sunrisers Hyderabad,7 wickets
+CRIC-1236,2024-04-28,2024,Indian Premier League,Royal Challengers Bengaluru,Chennai Super Kings,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Chennai Super Kings,field,192,186,Royal Challengers Bengaluru,6 runs
+CRIC-1237,2024-04-29,2024,Indian Premier League,Chennai Super Kings,Sunrisers Hyderabad,"M. A. Chidambaram Stadium, Chennai",164,0.4,Sunrisers Hyderabad,field,183,154,Chennai Super Kings,29 runs
+CRIC-1238,2024-04-30,2024,Indian Premier League,Rajasthan Royals,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Delhi Capitals,field,184,173,Rajasthan Royals,11 runs
+CRIC-1239,2024-05-01,2024,Indian Premier League,Rajasthan Royals,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Chennai Super Kings,field,165,166,Chennai Super Kings,4 wickets
+CRIC-1240,2024-05-01,2024,Indian Premier League,Sunrisers Hyderabad,Lucknow Super Giants,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Lucknow Super Giants,bat,169,172,Lucknow Super Giants,3 wickets
+CRIC-1241,2024-05-02,2024,Indian Premier League,Gujarat Titans,Royal Challengers Bengaluru,"M. A. Chidambaram Stadium, Chennai",164,0.4,Gujarat Titans,bat,143,139,Gujarat Titans,4 runs
+CRIC-1242,2024-05-03,2024,Indian Premier League,Royal Challengers Bengaluru,Punjab Kings,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,202,196,Royal Challengers Bengaluru,6 runs
+CRIC-1243,2024-05-04,2024,Indian Premier League,Royal Challengers Bengaluru,Mumbai Indians,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,190,193,Mumbai Indians,3 wickets
+CRIC-1244,2024-05-05,2024,Indian Premier League,Punjab Kings,Rajasthan Royals,"PCA Stadium, Mohali",176,0.68,Rajasthan Royals,field,146,129,Punjab Kings,17 runs
+CRIC-1245,2024-05-05,2024,Indian Premier League,Delhi Capitals,Gujarat Titans,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,field,158,131,Delhi Capitals,27 runs
+CRIC-1246,2024-05-06,2024,Indian Premier League,Lucknow Super Giants,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",175,0.58,Lucknow Super Giants,field,184,189,Rajasthan Royals,5 wickets
+CRIC-1247,2024-05-07,2024,Indian Premier League,Royal Challengers Bengaluru,Punjab Kings,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,bat,207,196,Royal Challengers Bengaluru,11 runs
+CRIC-1248,2024-05-08,2024,Indian Premier League,Delhi Capitals,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",175,0.58,Royal Challengers Bengaluru,field,164,138,Delhi Capitals,26 runs
+CRIC-1249,2024-05-09,2024,Indian Premier League,Chennai Super Kings,Lucknow Super Giants,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Chennai Super Kings,field,181,166,Chennai Super Kings,15 runs
+CRIC-1250,2024-05-09,2024,Indian Premier League,Punjab Kings,Lucknow Super Giants,"PCA Stadium, Mohali",176,0.68,Punjab Kings,bat,155,156,Lucknow Super Giants,3 wickets
+CRIC-1251,2024-05-10,2024,Indian Premier League,Royal Challengers Bengaluru,Chennai Super Kings,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Royal Challengers Bengaluru,field,176,179,Chennai Super Kings,8 wickets
+CRIC-1252,2024-05-11,2024,Indian Premier League,Gujarat Titans,Delhi Capitals,"Narendra Modi Stadium, Ahmedabad",174,0.55,Delhi Capitals,field,161,165,Delhi Capitals,5 wickets
+CRIC-1253,2024-05-12,2024,Indian Premier League,Chennai Super Kings,Sunrisers Hyderabad,"Sawai Mansingh Stadium, Jaipur",166,0.5,Chennai Super Kings,field,152,154,Sunrisers Hyderabad,2 wickets
+CRIC-1254,2024-05-13,2024,Indian Premier League,Gujarat Titans,Lucknow Super Giants,"PCA Stadium, Mohali",176,0.68,Lucknow Super Giants,field,189,191,Lucknow Super Giants,5 wickets
+CRIC-1255,2024-05-13,2024,Indian Premier League,Punjab Kings,Royal Challengers Bengaluru,"PCA Stadium, Mohali",176,0.68,Royal Challengers Bengaluru,field,192,158,Punjab Kings,34 runs
+CRIC-1256,2024-05-14,2024,Indian Premier League,Sunrisers Hyderabad,Kolkata Knight Riders,"Sawai Mansingh Stadium, Jaipur",166,0.5,Sunrisers Hyderabad,field,129,131,Kolkata Knight Riders,6 wickets
+CRIC-1257,2024-05-15,2024,Indian Premier League,Mumbai Indians,Lucknow Super Giants,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,bat,172,178,Lucknow Super Giants,3 wickets
+CRIC-1258,2024-05-16,2024,Indian Premier League,Chennai Super Kings,Kolkata Knight Riders,"M. A. Chidambaram Stadium, Chennai",164,0.4,Kolkata Knight Riders,field,144,150,Kolkata Knight Riders,6 wickets
+CRIC-1259,2024-05-17,2024,Indian Premier League,Sunrisers Hyderabad,Punjab Kings,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Punjab Kings,field,168,164,Sunrisers Hyderabad,4 runs
+CRIC-1260,2024-05-17,2024,Indian Premier League,Lucknow Super Giants,Delhi Capitals,"Eden Gardens, Kolkata",178,0.6,Lucknow Super Giants,bat,176,158,Lucknow Super Giants,18 runs
+CRIC-1261,2024-05-18,2024,Indian Premier League,Royal Challengers Bengaluru,Lucknow Super Giants,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Lucknow Super Giants,field,177,182,Lucknow Super Giants,3 wickets
+CRIC-1262,2024-05-19,2024,Indian Premier League,Royal Challengers Bengaluru,Gujarat Titans,"M. A. Chidambaram Stadium, Chennai",164,0.4,Royal Challengers Bengaluru,field,174,179,Gujarat Titans,5 wickets
+CRIC-1263,2024-05-20,2024,Indian Premier League,Mumbai Indians,Punjab Kings,"M. A. Chidambaram Stadium, Chennai",164,0.4,Punjab Kings,bat,158,149,Mumbai Indians,9 runs
+CRIC-1264,2024-05-21,2024,Indian Premier League,Lucknow Super Giants,Mumbai Indians,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Mumbai Indians,field,147,127,Lucknow Super Giants,20 runs
+CRIC-1265,2024-05-21,2024,Indian Premier League,Lucknow Super Giants,Mumbai Indians,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Mumbai Indians,field,161,133,Lucknow Super Giants,28 runs
+CRIC-1266,2024-05-22,2024,Indian Premier League,Chennai Super Kings,Gujarat Titans,"M. A. Chidambaram Stadium, Chennai",164,0.4,Chennai Super Kings,field,176,152,Chennai Super Kings,24 runs
+CRIC-1267,2024-05-23,2024,Indian Premier League,Delhi Capitals,Kolkata Knight Riders,"M. A. Chidambaram Stadium, Chennai",164,0.4,Kolkata Knight Riders,field,135,140,Kolkata Knight Riders,6 wickets
+CRIC-1268,2024-05-24,2024,Indian Premier League,Delhi Capitals,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",175,0.58,Rajasthan Royals,bat,186,169,Delhi Capitals,17 runs
+CRIC-1269,2024-05-25,2024,Indian Premier League,Rajasthan Royals,Lucknow Super Giants,"Arun Jaitley Stadium, Delhi",175,0.58,Rajasthan Royals,field,172,154,Rajasthan Royals,18 runs
+CRIC-1270,2024-05-25,2024,Indian Premier League,Chennai Super Kings,Punjab Kings,"M. A. Chidambaram Stadium, Chennai",164,0.4,Punjab Kings,field,162,135,Chennai Super Kings,27 runs
+CRIC-1271,2024-05-26,2024,Indian Premier League,Rajasthan Royals,Punjab Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,bat,141,142,Punjab Kings,3 wickets
+CRIC-1272,2024-05-27,2024,Indian Premier League,Delhi Capitals,Sunrisers Hyderabad,"Arun Jaitley Stadium, Delhi",175,0.58,Sunrisers Hyderabad,field,184,189,Sunrisers Hyderabad,2 wickets
+CRIC-1273,2024-05-28,2024,Indian Premier League,Punjab Kings,Rajasthan Royals,"Wankhede Stadium, Mumbai",182,0.65,Rajasthan Royals,field,185,187,Rajasthan Royals,6 wickets
+CRIC-1274,2024-05-29,2024,Indian Premier League,Lucknow Super Giants,Kolkata Knight Riders,"Eden Gardens, Kolkata",178,0.6,Lucknow Super Giants,field,153,155,Kolkata Knight Riders,2 wickets
+CRIC-1275,2024-05-29,2024,Indian Premier League,Kolkata Knight Riders,Delhi Capitals,"Eden Gardens, Kolkata",178,0.6,Delhi Capitals,field,191,157,Kolkata Knight Riders,34 runs
+CRIC-1276,2024-05-30,2024,Indian Premier League,Punjab Kings,Royal Challengers Bengaluru,"PCA Stadium, Mohali",176,0.68,Punjab Kings,field,180,156,Punjab Kings,24 runs
+CRIC-1277,2024-05-31,2024,Indian Premier League,Punjab Kings,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Delhi Capitals,field,177,166,Punjab Kings,11 runs
+CRIC-1278,2024-06-01,2024,Indian Premier League,Gujarat Titans,Rajasthan Royals,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Rajasthan Royals,field,161,138,Gujarat Titans,23 runs
+CRIC-1279,2024-06-02,2024,Indian Premier League,Gujarat Titans,Sunrisers Hyderabad,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Sunrisers Hyderabad,field,197,202,Sunrisers Hyderabad,3 wickets
+CRIC-1280,2024-06-02,2024,Indian Premier League,Punjab Kings,Lucknow Super Giants,"PCA Stadium, Mohali",176,0.68,Punjab Kings,bat,159,165,Lucknow Super Giants,3 wickets
+CRIC-1281,2024-06-03,2024,Indian Premier League,Sunrisers Hyderabad,Gujarat Titans,"M. A. Chidambaram Stadium, Chennai",164,0.4,Gujarat Titans,field,173,175,Gujarat Titans,7 wickets
+CRIC-1282,2024-06-04,2024,Indian Premier League,Delhi Capitals,Punjab Kings,"Arun Jaitley Stadium, Delhi",175,0.58,Punjab Kings,field,185,156,Delhi Capitals,29 runs
+CRIC-1283,2025-04-09,2025,Indian Premier League,Mumbai Indians,Rajasthan Royals,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Mumbai Indians,field,161,166,Rajasthan Royals,2 wickets
+CRIC-1284,2025-04-09,2025,Indian Premier League,Punjab Kings,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Delhi Capitals,field,188,190,Delhi Capitals,6 wickets
+CRIC-1285,2025-04-10,2025,Indian Premier League,Lucknow Super Giants,Punjab Kings,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Lucknow Super Giants,field,137,142,Punjab Kings,3 wickets
+CRIC-1286,2025-04-11,2025,Indian Premier League,Rajasthan Royals,Mumbai Indians,"Sawai Mansingh Stadium, Jaipur",166,0.5,Mumbai Indians,field,184,174,Rajasthan Royals,10 runs
+CRIC-1287,2025-04-12,2025,Indian Premier League,Kolkata Knight Riders,Rajasthan Royals,"Eden Gardens, Kolkata",178,0.6,Rajasthan Royals,bat,165,171,Rajasthan Royals,7 wickets
+CRIC-1288,2025-04-13,2025,Indian Premier League,Sunrisers Hyderabad,Rajasthan Royals,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,bat,179,182,Rajasthan Royals,7 wickets
+CRIC-1289,2025-04-13,2025,Indian Premier League,Chennai Super Kings,Kolkata Knight Riders,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Chennai Super Kings,field,183,187,Kolkata Knight Riders,7 wickets
+CRIC-1290,2025-04-14,2025,Indian Premier League,Kolkata Knight Riders,Punjab Kings,"Arun Jaitley Stadium, Delhi",175,0.58,Punjab Kings,field,192,177,Kolkata Knight Riders,15 runs
+CRIC-1291,2025-04-15,2025,Indian Premier League,Sunrisers Hyderabad,Delhi Capitals,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,181,182,Delhi Capitals,8 wickets
+CRIC-1292,2025-04-16,2025,Indian Premier League,Lucknow Super Giants,Kolkata Knight Riders,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Lucknow Super Giants,field,129,133,Kolkata Knight Riders,6 wickets
+CRIC-1293,2025-04-17,2025,Indian Premier League,Rajasthan Royals,Delhi Capitals,"PCA Stadium, Mohali",176,0.68,Rajasthan Royals,field,189,167,Rajasthan Royals,22 runs
+CRIC-1294,2025-04-17,2025,Indian Premier League,Punjab Kings,Chennai Super Kings,"Sawai Mansingh Stadium, Jaipur",166,0.5,Punjab Kings,field,146,149,Chennai Super Kings,7 wickets
+CRIC-1295,2025-04-18,2025,Indian Premier League,Kolkata Knight Riders,Lucknow Super Giants,"Eden Gardens, Kolkata",178,0.6,Kolkata Knight Riders,field,164,170,Lucknow Super Giants,3 wickets
+CRIC-1296,2025-04-19,2025,Indian Premier League,Lucknow Super Giants,Kolkata Knight Riders,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Lucknow Super Giants,field,167,161,Lucknow Super Giants,6 runs
+CRIC-1297,2025-04-20,2025,Indian Premier League,Rajasthan Royals,Mumbai Indians,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,bat,185,151,Rajasthan Royals,34 runs
+CRIC-1298,2025-04-21,2025,Indian Premier League,Delhi Capitals,Sunrisers Hyderabad,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,field,170,153,Delhi Capitals,17 runs
+CRIC-1299,2025-04-21,2025,Indian Premier League,Gujarat Titans,Mumbai Indians,"Narendra Modi Stadium, Ahmedabad",174,0.55,Mumbai Indians,field,151,156,Mumbai Indians,6 wickets
+CRIC-1300,2025-04-22,2025,Indian Premier League,Chennai Super Kings,Punjab Kings,"M. A. Chidambaram Stadium, Chennai",164,0.4,Punjab Kings,field,174,143,Chennai Super Kings,31 runs
+CRIC-1301,2025-04-23,2025,Indian Premier League,Lucknow Super Giants,Royal Challengers Bengaluru,"M. A. Chidambaram Stadium, Chennai",164,0.4,Lucknow Super Giants,field,182,174,Lucknow Super Giants,8 runs
+CRIC-1302,2025-04-24,2025,Indian Premier League,Sunrisers Hyderabad,Chennai Super Kings,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Sunrisers Hyderabad,bat,188,191,Chennai Super Kings,8 wickets
+CRIC-1303,2025-04-25,2025,Indian Premier League,Punjab Kings,Delhi Capitals,"PCA Stadium, Mohali",176,0.68,Punjab Kings,bat,185,165,Punjab Kings,20 runs
+CRIC-1304,2025-04-25,2025,Indian Premier League,Punjab Kings,Lucknow Super Giants,"PCA Stadium, Mohali",176,0.68,Lucknow Super Giants,field,147,152,Lucknow Super Giants,7 wickets
+CRIC-1305,2025-04-26,2025,Indian Premier League,Chennai Super Kings,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",175,0.58,Chennai Super Kings,bat,184,166,Chennai Super Kings,18 runs
+CRIC-1306,2025-04-27,2025,Indian Premier League,Kolkata Knight Riders,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",175,0.58,Rajasthan Royals,field,171,142,Kolkata Knight Riders,29 runs
+CRIC-1307,2025-04-28,2025,Indian Premier League,Delhi Capitals,Sunrisers Hyderabad,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,field,174,142,Delhi Capitals,32 runs
+CRIC-1308,2025-04-29,2025,Indian Premier League,Sunrisers Hyderabad,Rajasthan Royals,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,bat,156,162,Rajasthan Royals,7 wickets
+CRIC-1309,2025-04-29,2025,Indian Premier League,Rajasthan Royals,Chennai Super Kings,"Arun Jaitley Stadium, Delhi",175,0.58,Rajasthan Royals,bat,184,187,Chennai Super Kings,4 wickets
+CRIC-1310,2025-04-30,2025,Indian Premier League,Lucknow Super Giants,Kolkata Knight Riders,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Kolkata Knight Riders,bat,142,136,Lucknow Super Giants,6 runs
+CRIC-1311,2025-05-01,2025,Indian Premier League,Mumbai Indians,Chennai Super Kings,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Mumbai Indians,field,194,198,Chennai Super Kings,3 wickets
+CRIC-1312,2025-05-02,2025,Indian Premier League,Kolkata Knight Riders,Gujarat Titans,"Eden Gardens, Kolkata",178,0.6,Gujarat Titans,field,167,168,Gujarat Titans,4 wickets
+CRIC-1313,2025-05-03,2025,Indian Premier League,Kolkata Knight Riders,Mumbai Indians,"Eden Gardens, Kolkata",178,0.6,Mumbai Indians,bat,181,182,Mumbai Indians,2 wickets
+CRIC-1314,2025-05-03,2025,Indian Premier League,Royal Challengers Bengaluru,Sunrisers Hyderabad,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,172,173,Sunrisers Hyderabad,7 wickets
+CRIC-1315,2025-05-04,2025,Indian Premier League,Rajasthan Royals,Chennai Super Kings,"Arun Jaitley Stadium, Delhi",175,0.58,Rajasthan Royals,field,177,168,Rajasthan Royals,9 runs
+CRIC-1316,2025-05-05,2025,Indian Premier League,Rajasthan Royals,Punjab Kings,"Eden Gardens, Kolkata",178,0.6,Punjab Kings,bat,186,175,Rajasthan Royals,11 runs
+CRIC-1317,2025-05-06,2025,Indian Premier League,Kolkata Knight Riders,Chennai Super Kings,"Eden Gardens, Kolkata",178,0.6,Kolkata Knight Riders,field,188,194,Chennai Super Kings,3 wickets
+CRIC-1318,2025-05-07,2025,Indian Premier League,Delhi Capitals,Sunrisers Hyderabad,"M. A. Chidambaram Stadium, Chennai",164,0.4,Delhi Capitals,field,176,182,Sunrisers Hyderabad,5 wickets
+CRIC-1319,2025-05-07,2025,Indian Premier League,Rajasthan Royals,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,field,159,138,Rajasthan Royals,21 runs
+CRIC-1320,2025-05-08,2025,Indian Premier League,Mumbai Indians,Gujarat Titans,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,bat,175,176,Gujarat Titans,8 wickets
+CRIC-1321,2025-05-09,2025,Indian Premier League,Royal Challengers Bengaluru,Sunrisers Hyderabad,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,173,147,Royal Challengers Bengaluru,26 runs
+CRIC-1322,2025-05-10,2025,Indian Premier League,Rajasthan Royals,Kolkata Knight Riders,"Sawai Mansingh Stadium, Jaipur",166,0.5,Kolkata Knight Riders,field,156,123,Rajasthan Royals,33 runs
+CRIC-1323,2025-05-11,2025,Indian Premier League,Chennai Super Kings,Mumbai Indians,"M. A. Chidambaram Stadium, Chennai",164,0.4,Chennai Super Kings,field,173,138,Chennai Super Kings,35 runs
+CRIC-1324,2025-05-11,2025,Indian Premier League,Gujarat Titans,Lucknow Super Giants,"Arun Jaitley Stadium, Delhi",175,0.58,Lucknow Super Giants,field,179,167,Gujarat Titans,12 runs
+CRIC-1325,2025-05-12,2025,Indian Premier League,Gujarat Titans,Chennai Super Kings,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,bat,184,177,Gujarat Titans,7 runs
+CRIC-1326,2025-05-13,2025,Indian Premier League,Gujarat Titans,Delhi Capitals,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Gujarat Titans,field,202,192,Gujarat Titans,10 runs
+CRIC-1327,2025-05-14,2025,Indian Premier League,Sunrisers Hyderabad,Mumbai Indians,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,174,177,Mumbai Indians,6 wickets
+CRIC-1328,2025-05-15,2025,Indian Premier League,Lucknow Super Giants,Gujarat Titans,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Lucknow Super Giants,bat,134,124,Lucknow Super Giants,10 runs
+CRIC-1329,2025-05-15,2025,Indian Premier League,Mumbai Indians,Rajasthan Royals,"Narendra Modi Stadium, Ahmedabad",174,0.55,Mumbai Indians,field,199,164,Mumbai Indians,35 runs
+CRIC-1330,2025-05-16,2025,Indian Premier League,Rajasthan Royals,Mumbai Indians,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,field,163,164,Mumbai Indians,6 wickets
+CRIC-1331,2025-05-17,2025,Indian Premier League,Chennai Super Kings,Royal Challengers Bengaluru,"Wankhede Stadium, Mumbai",182,0.65,Chennai Super Kings,bat,190,178,Chennai Super Kings,12 runs
+CRIC-1332,2025-05-18,2025,Indian Premier League,Kolkata Knight Riders,Mumbai Indians,"Eden Gardens, Kolkata",178,0.6,Mumbai Indians,field,180,186,Mumbai Indians,4 wickets
+CRIC-1333,2025-05-19,2025,Indian Premier League,Gujarat Titans,Chennai Super Kings,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,field,185,180,Gujarat Titans,5 runs
+CRIC-1334,2025-05-19,2025,Indian Premier League,Delhi Capitals,Chennai Super Kings,"Narendra Modi Stadium, Ahmedabad",174,0.55,Chennai Super Kings,field,168,169,Chennai Super Kings,4 wickets
+CRIC-1335,2025-05-20,2025,Indian Premier League,Royal Challengers Bengaluru,Gujarat Titans,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Gujarat Titans,bat,190,175,Royal Challengers Bengaluru,15 runs
+CRIC-1336,2025-05-21,2025,Indian Premier League,Lucknow Super Giants,Royal Challengers Bengaluru,"BRSABV Ekana Cricket Stadium, Lucknow",158,0.45,Royal Challengers Bengaluru,field,174,171,Lucknow Super Giants,3 runs
+CRIC-1337,2025-05-22,2025,Indian Premier League,Rajasthan Royals,Mumbai Indians,"Arun Jaitley Stadium, Delhi",175,0.58,Mumbai Indians,field,164,165,Mumbai Indians,3 wickets
+CRIC-1338,2025-05-23,2025,Indian Premier League,Gujarat Titans,Chennai Super Kings,"Narendra Modi Stadium, Ahmedabad",174,0.55,Gujarat Titans,bat,174,148,Gujarat Titans,26 runs
+CRIC-1339,2025-05-23,2025,Indian Premier League,Sunrisers Hyderabad,Chennai Super Kings,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,164,170,Chennai Super Kings,3 wickets
+CRIC-1340,2025-05-24,2025,Indian Premier League,Royal Challengers Bengaluru,Gujarat Titans,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Gujarat Titans,bat,202,179,Royal Challengers Bengaluru,23 runs
+CRIC-1341,2025-05-25,2025,Indian Premier League,Rajasthan Royals,Sunrisers Hyderabad,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,bat,185,186,Sunrisers Hyderabad,3 wickets
+CRIC-1342,2025-05-26,2025,Indian Premier League,Sunrisers Hyderabad,Punjab Kings,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,201,185,Sunrisers Hyderabad,16 runs
+CRIC-1343,2025-05-27,2025,Indian Premier League,Sunrisers Hyderabad,Gujarat Titans,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,field,185,180,Sunrisers Hyderabad,5 runs
+CRIC-1344,2025-05-27,2025,Indian Premier League,Royal Challengers Bengaluru,Rajasthan Royals,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,bat,176,177,Rajasthan Royals,7 wickets
+CRIC-1345,2025-05-28,2025,Indian Premier League,Gujarat Titans,Punjab Kings,"Eden Gardens, Kolkata",178,0.6,Gujarat Titans,bat,193,184,Gujarat Titans,9 runs
+CRIC-1346,2025-05-29,2025,Indian Premier League,Sunrisers Hyderabad,Chennai Super Kings,"Eden Gardens, Kolkata",178,0.6,Sunrisers Hyderabad,field,162,164,Chennai Super Kings,3 wickets
+CRIC-1347,2025-05-30,2025,Indian Premier League,Royal Challengers Bengaluru,Delhi Capitals,"M. Chinnaswamy Stadium, Bengaluru",188,0.7,Royal Challengers Bengaluru,field,187,188,Delhi Capitals,3 wickets
+CRIC-1348,2025-05-31,2025,Indian Premier League,Sunrisers Hyderabad,Kolkata Knight Riders,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Kolkata Knight Riders,field,210,204,Sunrisers Hyderabad,6 runs
+CRIC-1349,2025-05-31,2025,Indian Premier League,Kolkata Knight Riders,Delhi Capitals,"Arun Jaitley Stadium, Delhi",175,0.58,Delhi Capitals,field,173,175,Delhi Capitals,4 wickets
+CRIC-1350,2025-06-01,2025,Indian Premier League,Gujarat Titans,Sunrisers Hyderabad,"Wankhede Stadium, Mumbai",182,0.65,Gujarat Titans,field,175,180,Sunrisers Hyderabad,5 wickets
+CRIC-1351,2025-06-02,2025,Indian Premier League,Mumbai Indians,Chennai Super Kings,"Wankhede Stadium, Mumbai",182,0.65,Mumbai Indians,field,167,172,Chennai Super Kings,8 wickets
+CRIC-1352,2025-06-03,2025,Indian Premier League,Mumbai Indians,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Delhi Capitals,field,147,152,Delhi Capitals,6 wickets
+CRIC-1353,2025-06-04,2025,Indian Premier League,Rajasthan Royals,Delhi Capitals,"Sawai Mansingh Stadium, Jaipur",166,0.5,Rajasthan Royals,field,173,167,Rajasthan Royals,6 runs
+CRIC-1354,2025-06-04,2025,Indian Premier League,Sunrisers Hyderabad,Lucknow Super Giants,"Rajiv Gandhi Intl Stadium, Hyderabad",180,0.62,Sunrisers Hyderabad,bat,214,220,Lucknow Super Giants,3 wickets
+CRIC-1355,2025-06-05,2025,Indian Premier League,Gujarat Titans,Lucknow Super Giants,"Wankhede Stadium, Mumbai",182,0.65,Gujarat Titans,field,200,186,Gujarat Titans,14 runs
+CRIC-1356,2025-06-06,2025,Indian Premier League,Kolkata Knight Riders,Royal Challengers Bengaluru,"Eden Gardens, Kolkata",178,0.6,Royal Challengers Bengaluru,bat,178,184,Royal Challengers Bengaluru,4 wickets

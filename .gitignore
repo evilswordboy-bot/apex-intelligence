@@ -34,3 +34,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+.venv/
+venv/
+
+# local dev scripts
+run_silent.vbs

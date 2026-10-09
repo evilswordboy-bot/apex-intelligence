@@ -1,0 +1,361 @@
+match_id,date,season,competition,home_team,away_team,venue,home_xg,away_xg,home_goals,away_goals,result
+FOOT-5001,2021-08-12,2021-22,English Premier League,Newcastle United,Tottenham Hotspur,St. James' Park,1.87,1.28,1,1,D
+FOOT-5002,2021-08-14,2021-22,English Premier League,Arsenal,Liverpool,Emirates Stadium,1.7,1.3,2,1,H
+FOOT-5003,2021-08-17,2021-22,English Premier League,Tottenham Hotspur,Manchester United,Tottenham Hotspur Stadium,1.61,1.35,1,1,D
+FOOT-5004,2021-08-20,2021-22,English Premier League,Manchester City,Liverpool,Etihad Stadium,1.82,1.28,0,1,A
+FOOT-5005,2021-08-23,2021-22,English Premier League,West Ham United,Manchester City,London Stadium,0.86,1.95,0,4,A
+FOOT-5006,2021-08-26,2021-22,English Premier League,Manchester United,Aston Villa,Old Trafford,1.36,1.26,2,0,H
+FOOT-5007,2021-08-28,2021-22,English Premier League,Arsenal,Manchester United,Emirates Stadium,2.0,0.69,1,0,H
+FOOT-5008,2021-08-31,2021-22,English Premier League,Liverpool,Brighton & Hove Albion,Anfield,2.22,0.98,1,1,D
+FOOT-5009,2021-09-03,2021-22,English Premier League,Tottenham Hotspur,Chelsea,Tottenham Hotspur Stadium,1.85,1.45,1,1,D
+FOOT-5010,2021-09-06,2021-22,English Premier League,Aston Villa,Newcastle United,Villa Park,1.62,1.01,2,0,H
+FOOT-5011,2021-09-09,2021-22,English Premier League,Chelsea,Manchester City,Stamford Bridge,1.34,1.94,3,2,H
+FOOT-5012,2021-09-11,2021-22,English Premier League,Chelsea,Liverpool,Stamford Bridge,1.19,1.7,1,1,D
+FOOT-5013,2021-09-14,2021-22,English Premier League,Manchester United,Tottenham Hotspur,Old Trafford,1.53,1.3,2,0,H
+FOOT-5014,2021-09-17,2021-22,English Premier League,Liverpool,Arsenal,Anfield,1.72,1.47,3,3,D
+FOOT-5015,2021-09-20,2021-22,English Premier League,Newcastle United,Chelsea,St. James' Park,1.44,1.15,1,1,D
+FOOT-5016,2021-09-23,2021-22,English Premier League,Newcastle United,Arsenal,St. James' Park,1.0,1.45,3,1,H
+FOOT-5017,2021-09-25,2021-22,English Premier League,Newcastle United,Brighton & Hove Albion,St. James' Park,1.84,1.18,1,1,D
+FOOT-5018,2021-09-28,2021-22,English Premier League,Manchester United,West Ham United,Old Trafford,1.6,1.11,3,1,H
+FOOT-5019,2021-10-01,2021-22,English Premier League,Chelsea,Manchester United,Stamford Bridge,1.71,1.19,2,1,H
+FOOT-5020,2021-10-04,2021-22,English Premier League,Newcastle United,Liverpool,St. James' Park,1.4,1.68,4,1,H
+FOOT-5021,2021-10-07,2021-22,English Premier League,Chelsea,Tottenham Hotspur,Stamford Bridge,1.82,1.25,2,0,H
+FOOT-5022,2021-10-09,2021-22,English Premier League,Brighton & Hove Albion,Tottenham Hotspur,Amex Stadium,1.5,1.28,2,1,H
+FOOT-5023,2021-10-12,2021-22,English Premier League,West Ham United,Manchester United,London Stadium,1.49,1.15,3,2,H
+FOOT-5024,2021-10-15,2021-22,English Premier League,Manchester United,Manchester City,Old Trafford,0.98,1.61,1,1,D
+FOOT-5025,2021-10-18,2021-22,English Premier League,Aston Villa,Manchester United,Villa Park,1.71,1.09,1,2,A
+FOOT-5026,2021-10-21,2021-22,English Premier League,Manchester City,Brighton & Hove Albion,Etihad Stadium,2.45,0.73,1,0,H
+FOOT-5027,2021-10-23,2021-22,English Premier League,Tottenham Hotspur,Arsenal,Tottenham Hotspur Stadium,1.16,1.54,1,3,A
+FOOT-5028,2021-10-26,2021-22,English Premier League,Manchester United,Brighton & Hove Albion,Old Trafford,1.66,1.3,1,0,H
+FOOT-5029,2021-10-29,2021-22,English Premier League,Aston Villa,Tottenham Hotspur,Villa Park,1.91,1.07,3,2,H
+FOOT-5030,2021-11-01,2021-22,English Premier League,Tottenham Hotspur,West Ham United,Tottenham Hotspur Stadium,1.74,0.98,2,0,H
+FOOT-5031,2021-11-04,2021-22,English Premier League,Newcastle United,West Ham United,St. James' Park,1.67,0.94,1,1,D
+FOOT-5032,2021-11-06,2021-22,English Premier League,Tottenham Hotspur,Newcastle United,Tottenham Hotspur Stadium,1.77,1.44,2,1,H
+FOOT-5033,2021-11-09,2021-22,English Premier League,Tottenham Hotspur,Aston Villa,Tottenham Hotspur Stadium,1.67,1.26,3,2,H
+FOOT-5034,2021-11-12,2021-22,English Premier League,Brighton & Hove Albion,Manchester United,Amex Stadium,1.44,1.26,3,2,H
+FOOT-5035,2021-11-15,2021-22,English Premier League,Chelsea,Arsenal,Stamford Bridge,1.31,1.47,0,2,A
+FOOT-5036,2021-11-18,2021-22,English Premier League,West Ham United,Chelsea,London Stadium,1.57,1.56,2,1,H
+FOOT-5037,2021-11-20,2021-22,English Premier League,Arsenal,Tottenham Hotspur,Emirates Stadium,2.19,0.91,2,2,D
+FOOT-5038,2021-11-23,2021-22,English Premier League,Tottenham Hotspur,Manchester City,Tottenham Hotspur Stadium,1.18,1.74,1,1,D
+FOOT-5039,2021-11-26,2021-22,English Premier League,Liverpool,Newcastle United,Anfield,1.82,0.83,4,1,H
+FOOT-5040,2021-11-29,2021-22,English Premier League,Liverpool,Manchester City,Anfield,1.82,1.46,3,2,H
+FOOT-5041,2021-12-02,2021-22,English Premier League,Manchester United,Liverpool,Old Trafford,1.39,1.53,2,2,D
+FOOT-5042,2021-12-04,2021-22,English Premier League,Manchester United,Chelsea,Old Trafford,1.51,1.48,3,2,H
+FOOT-5043,2021-12-07,2021-22,English Premier League,Chelsea,West Ham United,Stamford Bridge,1.67,0.83,1,0,H
+FOOT-5044,2021-12-10,2021-22,English Premier League,Manchester City,West Ham United,Etihad Stadium,2.28,0.5,2,0,H
+FOOT-5045,2021-12-13,2021-22,English Premier League,Aston Villa,West Ham United,Villa Park,1.86,0.8,2,0,H
+FOOT-5046,2021-12-15,2021-22,English Premier League,West Ham United,Arsenal,London Stadium,1.07,1.97,0,1,A
+FOOT-5047,2021-12-18,2021-22,English Premier League,Manchester City,Aston Villa,Etihad Stadium,2.13,0.79,3,1,H
+FOOT-5048,2021-12-21,2021-22,English Premier League,Arsenal,West Ham United,Emirates Stadium,2.05,0.44,1,0,H
+FOOT-5049,2021-12-24,2021-22,English Premier League,Tottenham Hotspur,Liverpool,Tottenham Hotspur Stadium,1.31,1.73,2,2,D
+FOOT-5050,2021-12-27,2021-22,English Premier League,Chelsea,Newcastle United,Stamford Bridge,1.79,1.32,1,1,D
+FOOT-5051,2021-12-30,2021-22,English Premier League,Liverpool,Chelsea,Anfield,2.07,1.12,1,1,D
+FOOT-5052,2022-01-01,2021-22,English Premier League,West Ham United,Newcastle United,London Stadium,1.26,1.56,3,3,D
+FOOT-5053,2022-01-04,2021-22,English Premier League,Liverpool,Manchester United,Anfield,2.01,0.73,2,0,H
+FOOT-5054,2022-01-07,2021-22,English Premier League,Manchester City,Newcastle United,Etihad Stadium,2.24,0.8,1,2,A
+FOOT-5055,2022-01-10,2021-22,English Premier League,Manchester City,Manchester United,Etihad Stadium,2.02,0.8,2,3,A
+FOOT-5056,2022-01-13,2021-22,English Premier League,Newcastle United,Manchester United,St. James' Park,1.58,0.95,2,1,H
+FOOT-5057,2022-01-15,2021-22,English Premier League,Chelsea,Aston Villa,Stamford Bridge,1.58,1.43,2,1,H
+FOOT-5058,2022-01-18,2021-22,English Premier League,Brighton & Hove Albion,Arsenal,Amex Stadium,1.18,1.83,1,2,A
+FOOT-5059,2022-01-21,2021-22,English Premier League,Arsenal,Manchester City,Emirates Stadium,1.55,1.27,2,1,H
+FOOT-5060,2022-01-24,2021-22,English Premier League,Brighton & Hove Albion,Liverpool,Amex Stadium,1.15,1.97,1,2,A
+FOOT-5061,2022-01-27,2021-22,English Premier League,Liverpool,Tottenham Hotspur,Anfield,2.09,1.07,2,1,H
+FOOT-5062,2022-01-29,2021-22,English Premier League,West Ham United,Liverpool,London Stadium,1.12,2.0,1,1,D
+FOOT-5063,2022-02-01,2021-22,English Premier League,Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur Stadium,2.02,1.09,3,1,H
+FOOT-5064,2022-02-04,2021-22,English Premier League,Liverpool,Aston Villa,Anfield,1.87,1.01,3,3,D
+FOOT-5065,2022-02-07,2021-22,English Premier League,Manchester City,Arsenal,Etihad Stadium,1.76,1.16,3,3,D
+FOOT-5066,2022-02-10,2021-22,English Premier League,Brighton & Hove Albion,Chelsea,Amex Stadium,1.4,1.26,1,0,H
+FOOT-5067,2022-02-12,2021-22,English Premier League,Newcastle United,Aston Villa,St. James' Park,1.37,1.29,1,0,H
+FOOT-5068,2022-02-15,2021-22,English Premier League,Brighton & Hove Albion,Aston Villa,Amex Stadium,1.39,1.63,2,4,A
+FOOT-5069,2022-02-18,2021-22,English Premier League,Chelsea,Brighton & Hove Albion,Stamford Bridge,1.86,1.06,2,1,H
+FOOT-5070,2022-02-21,2021-22,English Premier League,Brighton & Hove Albion,West Ham United,Amex Stadium,1.81,1.09,2,2,D
+FOOT-5071,2022-02-24,2021-22,English Premier League,Liverpool,West Ham United,Anfield,2.39,0.63,1,1,D
+FOOT-5072,2022-02-26,2021-22,English Premier League,West Ham United,Tottenham Hotspur,London Stadium,1.4,1.53,4,2,H
+FOOT-5073,2022-03-01,2021-22,English Premier League,Manchester United,Arsenal,Old Trafford,1.09,1.59,1,2,A
+FOOT-5074,2022-03-04,2021-22,English Premier League,Aston Villa,Liverpool,Villa Park,1.64,1.45,2,1,H
+FOOT-5075,2022-03-07,2021-22,English Premier League,Aston Villa,Manchester City,Villa Park,1.17,1.67,2,1,H
+FOOT-5076,2022-03-10,2021-22,English Premier League,West Ham United,Brighton & Hove Albion,London Stadium,1.62,1.48,0,1,A
+FOOT-5077,2022-03-12,2021-22,English Premier League,Brighton & Hove Albion,Newcastle United,Amex Stadium,1.42,1.53,1,1,D
+FOOT-5078,2022-03-15,2021-22,English Premier League,Manchester City,Chelsea,Etihad Stadium,2.22,0.7,3,0,H
+FOOT-5079,2022-03-18,2021-22,English Premier League,Newcastle United,Manchester City,St. James' Park,1.27,1.63,2,1,H
+FOOT-5080,2022-03-21,2021-22,English Premier League,West Ham United,Aston Villa,London Stadium,1.23,1.62,1,0,H
+FOOT-5081,2022-03-24,2021-22,English Premier League,Arsenal,Aston Villa,Emirates Stadium,1.82,0.88,1,2,A
+FOOT-5082,2022-03-26,2021-22,English Premier League,Manchester United,Newcastle United,Old Trafford,1.42,1.13,0,2,A
+FOOT-5083,2022-03-29,2021-22,English Premier League,Arsenal,Chelsea,Emirates Stadium,1.93,0.73,2,0,H
+FOOT-5084,2022-04-01,2021-22,English Premier League,Arsenal,Brighton & Hove Albion,Emirates Stadium,2.27,0.78,2,0,H
+FOOT-5085,2022-04-04,2021-22,English Premier League,Aston Villa,Arsenal,Villa Park,1.16,1.62,1,0,H
+FOOT-5086,2022-04-06,2021-22,English Premier League,Aston Villa,Chelsea,Villa Park,1.93,1.09,1,1,D
+FOOT-5087,2022-04-09,2021-22,English Premier League,Aston Villa,Brighton & Hove Albion,Villa Park,1.76,0.87,1,3,A
+FOOT-5088,2022-04-12,2021-22,English Premier League,Manchester City,Tottenham Hotspur,Etihad Stadium,2.36,0.88,4,1,H
+FOOT-5089,2022-04-15,2021-22,English Premier League,Arsenal,Newcastle United,Emirates Stadium,2.04,0.65,3,0,H
+FOOT-5090,2022-04-18,2021-22,English Premier League,Brighton & Hove Albion,Manchester City,Amex Stadium,1.18,2.06,1,2,A
+FOOT-5091,2022-08-12,2022-23,English Premier League,Manchester City,Aston Villa,Etihad Stadium,2.26,0.99,3,1,H
+FOOT-5092,2022-08-14,2022-23,English Premier League,Liverpool,Newcastle United,Anfield,1.97,1.05,2,1,H
+FOOT-5093,2022-08-17,2022-23,English Premier League,Chelsea,Newcastle United,Stamford Bridge,1.53,1.18,2,2,D
+FOOT-5094,2022-08-20,2022-23,English Premier League,Manchester City,Liverpool,Etihad Stadium,1.76,1.43,1,3,A
+FOOT-5095,2022-08-23,2022-23,English Premier League,Arsenal,West Ham United,Emirates Stadium,2.19,0.6,1,1,D
+FOOT-5096,2022-08-26,2022-23,English Premier League,Chelsea,Brighton & Hove Albion,Stamford Bridge,1.69,0.93,4,2,H
+FOOT-5097,2022-08-28,2022-23,English Premier League,Arsenal,Liverpool,Emirates Stadium,1.51,1.05,2,1,H
+FOOT-5098,2022-08-31,2022-23,English Premier League,Chelsea,Arsenal,Stamford Bridge,1.05,1.59,2,0,H
+FOOT-5099,2022-09-03,2022-23,English Premier League,Liverpool,Arsenal,Anfield,1.54,1.2,3,3,D
+FOOT-5100,2022-09-06,2022-23,English Premier League,Chelsea,Aston Villa,Stamford Bridge,1.79,1.44,1,2,A
+FOOT-5101,2022-09-09,2022-23,English Premier League,Tottenham Hotspur,West Ham United,Tottenham Hotspur Stadium,1.82,1.13,2,1,H
+FOOT-5102,2022-09-11,2022-23,English Premier League,Brighton & Hove Albion,Liverpool,Amex Stadium,1.36,1.75,2,1,H
+FOOT-5103,2022-09-14,2022-23,English Premier League,Tottenham Hotspur,Aston Villa,Tottenham Hotspur Stadium,1.69,1.58,2,1,H
+FOOT-5104,2022-09-17,2022-23,English Premier League,Aston Villa,Newcastle United,Villa Park,1.62,1.22,2,3,A
+FOOT-5105,2022-09-20,2022-23,English Premier League,Tottenham Hotspur,Manchester City,Tottenham Hotspur Stadium,1.33,1.67,2,0,H
+FOOT-5106,2022-09-23,2022-23,English Premier League,Manchester City,West Ham United,Etihad Stadium,2.18,0.66,1,0,H
+FOOT-5107,2022-09-25,2022-23,English Premier League,Manchester United,Manchester City,Old Trafford,1.15,1.77,2,2,D
+FOOT-5108,2022-09-28,2022-23,English Premier League,Liverpool,West Ham United,Anfield,2.23,0.56,1,2,A
+FOOT-5109,2022-10-01,2022-23,English Premier League,Tottenham Hotspur,Newcastle United,Tottenham Hotspur Stadium,1.71,1.35,2,2,D
+FOOT-5110,2022-10-04,2022-23,English Premier League,Arsenal,Aston Villa,Emirates Stadium,1.94,0.98,3,0,H
+FOOT-5111,2022-10-07,2022-23,English Premier League,Aston Villa,Manchester City,Villa Park,1.25,1.87,1,1,D
+FOOT-5112,2022-10-09,2022-23,English Premier League,Chelsea,Manchester United,Stamford Bridge,1.8,1.18,2,2,D
+FOOT-5113,2022-10-12,2022-23,English Premier League,Newcastle United,Arsenal,St. James' Park,1.1,1.48,1,1,D
+FOOT-5114,2022-10-15,2022-23,English Premier League,Aston Villa,Tottenham Hotspur,Villa Park,1.75,1.16,1,1,D
+FOOT-5115,2022-10-18,2022-23,English Premier League,Manchester City,Arsenal,Etihad Stadium,1.67,1.21,0,0,D
+FOOT-5116,2022-10-21,2022-23,English Premier League,Brighton & Hove Albion,Chelsea,Amex Stadium,1.46,1.42,2,2,D
+FOOT-5117,2022-10-23,2022-23,English Premier League,Chelsea,West Ham United,Stamford Bridge,1.93,0.98,2,2,D
+FOOT-5118,2022-10-26,2022-23,English Premier League,Tottenham Hotspur,Manchester United,Tottenham Hotspur Stadium,1.71,1.15,3,1,H
+FOOT-5119,2022-10-29,2022-23,English Premier League,Arsenal,Tottenham Hotspur,Emirates Stadium,2.12,0.74,2,0,H
+FOOT-5120,2022-11-01,2022-23,English Premier League,West Ham United,Chelsea,London Stadium,1.34,1.43,3,1,H
+FOOT-5121,2022-11-04,2022-23,English Premier League,West Ham United,Tottenham Hotspur,London Stadium,1.59,1.43,1,2,A
+FOOT-5122,2022-11-06,2022-23,English Premier League,West Ham United,Manchester United,London Stadium,1.53,1.23,1,0,H
+FOOT-5123,2022-11-09,2022-23,English Premier League,Manchester City,Tottenham Hotspur,Etihad Stadium,2.29,1.0,2,0,H
+FOOT-5124,2022-11-12,2022-23,English Premier League,Tottenham Hotspur,Arsenal,Tottenham Hotspur Stadium,1.33,1.62,0,0,D
+FOOT-5125,2022-11-15,2022-23,English Premier League,Aston Villa,Liverpool,Villa Park,1.53,1.45,1,2,A
+FOOT-5126,2022-11-18,2022-23,English Premier League,Chelsea,Liverpool,Stamford Bridge,1.27,1.83,2,2,D
+FOOT-5127,2022-11-20,2022-23,English Premier League,Newcastle United,West Ham United,St. James' Park,1.64,0.75,1,0,H
+FOOT-5128,2022-11-23,2022-23,English Premier League,Tottenham Hotspur,Liverpool,Tottenham Hotspur Stadium,1.34,1.94,1,3,A
+FOOT-5129,2022-11-26,2022-23,English Premier League,Liverpool,Brighton & Hove Albion,Anfield,2.05,0.63,2,3,A
+FOOT-5130,2022-11-29,2022-23,English Premier League,West Ham United,Aston Villa,London Stadium,1.42,1.41,0,2,A
+FOOT-5131,2022-12-02,2022-23,English Premier League,Brighton & Hove Albion,West Ham United,Amex Stadium,1.53,1.05,3,0,H
+FOOT-5132,2022-12-04,2022-23,English Premier League,Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur Stadium,1.89,1.25,1,1,D
+FOOT-5133,2022-12-07,2022-23,English Premier League,Liverpool,Manchester United,Anfield,2.26,0.77,2,0,H
+FOOT-5134,2022-12-10,2022-23,English Premier League,Arsenal,Newcastle United,Emirates Stadium,1.98,0.52,1,0,H
+FOOT-5135,2022-12-13,2022-23,English Premier League,Arsenal,Manchester City,Emirates Stadium,1.71,1.3,2,1,H
+FOOT-5136,2022-12-15,2022-23,English Premier League,Manchester City,Brighton & Hove Albion,Etihad Stadium,2.2,0.72,2,1,H
+FOOT-5137,2022-12-18,2022-23,English Premier League,Manchester City,Newcastle United,Etihad Stadium,2.18,0.79,3,2,H
+FOOT-5138,2022-12-21,2022-23,English Premier League,Aston Villa,West Ham United,Villa Park,1.86,1.09,3,1,H
+FOOT-5139,2022-12-24,2022-23,English Premier League,Manchester United,Chelsea,Old Trafford,1.46,1.42,2,2,D
+FOOT-5140,2022-12-27,2022-23,English Premier League,Liverpool,Tottenham Hotspur,Anfield,2.03,0.85,1,0,H
+FOOT-5141,2022-12-30,2022-23,English Premier League,West Ham United,Arsenal,London Stadium,0.81,1.66,1,2,A
+FOOT-5142,2023-01-01,2022-23,English Premier League,Brighton & Hove Albion,Tottenham Hotspur,Amex Stadium,1.64,1.58,3,2,H
+FOOT-5143,2023-01-04,2022-23,English Premier League,Liverpool,Manchester City,Anfield,1.64,1.37,3,1,H
+FOOT-5144,2023-01-07,2022-23,English Premier League,Chelsea,Manchester City,Stamford Bridge,1.27,1.73,1,2,A
+FOOT-5145,2023-01-10,2022-23,English Premier League,Manchester City,Chelsea,Etihad Stadium,2.24,0.89,0,0,D
+FOOT-5146,2023-01-13,2022-23,English Premier League,Brighton & Hove Albion,Newcastle United,Amex Stadium,1.52,1.49,2,1,H
+FOOT-5147,2023-01-15,2022-23,English Premier League,West Ham United,Newcastle United,London Stadium,1.46,1.53,1,1,D
+FOOT-5148,2023-01-18,2022-23,English Premier League,West Ham United,Brighton & Hove Albion,London Stadium,1.42,1.31,0,1,A
+FOOT-5149,2023-01-21,2022-23,English Premier League,West Ham United,Liverpool,London Stadium,1.3,1.82,0,2,A
+FOOT-5150,2023-01-24,2022-23,English Premier League,West Ham United,Manchester City,London Stadium,0.99,1.91,2,0,H
+FOOT-5151,2023-01-27,2022-23,English Premier League,Manchester United,Liverpool,Old Trafford,1.11,1.66,1,2,A
+FOOT-5152,2023-01-29,2022-23,English Premier League,Newcastle United,Brighton & Hove Albion,St. James' Park,1.71,1.15,0,1,A
+FOOT-5153,2023-02-01,2022-23,English Premier League,Chelsea,Tottenham Hotspur,Stamford Bridge,1.65,1.15,2,1,H
+FOOT-5154,2023-02-04,2022-23,English Premier League,Aston Villa,Brighton & Hove Albion,Villa Park,2.03,0.85,2,0,H
+FOOT-5155,2023-02-07,2022-23,English Premier League,Brighton & Hove Albion,Manchester City,Amex Stadium,0.92,1.91,2,1,H
+FOOT-5156,2023-02-10,2022-23,English Premier League,Aston Villa,Manchester United,Villa Park,1.78,0.92,1,0,H
+FOOT-5157,2023-02-12,2022-23,English Premier League,Manchester United,Newcastle United,Old Trafford,1.42,1.4,1,2,A
+FOOT-5158,2023-02-15,2022-23,English Premier League,Newcastle United,Manchester United,St. James' Park,1.7,1.22,1,1,D
+FOOT-5159,2023-02-18,2022-23,English Premier League,Liverpool,Aston Villa,Anfield,1.81,1.01,2,0,H
+FOOT-5160,2023-02-21,2022-23,English Premier League,Newcastle United,Aston Villa,St. James' Park,1.4,1.48,2,3,A
+FOOT-5161,2023-02-24,2022-23,English Premier League,Manchester United,West Ham United,Old Trafford,1.92,0.97,1,1,D
+FOOT-5162,2023-02-26,2022-23,English Premier League,Brighton & Hove Albion,Manchester United,Amex Stadium,1.54,1.29,1,0,H
+FOOT-5163,2023-03-01,2022-23,English Premier League,Manchester United,Arsenal,Old Trafford,0.93,1.69,1,2,A
+FOOT-5164,2023-03-04,2022-23,English Premier League,Newcastle United,Liverpool,St. James' Park,1.13,1.71,1,1,D
+FOOT-5165,2023-03-07,2022-23,English Premier League,Tottenham Hotspur,Chelsea,Tottenham Hotspur Stadium,1.82,1.26,2,1,H
+FOOT-5166,2023-03-10,2022-23,English Premier League,Brighton & Hove Albion,Arsenal,Amex Stadium,1.13,1.78,3,2,H
+FOOT-5167,2023-03-12,2022-23,English Premier League,Manchester United,Tottenham Hotspur,Old Trafford,1.63,1.34,1,0,H
+FOOT-5168,2023-03-15,2022-23,English Premier League,Brighton & Hove Albion,Aston Villa,Amex Stadium,1.4,1.67,1,3,A
+FOOT-5169,2023-03-18,2022-23,English Premier League,Arsenal,Brighton & Hove Albion,Emirates Stadium,2.05,0.55,4,0,H
+FOOT-5170,2023-03-21,2022-23,English Premier League,Newcastle United,Tottenham Hotspur,St. James' Park,1.63,1.24,2,0,H
+FOOT-5171,2023-03-24,2022-23,English Premier League,Arsenal,Manchester United,Emirates Stadium,2.25,0.77,3,0,H
+FOOT-5172,2023-03-26,2022-23,English Premier League,Aston Villa,Chelsea,Villa Park,1.94,1.05,1,1,D
+FOOT-5173,2023-03-29,2022-23,English Premier League,Manchester United,Brighton & Hove Albion,Old Trafford,1.54,1.29,3,1,H
+FOOT-5174,2023-04-01,2022-23,English Premier League,Manchester City,Manchester United,Etihad Stadium,2.01,0.61,4,2,H
+FOOT-5175,2023-04-04,2022-23,English Premier League,Newcastle United,Chelsea,St. James' Park,1.43,1.31,3,0,H
+FOOT-5176,2023-04-06,2022-23,English Premier League,Manchester United,Aston Villa,Old Trafford,1.46,1.23,1,3,A
+FOOT-5177,2023-04-09,2022-23,English Premier League,Liverpool,Chelsea,Anfield,2.06,1.13,1,2,A
+FOOT-5178,2023-04-12,2022-23,English Premier League,Aston Villa,Arsenal,Villa Park,1.25,1.57,0,0,D
+FOOT-5179,2023-04-15,2022-23,English Premier League,Newcastle United,Manchester City,St. James' Park,1.27,1.61,1,1,D
+FOOT-5180,2023-04-18,2022-23,English Premier League,Arsenal,Chelsea,Emirates Stadium,2.19,0.85,2,1,H
+FOOT-5181,2023-08-12,2023-24,English Premier League,Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur Stadium,1.95,1.07,3,2,H
+FOOT-5182,2023-08-14,2023-24,English Premier League,Arsenal,Chelsea,Emirates Stadium,2.19,0.76,3,2,H
+FOOT-5183,2023-08-17,2023-24,English Premier League,Brighton & Hove Albion,Aston Villa,Amex Stadium,1.35,1.63,3,1,H
+FOOT-5184,2023-08-20,2023-24,English Premier League,Liverpool,Aston Villa,Anfield,2.1,0.99,0,1,A
+FOOT-5185,2023-08-23,2023-24,English Premier League,Chelsea,Brighton & Hove Albion,Stamford Bridge,1.66,1.29,4,3,H
+FOOT-5186,2023-08-26,2023-24,English Premier League,Brighton & Hove Albion,Tottenham Hotspur,Amex Stadium,1.79,1.64,3,0,H
+FOOT-5187,2023-08-28,2023-24,English Premier League,Arsenal,Newcastle United,Emirates Stadium,2.07,0.51,2,0,H
+FOOT-5188,2023-08-31,2023-24,English Premier League,Brighton & Hove Albion,Chelsea,Amex Stadium,1.57,1.47,0,1,A
+FOOT-5189,2023-09-03,2023-24,English Premier League,West Ham United,Liverpool,London Stadium,1.28,1.69,0,1,A
+FOOT-5190,2023-09-06,2023-24,English Premier League,Manchester City,Aston Villa,Etihad Stadium,2.25,0.97,2,1,H
+FOOT-5191,2023-09-09,2023-24,English Premier League,Chelsea,Tottenham Hotspur,Stamford Bridge,1.58,1.43,2,1,H
+FOOT-5192,2023-09-11,2023-24,English Premier League,Arsenal,Brighton & Hove Albion,Emirates Stadium,2.11,0.46,3,0,H
+FOOT-5193,2023-09-14,2023-24,English Premier League,Brighton & Hove Albion,Manchester United,Amex Stadium,1.55,1.14,2,1,H
+FOOT-5194,2023-09-17,2023-24,English Premier League,Chelsea,Newcastle United,Stamford Bridge,1.58,1.27,2,1,H
+FOOT-5195,2023-09-20,2023-24,English Premier League,Aston Villa,Brighton & Hove Albion,Villa Park,1.87,1.15,2,0,H
+FOOT-5196,2023-09-23,2023-24,English Premier League,West Ham United,Manchester United,London Stadium,1.29,1.35,2,2,D
+FOOT-5197,2023-09-25,2023-24,English Premier League,Liverpool,West Ham United,Anfield,2.06,0.65,0,2,A
+FOOT-5198,2023-09-28,2023-24,English Premier League,Arsenal,Aston Villa,Emirates Stadium,2.09,0.69,0,2,A
+FOOT-5199,2023-10-01,2023-24,English Premier League,Brighton & Hove Albion,Arsenal,Amex Stadium,1.19,1.69,1,1,D
+FOOT-5200,2023-10-04,2023-24,English Premier League,Arsenal,Manchester City,Emirates Stadium,1.45,1.39,1,2,A
+FOOT-5201,2023-10-07,2023-24,English Premier League,Tottenham Hotspur,Manchester City,Tottenham Hotspur Stadium,1.36,1.89,0,2,A
+FOOT-5202,2023-10-09,2023-24,English Premier League,Brighton & Hove Albion,Liverpool,Amex Stadium,1.1,1.65,3,2,H
+FOOT-5203,2023-10-12,2023-24,English Premier League,West Ham United,Tottenham Hotspur,London Stadium,1.61,1.38,1,1,D
+FOOT-5204,2023-10-15,2023-24,English Premier League,West Ham United,Arsenal,London Stadium,0.83,1.66,1,4,A
+FOOT-5205,2023-10-18,2023-24,English Premier League,Newcastle United,Tottenham Hotspur,St. James' Park,1.84,1.11,2,1,H
+FOOT-5206,2023-10-21,2023-24,English Premier League,Aston Villa,Newcastle United,Villa Park,1.57,1.21,2,2,D
+FOOT-5207,2023-10-23,2023-24,English Premier League,Newcastle United,Aston Villa,St. James' Park,1.67,1.2,2,1,H
+FOOT-5208,2023-10-26,2023-24,English Premier League,Manchester City,Brighton & Hove Albion,Etihad Stadium,2.12,0.8,2,1,H
+FOOT-5209,2023-10-29,2023-24,English Premier League,West Ham United,Brighton & Hove Albion,London Stadium,1.54,1.41,0,1,A
+FOOT-5210,2023-11-01,2023-24,English Premier League,Manchester United,Brighton & Hove Albion,Old Trafford,1.7,1.33,1,1,D
+FOOT-5211,2023-11-04,2023-24,English Premier League,Liverpool,Brighton & Hove Albion,Anfield,2.35,0.81,4,1,H
+FOOT-5212,2023-11-06,2023-24,English Premier League,Manchester City,Liverpool,Etihad Stadium,1.67,1.24,0,2,A
+FOOT-5213,2023-11-09,2023-24,English Premier League,Aston Villa,Manchester United,Villa Park,1.8,1.26,1,2,A
+FOOT-5214,2023-11-12,2023-24,English Premier League,Newcastle United,Manchester City,St. James' Park,1.24,1.53,2,2,D
+FOOT-5215,2023-11-15,2023-24,English Premier League,Manchester United,Chelsea,Old Trafford,1.57,1.23,1,3,A
+FOOT-5216,2023-11-18,2023-24,English Premier League,Tottenham Hotspur,Aston Villa,Tottenham Hotspur Stadium,1.63,1.49,3,1,H
+FOOT-5217,2023-11-20,2023-24,English Premier League,Arsenal,Manchester United,Emirates Stadium,2.19,0.71,3,2,H
+FOOT-5218,2023-11-23,2023-24,English Premier League,Manchester City,Manchester United,Etihad Stadium,2.09,0.73,2,0,H
+FOOT-5219,2023-11-26,2023-24,English Premier League,West Ham United,Aston Villa,London Stadium,1.33,1.52,1,2,A
+FOOT-5220,2023-11-29,2023-24,English Premier League,Liverpool,Manchester United,Anfield,2.17,0.8,3,1,H
+FOOT-5221,2023-12-02,2023-24,English Premier League,Brighton & Hove Albion,West Ham United,Amex Stadium,1.53,1.28,3,3,D
+FOOT-5222,2023-12-04,2023-24,English Premier League,Chelsea,Arsenal,Stamford Bridge,1.25,1.72,2,2,D
+FOOT-5223,2023-12-07,2023-24,English Premier League,West Ham United,Newcastle United,London Stadium,1.37,1.33,0,1,A
+FOOT-5224,2023-12-10,2023-24,English Premier League,Manchester United,Aston Villa,Old Trafford,1.57,1.5,2,2,D
+FOOT-5225,2023-12-13,2023-24,English Premier League,Aston Villa,Manchester City,Villa Park,1.54,1.74,2,1,H
+FOOT-5226,2023-12-15,2023-24,English Premier League,Newcastle United,Brighton & Hove Albion,St. James' Park,1.64,1.11,1,2,A
+FOOT-5227,2023-12-18,2023-24,English Premier League,Liverpool,Arsenal,Anfield,1.69,1.25,2,2,D
+FOOT-5228,2023-12-21,2023-24,English Premier League,Brighton & Hove Albion,Manchester City,Amex Stadium,1.22,2.04,1,1,D
+FOOT-5229,2023-12-24,2023-24,English Premier League,Manchester United,West Ham United,Old Trafford,1.8,1.11,4,1,H
+FOOT-5230,2023-12-27,2023-24,English Premier League,Aston Villa,Arsenal,Villa Park,1.38,1.46,4,2,H
+FOOT-5231,2023-12-30,2023-24,English Premier League,Manchester City,Chelsea,Etihad Stadium,2.07,0.79,3,2,H
+FOOT-5232,2024-01-01,2023-24,English Premier League,Manchester United,Newcastle United,Old Trafford,1.53,1.21,4,1,H
+FOOT-5233,2024-01-04,2023-24,English Premier League,Aston Villa,West Ham United,Villa Park,1.76,1.05,3,2,H
+FOOT-5234,2024-01-07,2023-24,English Premier League,Tottenham Hotspur,West Ham United,Tottenham Hotspur Stadium,1.84,1.05,2,2,D
+FOOT-5235,2024-01-10,2023-24,English Premier League,Manchester United,Liverpool,Old Trafford,1.28,1.53,1,0,H
+FOOT-5236,2024-01-13,2023-24,English Premier League,Newcastle United,Manchester United,St. James' Park,1.7,1.17,2,1,H
+FOOT-5237,2024-01-15,2023-24,English Premier League,Chelsea,Manchester United,Stamford Bridge,1.69,1.13,1,3,A
+FOOT-5238,2024-01-18,2023-24,English Premier League,Manchester City,Arsenal,Etihad Stadium,1.5,1.17,1,3,A
+FOOT-5239,2024-01-21,2023-24,English Premier League,Tottenham Hotspur,Manchester United,Tottenham Hotspur Stadium,1.74,1.32,1,3,A
+FOOT-5240,2024-01-24,2023-24,English Premier League,Newcastle United,West Ham United,St. James' Park,1.84,0.75,3,1,H
+FOOT-5241,2024-01-27,2023-24,English Premier League,Manchester United,Arsenal,Old Trafford,0.9,1.55,1,2,A
+FOOT-5242,2024-01-29,2023-24,English Premier League,Arsenal,West Ham United,Emirates Stadium,2.3,0.37,2,1,H
+FOOT-5243,2024-02-01,2023-24,English Premier League,Tottenham Hotspur,Chelsea,Tottenham Hotspur Stadium,1.7,1.48,1,2,A
+FOOT-5244,2024-02-04,2023-24,English Premier League,Newcastle United,Chelsea,St. James' Park,1.74,1.02,2,1,H
+FOOT-5245,2024-02-07,2023-24,English Premier League,Aston Villa,Liverpool,Villa Park,1.59,1.63,4,2,H
+FOOT-5246,2024-02-10,2023-24,English Premier League,West Ham United,Chelsea,London Stadium,1.37,1.3,0,1,A
+FOOT-5247,2024-02-12,2023-24,English Premier League,Manchester United,Manchester City,Old Trafford,1.27,1.85,2,2,D
+FOOT-5248,2024-02-15,2023-24,English Premier League,Aston Villa,Tottenham Hotspur,Villa Park,1.69,1.39,3,0,H
+FOOT-5249,2024-02-18,2023-24,English Premier League,Chelsea,Aston Villa,Stamford Bridge,1.61,1.31,2,3,A
+FOOT-5250,2024-02-21,2023-24,English Premier League,Arsenal,Liverpool,Emirates Stadium,1.63,1.02,1,2,A
+FOOT-5251,2024-02-24,2023-24,English Premier League,Liverpool,Chelsea,Anfield,2.05,1.11,2,1,H
+FOOT-5252,2024-02-26,2023-24,English Premier League,Brighton & Hove Albion,Newcastle United,Amex Stadium,1.58,1.48,1,3,A
+FOOT-5253,2024-02-29,2023-24,English Premier League,Liverpool,Newcastle United,Anfield,1.88,0.94,2,1,H
+FOOT-5254,2024-03-03,2023-24,English Premier League,West Ham United,Manchester City,London Stadium,0.87,2.06,1,1,D
+FOOT-5255,2024-03-06,2023-24,English Premier League,Chelsea,West Ham United,Stamford Bridge,1.95,0.98,0,1,A
+FOOT-5256,2024-03-09,2023-24,English Premier League,Manchester United,Tottenham Hotspur,Old Trafford,1.7,1.4,3,1,H
+FOOT-5257,2024-03-11,2023-24,English Premier League,Aston Villa,Chelsea,Villa Park,1.61,1.03,3,0,H
+FOOT-5258,2024-03-14,2023-24,English Premier League,Liverpool,Manchester City,Anfield,1.56,1.27,1,2,A
+FOOT-5259,2024-03-17,2023-24,English Premier League,Newcastle United,Arsenal,St. James' Park,1.08,1.37,0,2,A
+FOOT-5260,2024-03-20,2023-24,English Premier League,Chelsea,Liverpool,Stamford Bridge,1.5,1.79,2,1,H
+FOOT-5261,2024-03-23,2023-24,English Premier League,Chelsea,Manchester City,Stamford Bridge,1.24,1.77,0,1,A
+FOOT-5262,2024-03-25,2023-24,English Premier League,Tottenham Hotspur,Arsenal,Tottenham Hotspur Stadium,1.18,1.82,2,0,H
+FOOT-5263,2024-03-28,2023-24,English Premier League,Manchester City,West Ham United,Etihad Stadium,2.34,0.46,2,0,H
+FOOT-5264,2024-03-31,2023-24,English Premier League,Tottenham Hotspur,Newcastle United,Tottenham Hotspur Stadium,1.81,1.24,2,1,H
+FOOT-5265,2024-04-03,2023-24,English Premier League,Manchester City,Newcastle United,Etihad Stadium,1.97,0.7,2,0,H
+FOOT-5266,2024-04-05,2023-24,English Premier League,Manchester City,Tottenham Hotspur,Etihad Stadium,2.26,0.76,1,1,D
+FOOT-5267,2024-04-08,2023-24,English Premier League,Tottenham Hotspur,Liverpool,Tottenham Hotspur Stadium,1.36,1.69,1,2,A
+FOOT-5268,2024-04-11,2023-24,English Premier League,Liverpool,Tottenham Hotspur,Anfield,2.21,0.83,1,0,H
+FOOT-5269,2024-04-14,2023-24,English Premier League,Newcastle United,Liverpool,St. James' Park,1.21,1.69,3,2,H
+FOOT-5270,2024-04-17,2023-24,English Premier League,Arsenal,Tottenham Hotspur,Emirates Stadium,2.25,0.73,1,0,H
+FOOT-5271,2024-08-12,2024-25,English Premier League,Manchester City,Liverpool,Etihad Stadium,1.7,1.08,2,0,H
+FOOT-5272,2024-08-14,2024-25,English Premier League,Liverpool,Chelsea,Anfield,2.06,1.08,3,2,H
+FOOT-5273,2024-08-17,2024-25,English Premier League,Aston Villa,Tottenham Hotspur,Villa Park,1.98,1.4,4,2,H
+FOOT-5274,2024-08-20,2024-25,English Premier League,Arsenal,Chelsea,Emirates Stadium,1.96,0.7,3,0,H
+FOOT-5275,2024-08-23,2024-25,English Premier League,Manchester United,Arsenal,Old Trafford,0.94,1.58,1,2,A
+FOOT-5276,2024-08-26,2024-25,English Premier League,Manchester City,Newcastle United,Etihad Stadium,2.03,0.66,3,2,H
+FOOT-5277,2024-08-28,2024-25,English Premier League,Manchester City,Arsenal,Etihad Stadium,1.64,1.33,4,2,H
+FOOT-5278,2024-08-31,2024-25,English Premier League,Newcastle United,Tottenham Hotspur,St. James' Park,1.75,1.41,2,0,H
+FOOT-5279,2024-09-03,2024-25,English Premier League,Liverpool,Aston Villa,Anfield,1.86,1.23,3,1,H
+FOOT-5280,2024-09-06,2024-25,English Premier League,West Ham United,Aston Villa,London Stadium,1.46,1.45,1,1,D
+FOOT-5281,2024-09-09,2024-25,English Premier League,Manchester City,Tottenham Hotspur,Etihad Stadium,2.31,0.95,3,1,H
+FOOT-5282,2024-09-11,2024-25,English Premier League,Tottenham Hotspur,Manchester City,Tottenham Hotspur Stadium,1.3,1.86,3,3,D
+FOOT-5283,2024-09-14,2024-25,English Premier League,Manchester United,Chelsea,Old Trafford,1.64,1.22,1,0,H
+FOOT-5284,2024-09-17,2024-25,English Premier League,Chelsea,Brighton & Hove Albion,Stamford Bridge,1.83,0.97,3,1,H
+FOOT-5285,2024-09-20,2024-25,English Premier League,Brighton & Hove Albion,Chelsea,Amex Stadium,1.44,1.58,1,0,H
+FOOT-5286,2024-09-23,2024-25,English Premier League,Manchester United,Manchester City,Old Trafford,1.15,1.61,0,1,A
+FOOT-5287,2024-09-25,2024-25,English Premier League,Aston Villa,Liverpool,Villa Park,1.4,1.55,2,1,H
+FOOT-5288,2024-09-28,2024-25,English Premier League,Liverpool,Arsenal,Anfield,1.38,1.2,2,0,H
+FOOT-5289,2024-10-01,2024-25,English Premier League,West Ham United,Newcastle United,London Stadium,1.38,1.5,1,1,D
+FOOT-5290,2024-10-04,2024-25,English Premier League,Aston Villa,Chelsea,Villa Park,1.69,1.26,2,2,D
+FOOT-5291,2024-10-07,2024-25,English Premier League,Chelsea,Manchester City,Stamford Bridge,1.44,1.74,2,0,H
+FOOT-5292,2024-10-09,2024-25,English Premier League,Newcastle United,Liverpool,St. James' Park,1.39,1.78,2,2,D
+FOOT-5293,2024-10-12,2024-25,English Premier League,Chelsea,West Ham United,Stamford Bridge,1.97,1.15,3,1,H
+FOOT-5294,2024-10-15,2024-25,English Premier League,Tottenham Hotspur,Newcastle United,Tottenham Hotspur Stadium,1.61,1.43,1,2,A
+FOOT-5295,2024-10-18,2024-25,English Premier League,Aston Villa,Brighton & Hove Albion,Villa Park,1.96,0.96,2,1,H
+FOOT-5296,2024-10-21,2024-25,English Premier League,Arsenal,Brighton & Hove Albion,Emirates Stadium,2.21,0.51,2,0,H
+FOOT-5297,2024-10-23,2024-25,English Premier League,Manchester City,West Ham United,Etihad Stadium,2.31,0.58,3,0,H
+FOOT-5298,2024-10-26,2024-25,English Premier League,Newcastle United,West Ham United,St. James' Park,1.67,1.03,3,1,H
+FOOT-5299,2024-10-29,2024-25,English Premier League,Liverpool,West Ham United,Anfield,2.16,0.53,1,2,A
+FOOT-5300,2024-11-01,2024-25,English Premier League,Chelsea,Manchester United,Stamford Bridge,1.9,1.02,1,2,A
+FOOT-5301,2024-11-04,2024-25,English Premier League,Newcastle United,Arsenal,St. James' Park,1.03,1.47,1,2,A
+FOOT-5302,2024-11-06,2024-25,English Premier League,Newcastle United,Aston Villa,St. James' Park,1.42,1.28,0,2,A
+FOOT-5303,2024-11-09,2024-25,English Premier League,Tottenham Hotspur,Arsenal,Tottenham Hotspur Stadium,1.36,1.75,0,2,A
+FOOT-5304,2024-11-12,2024-25,English Premier League,Arsenal,Manchester United,Emirates Stadium,2.17,0.47,1,1,D
+FOOT-5305,2024-11-15,2024-25,English Premier League,Manchester United,Aston Villa,Old Trafford,1.51,1.5,1,1,D
+FOOT-5306,2024-11-18,2024-25,English Premier League,Liverpool,Brighton & Hove Albion,Anfield,2.34,0.87,2,1,H
+FOOT-5307,2024-11-20,2024-25,English Premier League,West Ham United,Chelsea,London Stadium,1.29,1.51,1,2,A
+FOOT-5308,2024-11-23,2024-25,English Premier League,Aston Villa,Arsenal,Villa Park,1.06,1.41,0,3,A
+FOOT-5309,2024-11-26,2024-25,English Premier League,Tottenham Hotspur,Chelsea,Tottenham Hotspur Stadium,1.68,1.18,1,2,A
+FOOT-5310,2024-11-29,2024-25,English Premier League,West Ham United,Arsenal,London Stadium,0.83,1.71,2,2,D
+FOOT-5311,2024-12-02,2024-25,English Premier League,West Ham United,Brighton & Hove Albion,London Stadium,1.42,1.31,2,1,H
+FOOT-5312,2024-12-04,2024-25,English Premier League,Newcastle United,Chelsea,St. James' Park,1.71,1.28,2,1,H
+FOOT-5313,2024-12-07,2024-25,English Premier League,Liverpool,Manchester United,Anfield,2.18,1.05,2,2,D
+FOOT-5314,2024-12-10,2024-25,English Premier League,Tottenham Hotspur,Liverpool,Tottenham Hotspur Stadium,1.23,1.62,2,2,D
+FOOT-5315,2024-12-13,2024-25,English Premier League,Newcastle United,Manchester United,St. James' Park,1.77,1.29,1,0,H
+FOOT-5316,2024-12-15,2024-25,English Premier League,Brighton & Hove Albion,West Ham United,Amex Stadium,1.78,1.17,3,1,H
+FOOT-5317,2024-12-18,2024-25,English Premier League,Liverpool,Tottenham Hotspur,Anfield,2.01,1.08,2,2,D
+FOOT-5318,2024-12-21,2024-25,English Premier League,Brighton & Hove Albion,Manchester City,Amex Stadium,1.04,1.79,1,1,D
+FOOT-5319,2024-12-24,2024-25,English Premier League,Manchester United,Newcastle United,Old Trafford,1.39,1.25,3,1,H
+FOOT-5320,2024-12-27,2024-25,English Premier League,Aston Villa,Manchester United,Villa Park,1.79,1.29,1,2,A
+FOOT-5321,2024-12-30,2024-25,English Premier League,Chelsea,Liverpool,Stamford Bridge,1.18,1.61,3,3,D
+FOOT-5322,2025-01-01,2024-25,English Premier League,Aston Villa,West Ham United,Villa Park,1.91,0.91,2,0,H
+FOOT-5323,2025-01-04,2024-25,English Premier League,Chelsea,Tottenham Hotspur,Stamford Bridge,1.68,1.13,1,1,D
+FOOT-5324,2025-01-07,2024-25,English Premier League,Aston Villa,Newcastle United,Villa Park,1.55,1.28,1,1,D
+FOOT-5325,2025-01-10,2024-25,English Premier League,Manchester City,Manchester United,Etihad Stadium,2.31,0.6,1,0,H
+FOOT-5326,2025-01-13,2024-25,English Premier League,Brighton & Hove Albion,Manchester United,Amex Stadium,1.68,1.31,0,1,A
+FOOT-5327,2025-01-15,2024-25,English Premier League,West Ham United,Manchester City,London Stadium,1.17,1.84,1,2,A
+FOOT-5328,2025-01-18,2024-25,English Premier League,Brighton & Hove Albion,Newcastle United,Amex Stadium,1.36,1.18,3,1,H
+FOOT-5329,2025-01-21,2024-25,English Premier League,Manchester City,Chelsea,Etihad Stadium,2.06,0.9,3,3,D
+FOOT-5330,2025-01-24,2024-25,English Premier League,Arsenal,Manchester City,Emirates Stadium,1.66,1.29,1,1,D
+FOOT-5331,2025-01-27,2024-25,English Premier League,Manchester City,Brighton & Hove Albion,Etihad Stadium,2.35,0.86,2,0,H
+FOOT-5332,2025-01-29,2024-25,English Premier League,Arsenal,Newcastle United,Emirates Stadium,1.77,0.85,1,3,A
+FOOT-5333,2025-02-01,2024-25,English Premier League,Arsenal,Tottenham Hotspur,Emirates Stadium,2.21,0.71,4,2,H
+FOOT-5334,2025-02-04,2024-25,English Premier League,Newcastle United,Brighton & Hove Albion,St. James' Park,1.8,0.86,2,2,D
+FOOT-5335,2025-02-07,2024-25,English Premier League,Tottenham Hotspur,West Ham United,Tottenham Hotspur Stadium,1.96,1.02,3,0,H
+FOOT-5336,2025-02-10,2024-25,English Premier League,Aston Villa,Manchester City,Villa Park,1.31,1.68,1,3,A
+FOOT-5337,2025-02-12,2024-25,English Premier League,Liverpool,Newcastle United,Anfield,1.97,0.89,2,0,H
+FOOT-5338,2025-02-15,2024-25,English Premier League,West Ham United,Manchester United,London Stadium,1.59,1.28,1,2,A
+FOOT-5339,2025-02-18,2024-25,English Premier League,Manchester United,West Ham United,Old Trafford,1.71,1.15,3,1,H
+FOOT-5340,2025-02-21,2024-25,English Premier League,Manchester City,Aston Villa,Etihad Stadium,2.0,0.8,2,1,H
+FOOT-5341,2025-02-24,2024-25,English Premier League,Chelsea,Arsenal,Stamford Bridge,0.97,1.78,1,2,A
+FOOT-5342,2025-02-26,2024-25,English Premier League,Manchester United,Liverpool,Old Trafford,1.44,1.86,2,1,H
+FOOT-5343,2025-03-01,2024-25,English Premier League,Newcastle United,Manchester City,St. James' Park,1.29,1.58,2,0,H
+FOOT-5344,2025-03-04,2024-25,English Premier League,Arsenal,Aston Villa,Emirates Stadium,1.94,1.0,4,4,D
+FOOT-5345,2025-03-07,2024-25,English Premier League,Manchester United,Tottenham Hotspur,Old Trafford,1.61,1.33,1,1,D
+FOOT-5346,2025-03-10,2024-25,English Premier League,Brighton & Hove Albion,Arsenal,Amex Stadium,0.82,1.66,1,3,A
+FOOT-5347,2025-03-12,2024-25,English Premier League,Tottenham Hotspur,Manchester United,Tottenham Hotspur Stadium,1.82,1.16,0,0,D
+FOOT-5348,2025-03-15,2024-25,English Premier League,Chelsea,Aston Villa,Stamford Bridge,1.45,1.26,2,1,H
+FOOT-5349,2025-03-18,2024-25,English Premier League,Manchester United,Brighton & Hove Albion,Old Trafford,1.52,0.97,1,2,A
+FOOT-5350,2025-03-21,2024-25,English Premier League,Brighton & Hove Albion,Tottenham Hotspur,Amex Stadium,1.52,1.4,1,1,D
+FOOT-5351,2025-03-24,2024-25,English Premier League,Arsenal,Liverpool,Emirates Stadium,1.83,1.2,0,2,A
+FOOT-5352,2025-03-26,2024-25,English Premier League,West Ham United,Tottenham Hotspur,London Stadium,1.34,1.45,1,1,D
+FOOT-5353,2025-03-29,2024-25,English Premier League,Arsenal,West Ham United,Emirates Stadium,2.15,0.36,3,0,H
+FOOT-5354,2025-04-01,2024-25,English Premier League,Chelsea,Newcastle United,Stamford Bridge,1.42,1.02,1,1,D
+FOOT-5355,2025-04-04,2024-25,English Premier League,Brighton & Hove Albion,Liverpool,Amex Stadium,1.21,1.66,1,0,H
+FOOT-5356,2025-04-06,2024-25,English Premier League,Tottenham Hotspur,Aston Villa,Tottenham Hotspur Stadium,1.82,1.38,2,1,H
+FOOT-5357,2025-04-09,2024-25,English Premier League,Tottenham Hotspur,Brighton & Hove Albion,Tottenham Hotspur Stadium,1.99,1.24,1,2,A
+FOOT-5358,2025-04-12,2024-25,English Premier League,Liverpool,Manchester City,Anfield,1.65,1.48,0,1,A
+FOOT-5359,2025-04-15,2024-25,English Premier League,Brighton & Hove Albion,Aston Villa,Amex Stadium,1.38,1.34,1,2,A
+FOOT-5360,2025-04-18,2024-25,English Premier League,West Ham United,Liverpool,London Stadium,1.26,2.0,0,2,A

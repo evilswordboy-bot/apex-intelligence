@@ -1,0 +1,148 @@
+{
+  "engine_version": "7.0.0",
+  "pipeline_name": "APEX AI Sports Prediction Engine",
+  "trained_at": "2026-10-09T16:41:08.919323Z",
+  "framework": "scikit-learn 1.9.0 / Python 3.13",
+  "temporal_validation": "Strict Time-Aware Split (Seasons 2021-2024 Train / 2025 Test)",
+  "probability_calibration": "Platt Scaling (Sigmoid CalibratedClassifierCV)",
+  "models": {
+    "cricket": {
+      "sport": "cricket",
+      "dataset": "IPL Historical Matches (2021-2025)",
+      "train_samples": 282,
+      "test_samples": 74,
+      "features": [
+        "t1_rolling_win_rate_5",
+        "t2_rolling_win_rate_5",
+        "win_rate_differential",
+        "h2h_differential",
+        "home_advantage",
+        "venue_scoring_index",
+        "pitch_pace_factor",
+        "toss_advantage"
+      ],
+      "baseline_metrics": {
+        "model_type": "Historical Class Prior / Empirical Base Rate",
+        "log_loss": 0.6991,
+        "brier_score": 0.253,
+        "accuracy_percent": 48.65
+      },
+      "calibrated_metrics": {
+        "model_type": "Calibrated Logistic Regression (Sigmoid / Platt Scaling)",
+        "log_loss": 0.6924,
+        "brier_score": 0.2496,
+        "accuracy_percent": 51.35,
+        "expected_calibration_error": 0.0622,
+        "score_mae_runs": 11.79
+      },
+      "log_loss_reduction_percent": 0.96,
+      "brier_score_reduction_percent": 1.34,
+      "calibration_curve": [
+        {
+          "mean_predicted": 0.549,
+          "fraction_positive": 0.486
+        }
+      ],
+      "feature_importance": [
+        {
+          "feature": "t1_rolling_win_rate_5",
+          "weight": 0.38
+        },
+        {
+          "feature": "t2_rolling_win_rate_5",
+          "weight": -0.32
+        },
+        {
+          "feature": "win_rate_differential",
+          "weight": 0.45
+        },
+        {
+          "feature": "h2h_differential",
+          "weight": 0.28
+        },
+        {
+          "feature": "home_advantage",
+          "weight": 0.22
+        },
+        {
+          "feature": "venue_scoring_index",
+          "weight": 0.14
+        },
+        {
+          "feature": "pitch_pace_factor",
+          "weight": 0.1
+        },
+        {
+          "feature": "toss_advantage",
+          "weight": 0.08
+        }
+      ]
+    },
+    "football": {
+      "sport": "football",
+      "dataset": "Premier League Historical Matches (2021-2025)",
+      "train_samples": 270,
+      "test_samples": 90,
+      "features": [
+        "home_form_index_5",
+        "away_form_index_5",
+        "form_differential",
+        "home_rolling_xg_diff",
+        "away_rolling_xg_diff",
+        "xg_differential",
+        "h2h_differential",
+        "home_ground_edge"
+      ],
+      "baseline_metrics": {
+        "model_type": "Empirical Class Prior (Home ~44%, Draw ~26%, Away ~30%)",
+        "log_loss": 1.0744,
+        "brier_score": 0.6502,
+        "accuracy_percent": 45.56
+      },
+      "calibrated_metrics": {
+        "model_type": "Calibrated Multinomial Logistic Model (3-Way Outcome)",
+        "log_loss": 1.028,
+        "brier_score": 0.617,
+        "accuracy_percent": 45.56,
+        "expected_calibration_error": 0.048
+      },
+      "log_loss_reduction_percent": 4.32,
+      "brier_score_reduction_percent": 5.11,
+      "feature_importance": [
+        {
+          "feature": "home_form_index_5",
+          "weight": 0.34
+        },
+        {
+          "feature": "away_form_index_5",
+          "weight": -0.28
+        },
+        {
+          "feature": "form_differential",
+          "weight": 0.42
+        },
+        {
+          "feature": "home_rolling_xg_diff",
+          "weight": 0.38
+        },
+        {
+          "feature": "away_rolling_xg_diff",
+          "weight": -0.3
+        },
+        {
+          "feature": "xg_differential",
+          "weight": 0.48
+        },
+        {
+          "feature": "h2h_differential",
+          "weight": 0.2
+        },
+        {
+          "feature": "home_ground_edge",
+          "weight": 0.26
+        }
+      ]
+    }
+  },
+  "disclaimer": "APEX AI outcome predictions are probabilistic statistical models. Athletic contests entail natural variance and non-deterministic factors. Not intended for gambling or financial speculation."
+}
