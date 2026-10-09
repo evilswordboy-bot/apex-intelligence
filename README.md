@@ -3,6 +3,37 @@
 > **"The Science of Being Unstoppable."**  
 > APEX is an elite, responsive AI-powered sports performance analytics platform engineered with design precision inspired by **Linear**, **Vercel**, **Apple Vision Pro**, and **Formula 1 telemetry**.
 
+<div align="center">
+
+[![Live Landing Page](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-B6FF3B?style=for-the-badge&logo=github&logoColor=black)](https://evilswordboy-bot.github.io/apex-intelligence/)
+[![Status](https://img.shields.io/badge/Platform%20Version-v10.0.0--production-2D6BFF?style=for-the-badge)](https://github.com/evilswordboy-bot/apex-intelligence)
+[![Next.js 14](https://img.shields.io/badge/Next.js-14%20App%20Router-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-v10.0.0-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
+[![License](https://img.shields.io/badge/License-Proprietary-FF6B2C?style=for-the-badge)](https://github.com/evilswordboy-bot/apex-intelligence)
+
+### 🚀 [Experience Live Landing Page Online](https://evilswordboy-bot.github.io/apex-intelligence/)
+
+<a href="https://evilswordboy-bot.github.io/apex-intelligence/">
+  <img src="public/screenshots/apex_landing_desktop.png" alt="APEX Cinematic Landing Page Desktop" width="100%" style="border-radius: 12px; border: 1px solid #1C2940;" />
+</a>
+
+<p align="center">
+  <em>Desktop and Mobile Responsive Breakpoints</em>
+</p>
+
+<table>
+  <tr>
+    <td width="70%" valign="top">
+      <img src="public/screenshots/apex_landing_desktop.png" alt="APEX Landing Desktop" width="100%" />
+    </td>
+    <td width="30%" valign="top">
+      <img src="public/screenshots/apex_landing_mobile.png" alt="APEX Landing Mobile" width="100%" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
 ---
 
 ## 🌟 Overview & Highlights
@@ -10,7 +41,7 @@
 APEX provides a production-grade, extensible foundation for sports biomechanics and tactical analytics across **Cricket**, **Football**, and **Olympic Disciplines**:
 
 - 🏎️ **F1-Grade Dark Spatial Design System**: Carbon-black canvas (`#05070D`), elevated glass surfaces (`#121A2E`), high-contrast typography (`#F5F7FF`), and sport-specific chromatic accents (`#B6FF3B` Electric Lime for Cricket, `#2D6BFF` Apex Cobalt for Football, `#FF6B2C` Solar Flame for Olympics).
-- ⚡ **Cinematic Landing Page**: APEX wordmark with glowing titanium badge, oversized headline, dual functional CTAs, animated sports-stat ticker, floating biomechanical HUD elements, interactive Bento Grid, and a live client-side kinetic simulation sandbox.
+- ⚡ **Cinematic Landing Page**: APEX wordmark with glowing titanium badge, oversized headline, dual functional CTAs, animated sports-stat ticker, floating biomechanical HUD elements, interactive Bento Grid, and a live client-side kinetic simulation sandbox ([Live Preview](https://evilswordboy-bot.github.io/apex-intelligence/)).
 - 🏏 **Phase 2: Cricket Intelligence Lab**:
   - **FastAPI Microservice Backend**: Mounted at port `8000`, backed by SQLite schema (`backend/data/cricket_lab.db`) with Cricsheet ball-by-ball import pipeline.
   - **Calibrated Win-Probability Model**: Scikit-Learn Platt sigmoid scaled Logistic Regression model (Brier: `0.1339`, Log Loss: `0.4127`).

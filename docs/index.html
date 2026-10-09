@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APEX — The Science of Being Unstoppable</title>
+  <meta name="description" content="Elite AI-Powered Sports Performance Analytics & Telemetry Platform for Cricket, Football, and Olympic Disciplines." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="branding/favicon.svg" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            apex: {
+              black: '#05070D',
+              navy: '#0B1020',
+              card: '#121A2E',
+              border: '#1C2940',
+              lime: '#B6FF3B',
+              blue: '#2D6BFF',
+              orange: '#FF6B2C',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Space Grotesk', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      background-color: #05070D;
+      color: #F8FAFC;
+      font-family: 'Inter', sans-serif;
+      overflow-x: hidden;
+    }
+    .font-heading {
+      font-family: 'Space Grotesk', sans-serif;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .glass-card {
+      background: rgba(18, 26, 46, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(28, 41, 64, 0.8);
+    }
+    .glass-card:hover {
+      border-color: rgba(182, 255, 59, 0.4);
+      box-shadow: 0 0 25px rgba(182, 255, 59, 0.1);
+    }
+    .glow-lime {
+      box-shadow: 0 0 20px rgba(182, 255, 59, 0.35);
+    }
+    .glow-blue {
+      box-shadow: 0 0 20px rgba(45, 107, 255, 0.35);
+    }
+    .grid-pattern {
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.05); }
+    }
+    .ambient-glow {
+      animation: pulseGlow 6s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body class="selection:bg-apex-lime selection:text-black">
+
+  <!-- Background Ambience -->
+  <div class="fixed inset-0 grid-pattern pointer-events-none z-0"></div>
+  <div class="fixed top-[-10%] left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-apex-lime/10 blur-[130px] rounded-full pointer-events-none ambient-glow z-0"></div>
+  <div class="fixed top-[40%] right-[-10%] w-[500px] h-[500px] bg-apex-blue/10 blur-[150px] rounded-full pointer-events-none z-0"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-50 border-b border-apex-border/80 bg-apex-black/85 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <img src="branding/apex-logo.svg" alt="APEX" class="w-8 h-8 group-hover:scale-105 transition-transform" />
+        <span class="font-heading font-bold text-xl tracking-wider text-white">APEX<span class="text-apex-lime">.</span></span>
+        <span class="text-[10px] font-mono uppercase tracking-widest px-2 py-0.5 rounded-full bg-apex-lime/10 text-apex-lime border border-apex-lime/30 hidden sm:inline-block">v10.0</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+        <a href="#features" class="hover:text-apex-lime transition-colors">Features</a>
+        <a href="#telemetry" class="hover:text-apex-lime transition-colors">Live Sandbox</a>
+        <a href="#bento" class="hover:text-apex-lime transition-colors">Intelligence Bento</a>
+        <a href="#architecture" class="hover:text-apex-lime transition-colors">Architecture</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-3">
+        <a href="https://github.com/evilswordboy-bot/apex-intelligence" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs font-mono uppercase tracking-wider px-3.5 py-2 rounded-lg border border-apex-border bg-apex-navy hover:border-slate-400 hover:text-white transition-colors text-slate-300">
+          <i data-lucide="github" class="w-4 h-4"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://github.com/evilswordboy-bot/apex-intelligence" target="_blank" rel="noopener noreferrer" class="hidden sm:flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-lg bg-apex-lime text-black hover:bg-[#a6ec2e] transition-colors glow-lime">
+          <span>Explore Repo</span>
+          <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative z-10 pt-20 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+    <!-- Titanium Badge -->
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-apex-navy border border-apex-border text-xs font-mono text-slate-300 mb-8 shadow-inner">
+      <span class="w-2 h-2 rounded-full bg-apex-lime animate-pulse"></span>
+      <span class="text-apex-lime uppercase font-semibold">Formula 1 Telemetry Grade</span>
+      <span class="text-slate-600">|</span>
+      <span>Cricket • Football • Olympics</span>
+    </div>
+
+    <!-- Main Title -->
+    <h1 class="font-heading text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-white max-w-5xl mx-auto leading-[1.1] mb-6">
+      THE SCIENCE OF BEING <br class="hidden sm:inline" />
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-apex-lime via-white to-apex-blue">UNSTOPPABLE.</span>
+    </h1>
+
+    <p class="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto font-normal mb-10 leading-relaxed">
+      APEX combines computer vision biomechanics, calibrated Bayesian win probability, and real-time sensor telemetry to deliver championship intelligence.
+    </p>
+
+    <!-- CTAs -->
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+      <a href="https://github.com/evilswordboy-bot/apex-intelligence" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-apex-lime text-black font-semibold text-sm flex items-center justify-center gap-3 glow-lime hover:scale-[1.02] transition-transform">
+        <i data-lucide="terminal" class="w-4 h-4"></i>
+        <span>Get Started on GitHub</span>
+      </a>
+      <a href="#telemetry" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-apex-card border border-apex-border text-white font-medium text-sm flex items-center justify-center gap-3 hover:border-apex-lime/50 transition-colors">
+        <i data-lucide="play" class="w-4 h-4 text-apex-lime"></i>
+        <span>Test Live Simulation</span>
+      </a>
+    </div>
+
+    <!-- Live Telemetry Ticker -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-4xl mx-auto font-mono text-left">
+      <div class="glass-card p-4 rounded-xl">
+        <div class="text-[11px] text-slate-500 uppercase flex items-center gap-1.5 mb-1">
+          <i data-lucide="gauge" class="w-3.5 h-3.5 text-apex-lime"></i> Release Velocity
+        </div>
+        <div class="text-2xl font-bold text-white tracking-tight" id="ticker-velocity">148.6 <span class="text-xs text-slate-400 font-normal">km/h</span></div>
+      </div>
+      <div class="glass-card p-4 rounded-xl">
+        <div class="text-[11px] text-slate-500 uppercase flex items-center gap-1.5 mb-1">
+          <i data-lucide="refresh-cw" class="w-3.5 h-3.5 text-apex-blue"></i> Spin Rate
+        </div>
+        <div class="text-2xl font-bold text-white tracking-tight" id="ticker-spin">2,410 <span class="text-xs text-slate-400 font-normal">RPM</span></div>
+      </div>
+      <div class="glass-card p-4 rounded-xl">
+        <div class="text-[11px] text-slate-500 uppercase flex items-center gap-1.5 mb-1">
+          <i data-lucide="target" class="w-3.5 h-3.5 text-apex-lime"></i> Win Calib. (Brier)
+        </div>
+        <div class="text-2xl font-bold text-apex-lime tracking-tight">0.1339 <span class="text-xs text-slate-400 font-normal">optimal</span></div>
+      </div>
+      <div class="glass-card p-4 rounded-xl">
+        <div class="text-[11px] text-slate-500 uppercase flex items-center gap-1.5 mb-1">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-400"></i> Platform Health
+        </div>
+        <div class="text-2xl font-bold text-white tracking-tight">99.98% <span class="text-xs text-emerald-400 font-normal">Online</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HERO VISUAL PREVIEW -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-28">
+    <div class="relative rounded-2xl overflow-hidden border border-apex-border/90 shadow-2xl glass-card group">
+      <div class="h-10 bg-apex-navy border-b border-apex-border flex items-center justify-between px-4">
+        <div class="flex items-center gap-2">
+          <span class="w-3 h-3 rounded-full bg-rose-500/80"></span>
+          <span class="w-3 h-3 rounded-full bg-amber-500/80"></span>
+          <span class="w-3 h-3 rounded-full bg-emerald-500/80"></span>
+          <span class="text-xs font-mono text-slate-400 ml-3">apex://cockpit/live-intelligence</span>
+        </div>
+        <span class="text-[11px] font-mono text-apex-lime bg-apex-lime/10 px-2 py-0.5 rounded border border-apex-lime/30">100% Client-Ready</span>
+      </div>
+      <img src="screenshots/apex_landing_desktop.png" alt="APEX Production Interface" class="w-full h-auto object-cover group-hover:scale-[1.01] transition-transform duration-500" />
+    </div>
+  </section>
+
+  <!-- LIVE TELEMETRY SANDBOX -->
+  <section id="telemetry" class="py-20 border-y border-apex-border bg-apex-navy/40 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs font-mono uppercase tracking-widest text-apex-lime">Interactive Simulation</span>
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white mt-1">Biomechanical Kinetic Sandbox</h2>
+        </div>
+        <p class="text-slate-400 max-w-md text-sm mt-4 md:mt-0">
+          Adjust ball velocity and seam angle to calculate real-time aerodynamic deviation, kinetic force, and win-shift probability.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <!-- Controls -->
+        <div class="lg:col-span-5 glass-card p-6 sm:p-8 rounded-2xl space-y-6">
+          <div>
+            <div class="flex justify-between text-sm font-mono mb-2">
+              <span class="text-slate-400">Release Velocity</span>
+              <span class="text-apex-lime font-bold" id="val-speed">145 km/h</span>
+            </div>
+            <input type="range" min="110" max="160" value="145" class="w-full accent-apex-lime cursor-pointer" id="slider-speed" oninput="updateSim()" />
+          </div>
+
+          <div>
+            <div class="flex justify-between text-sm font-mono mb-2">
+              <span class="text-slate-400">Seam / Curve Angle</span>
+              <span class="text-apex-blue font-bold" id="val-angle">12.5°</span>
+            </div>
+            <input type="range" min="0" max="30" value="12.5" step="0.5" class="w-full accent-apex-blue cursor-pointer" id="slider-angle" oninput="updateSim()" />
+          </div>
+
+          <div>
+            <div class="flex justify-between text-sm font-mono mb-2">
+              <span class="text-slate-400">Athlete Fatigue Index</span>
+              <span class="text-apex-orange font-bold" id="val-fatigue">18%</span>
+            </div>
+            <input type="range" min="0" max="100" value="18" class="w-full accent-apex-orange cursor-pointer" id="slider-fatigue" oninput="updateSim()" />
+          </div>
+
+          <div class="pt-4 border-t border-apex-border/80 grid grid-cols-3 gap-3 text-center font-mono">
+            <div class="bg-apex-black/50 p-2.5 rounded-lg border border-apex-border">
+              <div class="text-[10px] text-slate-500 uppercase">Impact Force</div>
+              <div class="text-sm font-bold text-white mt-1" id="res-force">1,820 N</div>
+            </div>
+            <div class="bg-apex-black/50 p-2.5 rounded-lg border border-apex-border">
+              <div class="text-[10px] text-slate-500 uppercase">Lateral Drift</div>
+              <div class="text-sm font-bold text-apex-blue mt-1" id="res-drift">34.2 cm</div>
+            </div>
+            <div class="bg-apex-black/50 p-2.5 rounded-lg border border-apex-border">
+              <div class="text-[10px] text-slate-500 uppercase">Dot-Ball Prob.</div>
+              <div class="text-sm font-bold text-apex-lime mt-1" id="res-dot">72.4%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Canvas -->
+        <div class="lg:col-span-7 glass-card p-6 sm:p-8 rounded-2xl relative overflow-hidden flex flex-col justify-between h-[360px]">
+          <div class="flex items-center justify-between text-xs font-mono text-slate-400">
+            <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-apex-lime"></span> Real-time Pitch Trajectory</span>
+            <span id="pitch-status" class="text-slate-500">Trajectory calculated: 60 FPS</span>
+          </div>
+
+          <!-- SVG Trajectory -->
+          <svg viewBox="0 0 600 240" class="w-full h-48 my-auto">
+            <!-- Grid Lines -->
+            <line x1="40" y1="200" x2="560" y2="200" stroke="#1C2940" stroke-width="2" />
+            <line x1="40" y1="40" x2="40" y2="200" stroke="#1C2940" stroke-width="1" stroke-dasharray="4" />
+            <line x1="300" y1="40" x2="300" y2="200" stroke="#1C2940" stroke-width="1" stroke-dasharray="4" />
+            <line x1="560" y1="40" x2="560" y2="200" stroke="#1C2940" stroke-width="1" stroke-dasharray="4" />
+
+            <!-- Labels -->
+            <text x="40" y="220" fill="#64748B" font-size="11" font-family="JetBrains Mono">RELEASE (0m)</text>
+            <text x="280" y="220" fill="#64748B" font-size="11" font-family="JetBrains Mono">PITCH (11m)</text>
+            <text x="520" y="220" fill="#64748B" font-size="11" font-family="JetBrains Mono">CREASE (20m)</text>
+
+            <!-- Curve -->
+            <path id="traj-path" d="M 40 100 Q 280 190 560 120" fill="none" stroke="#B6FF3B" stroke-width="3" />
+            <circle id="ball-pos" cx="560" cy="120" r="7" fill="#B6FF3B" filter="drop-shadow(0 0 6px #B6FF3B)" />
+          </svg>
+
+          <div class="flex items-center justify-between text-[11px] font-mono text-slate-400">
+            <span>Model: Logistic Platt Scaling v2</span>
+            <span class="text-apex-lime">Telemetry Sensor Active</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENTO INTELLIGENCE GRID -->
+  <section id="bento" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <span class="text-xs font-mono uppercase tracking-widest text-apex-blue">10-Phase Foundation</span>
+      <h2 class="font-heading text-3xl sm:text-5xl font-bold text-white mt-2">Sports Intelligence Modules</h2>
+      <p class="text-slate-400 max-w-xl mx-auto text-sm mt-3">From raw camera frames to calibrated win probability, explore the complete APEX engine.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Bento 1: Cricket Lab -->
+      <div class="glass-card p-6 sm:p-8 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-10 h-10 rounded-xl bg-apex-lime/10 border border-apex-lime/30 flex items-center justify-center text-apex-lime">
+            <i data-lucide="crosshair" class="w-5 h-5"></i>
+          </div>
+          <span class="text-xs font-mono px-2.5 py-1 rounded bg-apex-black border border-apex-border text-slate-400">Phase 2</span>
+        </div>
+        <div>
+          <h3 class="font-heading text-xl font-bold text-white mb-2">Cricket Intelligence Lab</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            360° interactive wagon wheels, calibrated ball-by-ball win predictors, and matchup strike-rate matrices.
+          </p>
+          <div class="text-xs font-mono text-apex-lime flex items-center gap-1">
+            <span>Explore 14,000+ Cricsheet deliveries</span> <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bento 2: AI Agent -->
+      <div class="glass-card p-6 sm:p-8 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-10 h-10 rounded-xl bg-apex-blue/10 border border-apex-blue/30 flex items-center justify-center text-apex-blue">
+            <i data-lucide="bot" class="w-5 h-5"></i>
+          </div>
+          <span class="text-xs font-mono px-2.5 py-1 rounded bg-apex-black border border-apex-border text-slate-400">Phase 3</span>
+        </div>
+        <div>
+          <h3 class="font-heading text-xl font-bold text-white mb-2">AI Tactical Assistant</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Autonomous RAG knowledge retrieval, real-time tool calling, and verified citations for coaching staffs.
+          </p>
+          <div class="text-xs font-mono text-apex-blue flex items-center gap-1">
+            <span>Powered by Gemini & Heuristics</span> <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bento 3: Live Relay -->
+      <div class="glass-card p-6 sm:p-8 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-10 h-10 rounded-xl bg-apex-orange/10 border border-apex-orange/30 flex items-center justify-center text-apex-orange">
+            <i data-lucide="radio" class="w-5 h-5"></i>
+          </div>
+          <span class="text-xs font-mono px-2.5 py-1 rounded bg-apex-black border border-apex-border text-slate-400">Phase 6</span>
+        </div>
+        <div>
+          <h3 class="font-heading text-xl font-bold text-white mb-2">Live Match Relay</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            15-second auto-polling stream with honest latency indicators and synthetic fallback protection.
+          </p>
+          <div class="text-xs font-mono text-apex-orange flex items-center gap-1">
+            <span>Real-time score & telemetry sync</span> <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bento 4: ML Prediction Engine -->
+      <div class="glass-card p-6 sm:p-8 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400">
+            <i data-lucide="sparkles" class="w-5 h-5"></i>
+          </div>
+          <span class="text-xs font-mono px-2.5 py-1 rounded bg-apex-black border border-apex-border text-slate-400">Phase 7</span>
+        </div>
+        <div>
+          <h3 class="font-heading text-xl font-bold text-white mb-2">AI Sports Prediction Engine</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Calibrated Logistic Regression models forecasting outcome probabilities, expected scores, and factor attributions.
+          </p>
+          <div class="text-xs font-mono text-purple-400 flex items-center gap-1">
+            <span>Brier 0.1339 | Zero Data Leakage</span> <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bento 5: Personalization & Auth -->
+      <div class="glass-card p-6 sm:p-8 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+            <i data-lucide="user-check" class="w-5 h-5"></i>
+          </div>
+          <span class="text-xs font-mono px-2.5 py-1 rounded bg-apex-black border border-apex-border text-slate-400">Phase 8</span>
+        </div>
+        <div>
+          <h3 class="font-heading text-xl font-bold text-white mb-2">Secure User Profiles</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            PBKDF2-HMAC-SHA256 password cryptography, 7-day JWT tokens, saved favorites, and GDPR account deletion.
+          </p>
+          <div class="text-xs font-mono text-emerald-400 flex items-center gap-1">
+            <span>Cryptographic Session Guard</span> <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bento 6: Observability & Health -->
+      <div class="glass-card p-6 sm:p-8 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
+            <i data-lucide="activity" class="w-5 h-5"></i>
+          </div>
+          <span class="text-xs font-mono px-2.5 py-1 rounded bg-apex-black border border-apex-border text-slate-400">Phase 10</span>
+        </div>
+        <div>
+          <h3 class="font-heading text-xl font-bold text-white mb-2">Zero-PII Platform Diagnostics</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Operational RSS memory metrics, server uptime, feedback roadmap, and production security headers.
+          </p>
+          <div class="text-xs font-mono text-cyan-400 flex items-center gap-1">
+            <span>Live Diagnostics API</span> <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARCHITECTURE CALLOUT -->
+  <section id="architecture" class="py-16 bg-apex-navy/30 border-t border-apex-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="text-xs font-mono uppercase tracking-widest text-slate-500">Full-Stack Decoupled Architecture</span>
+      <h2 class="font-heading text-2xl sm:text-3xl font-bold text-white mt-1 mb-10">Engineered with Precision</h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto font-mono text-xs">
+        <div class="p-4 rounded-xl bg-apex-card border border-apex-border text-slate-300">
+          <div class="text-apex-lime font-bold text-base mb-1">Next.js 14</div>
+          App Router + Tailwind + Recharts
+        </div>
+        <div class="p-4 rounded-xl bg-apex-card border border-apex-border text-slate-300">
+          <div class="text-apex-blue font-bold text-base mb-1">FastAPI</div>
+          Python 3.13 + Pydantic v2
+        </div>
+        <div class="p-4 rounded-xl bg-apex-card border border-apex-border text-slate-300">
+          <div class="text-purple-400 font-bold text-base mb-1">Scikit-Learn</div>
+          Calibrated Platt Regression
+        </div>
+        <div class="p-4 rounded-xl bg-apex-card border border-apex-border text-slate-300">
+          <div class="text-emerald-400 font-bold text-base mb-1">SQLite</div>
+          ACID Normalized Schema
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-apex-border bg-apex-black py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <img src="branding/apex-logo.svg" alt="APEX" class="w-6 h-6" />
+        <span class="font-heading font-bold text-base text-white">APEX</span>
+        <span class="text-xs text-slate-500">© 2026 APEX Sports Technologies. All rights reserved.</span>
+      </div>
+
+      <div class="flex items-center gap-6 text-xs text-slate-400">
+        <a href="https://github.com/evilswordboy-bot/apex-intelligence" target="_blank" rel="noopener noreferrer" class="hover:text-apex-lime transition-colors">GitHub Repository</a>
+        <a href="https://github.com/evilswordboy-bot/apex-intelligence/invitations" target="_blank" rel="noopener noreferrer" class="hover:text-apex-lime transition-colors">Collaborator Invite</a>
+        <a href="https://github.com/evilswordboy-bot/apex-intelligence/blob/main/README.md" target="_blank" rel="noopener noreferrer" class="hover:text-apex-lime transition-colors">Documentation</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Simulation Logic Script -->
+  <script>
+    lucide.createIcons();
+
+    function updateSim() {
+      const speed = parseFloat(document.getElementById('slider-speed').value);
+      const angle = parseFloat(document.getElementById('slider-angle').value);
+      const fatigue = parseFloat(document.getElementById('slider-fatigue').value);
+
+      document.getElementById('val-speed').textContent = speed + ' km/h';
+      document.getElementById('val-angle').textContent = angle.toFixed(1) + '°';
+      document.getElementById('val-fatigue').textContent = fatigue + '%';
+
+      // Kinetic calculations
+      const force = Math.round((speed * 12.5) + (100 - fatigue) * 0.5);
+      const drift = ((angle * 2.7) + (speed * 0.05)).toFixed(1);
+      const dotProb = Math.min(95, Math.max(20, ((speed / 160) * 55 + (angle * 1.2) - (fatigue * 0.15)))).toFixed(1);
+
+      document.getElementById('res-force').textContent = force.toLocaleString() + ' N';
+      document.getElementById('res-drift').textContent = drift + ' cm';
+      document.getElementById('res-dot').textContent = dotProb + '%';
+
+      // Dynamic curve path
+      const pitchY = 190 - (angle * 1.5);
+      const endY = 120 + (drift * 0.8);
+      const pathD = `M 40 100 Q 280 ${pitchY} 560 ${endY}`;
+      document.getElementById('traj-path').setAttribute('d', pathD);
+      document.getElementById('ball-pos').setAttribute('cy', endY);
+    }
+
+    // Ticker simulation
+    setInterval(() => {
+      const v = (147 + (Math.random() * 3 - 1.5)).toFixed(1);
+      const s = Math.round(2390 + (Math.random() * 40 - 20));
+      document.getElementById('ticker-velocity').innerHTML = v + ' <span class="text-xs text-slate-400 font-normal">km/h</span>';
+      document.getElementById('ticker-spin').innerHTML = s.toLocaleString() + ' <span class="text-xs text-slate-400 font-normal">RPM</span>';
+    }, 2500);
+  </script>
+</body>
+</html>
