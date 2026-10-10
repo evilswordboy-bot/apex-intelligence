@@ -14,13 +14,20 @@
 
 ---
 
-## 🌐 Live Cloud Deployment (Vercel)
+## 🌍 Live Website (Active 24/7 — Click to Open Anywhere)
+
+- 🌟 **Official Live Platform**: **[https://evilswordboy-bot.github.io/apex-intelligence/](https://evilswordboy-bot.github.io/apex-intelligence/)**
+- 📱 **Always Online**: Works 24/7 on any phone, tablet, or PC worldwide without downloading or running any code.
+- 🏎️ **Live Features Online**: Kinetic Biomechanical Sandbox, Interactive Telemetry Ticker, Multi-Sport Lab Previews, Responsive Mobile & Desktop Layouts.
+
+---
+
+## 🌐 Cloud Deployment (Vercel)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fevilswordboy-bot%2Fapex-intelligence&project-name=apex-intelligence&repository-name=apex-intelligence)
 
 - 🚀 **1-Click Vercel Cloud Deploy**: [Deploy to evilswordboy-bots-projects](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fevilswordboy-bot%2Fapex-intelligence&project-name=apex-intelligence&repository-name=apex-intelligence)
 - 🏢 **Vercel Account**: [https://vercel.com/evilswordboy-bots-projects](https://vercel.com/evilswordboy-bots-projects)
-- 📱 **Access Anywhere**: Deploying to Vercel provides a permanent public URL (e.g. `https://apex-intelligence.vercel.app`) that works on any phone, tablet, or laptop without needing local servers.
 
 ---
 
