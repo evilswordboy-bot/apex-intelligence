@@ -46,3 +46,5 @@ venv/
 
 # local dev scripts
 run_silent.vbs
+
+.vercel
