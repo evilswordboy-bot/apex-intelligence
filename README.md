@@ -14,6 +14,41 @@
 
 ---
 
+## ⚡ 1-Click Launch & Direct Working Links
+
+> **Important**: `http://localhost:3000` runs on your local machine. To access the live interactive platform, start the servers using the commands below:
+
+### 🚀 Instant 1-Click Start
+- **Windows**: Double-click [`start.bat`](file:///C:/Users/Sakthibalan/.gemini/antigravity/scratch/apex-intelligence/start.bat) (or run `./start.bat` in terminal).
+- **macOS / Linux**: Run `chmod +x start.sh && ./start.sh`.
+
+### 💻 Manual CLI Start
+```bash
+# Terminal 1: Backend API (FastAPI)
+cd backend
+python -m uvicorn app.main:app --port 8000 --host 127.0.0.1
+
+# Terminal 2: Frontend (Next.js)
+npm start -- -p 3000
+# or for development: npm run dev
+```
+
+### 🔗 Direct Platform Links (Click to Open)
+Once the server is running, all endpoints are fully functional:
+- ⚡ **Landing Page**: [http://localhost:3000/](http://localhost:3000/)
+- 🏏 **Cricket Intelligence Lab**: [http://localhost:3000/dashboard?tab=cricket](http://localhost:3000/dashboard?tab=cricket)
+- 📊 **Sports Intelligence Console (Phase 5)**: [http://localhost:3000/analytics](http://localhost:3000/analytics)
+- 📈 **Analytics Dashboard Tab**: [http://localhost:3000/dashboard?tab=analytics](http://localhost:3000/dashboard?tab=analytics)
+- 🤖 **AI Sports Agent Workspace (Phase 3)**: [http://localhost:3000/agent](http://localhost:3000/agent)
+- 🔴 **Live Match Centre (Phase 6)**: [http://localhost:3000/live](http://localhost:3000/live)
+- 🔮 **AI Prediction Engine (Phase 7)**: [http://localhost:3000/predictions](http://localhost:3000/predictions)
+- 👤 **User Profile & Preferences (Phase 8)**: [http://localhost:3000/profile](http://localhost:3000/profile)
+- 💬 **Platform Feedback & Monitoring (Phase 10)**: [http://localhost:3000/feedback](http://localhost:3000/feedback)
+- 📜 **FastAPI Interactive Docs**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- 🩺 **Backend Health Check**: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
+
+---
+
 ## 🌟 Overview & Highlights
 
 APEX provides a production-grade, extensible foundation for sports biomechanics and tactical analytics across **Cricket**, **Football**, and **Olympic Disciplines**:
