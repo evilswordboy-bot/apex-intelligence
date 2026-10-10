@@ -1,7 +1,22 @@
 {
   "name": "apex-intelligence",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://github.com/evilswordboy-bot/apex-intelligence",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evilswordboy-bot/apex-intelligence.git"
+  },
+  "contributors": [
+    {
+      "name": "evilswordboy-bot",
+      "url": "https://github.com/evilswordboy-bot"
+    },
+    {
+      "name": "kowshik152008-dk",
+      "url": "https://github.com/kowshik152008-dk"
+    }
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

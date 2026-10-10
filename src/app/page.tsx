@@ -569,7 +569,36 @@ export default function LandingPage() {
         </div>
 
         <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-[#1C2745]/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] font-mono text-[#5A6785]">
-          <span>© 2026 APEX Sports Intelligence Platform. All rights reserved.</span>
+          <div className="flex flex-wrap items-center gap-3">
+            <span>© 2026 APEX Sports Intelligence Platform.</span>
+            <span className="text-[#1C2745] hidden sm:inline">•</span>
+            <a
+              href="https://github.com/evilswordboy-bot/apex-intelligence"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#9AA4BF] hover:text-[#B6FF3B] transition-colors"
+            >
+              GitHub Repository
+            </a>
+            <span className="text-[#1C2745] hidden sm:inline">•</span>
+            <a
+              href="https://github.com/evilswordboy-bot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#9AA4BF] hover:text-[#2D6BFF] transition-colors"
+            >
+              @evilswordboy-bot
+            </a>
+            <span className="text-[#1C2745] hidden sm:inline">•</span>
+            <a
+              href="https://github.com/kowshik152008-dk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#9AA4BF] hover:text-purple-400 transition-colors"
+            >
+              @kowshik152008-dk
+            </a>
+          </div>
           <span>Crafted with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, & FastAPI.</span>
         </div>
       </footer>

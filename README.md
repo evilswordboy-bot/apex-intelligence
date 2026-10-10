@@ -3,40 +3,14 @@
 > **"The Science of Being Unstoppable."**  
 > APEX is an elite, responsive AI-powered sports performance analytics platform engineered with design precision inspired by **Linear**, **Vercel**, **Apple Vision Pro**, and **Formula 1 telemetry**.
 
-<div align="center">
+---
 
-[![Live Landing Page](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-B6FF3B?style=for-the-badge&logo=github&logoColor=black)](https://evilswordboy-bot.github.io/apex-intelligence/)
-[![Repository](https://img.shields.io/badge/GitHub-evilswordboy--bot%2Fapex--intelligence-2D6BFF?style=for-the-badge&logo=github)](https://github.com/evilswordboy-bot/apex-intelligence)
-[![Platform Version](https://img.shields.io/badge/Platform%20Version-v10.0.0--production-B6FF3B?style=for-the-badge)](https://github.com/evilswordboy-bot/apex-intelligence)
-[![Next.js 14](https://img.shields.io/badge/Next.js-14%20App%20Router-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-v10.0.0-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
+## 👥 Engineering & GitHub Links
 
-### 🚀 [Experience the Live Landing Page Online: https://evilswordboy-bot.github.io/apex-intelligence/](https://evilswordboy-bot.github.io/apex-intelligence/)
-
-<a href="https://evilswordboy-bot.github.io/apex-intelligence/">
-  <img src="public/screenshots/apex_landing_desktop.png" alt="APEX Cinematic Landing Page Desktop" width="100%" style="border-radius: 12px; border: 1px solid #1C2940;" />
-</a>
-
-<p align="center">
-  <em>Desktop (1440px) and Mobile (390px) Responsive Breakpoints</em>
-</p>
-
-<table>
-  <tr>
-    <td width="70%" valign="top">
-      <a href="https://evilswordboy-bot.github.io/apex-intelligence/">
-        <img src="public/screenshots/apex_landing_desktop.png" alt="APEX Landing Desktop" width="100%" />
-      </a>
-    </td>
-    <td width="30%" valign="top">
-      <a href="https://evilswordboy-bot.github.io/apex-intelligence/">
-        <img src="public/screenshots/apex_landing_mobile.png" alt="APEX Landing Mobile" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-</div>
+- 🌐 **Primary Repository**: [https://github.com/evilswordboy-bot/apex-intelligence](https://github.com/evilswordboy-bot/apex-intelligence)
+- 🤖 **Lead Developer**: [@evilswordboy-bot](https://github.com/evilswordboy-bot) (`https://github.com/evilswordboy-bot`)
+- 🚀 **Co-Developer**: [@kowshik152008-dk](https://github.com/kowshik152008-dk) (`https://github.com/kowshik152008-dk`)
+- 🍴 **Co-Developer Repository / Fork**: [https://github.com/kowshik152008-dk/apex-intelligence](https://github.com/kowshik152008-dk/apex-intelligence)
 
 ---
 
@@ -318,6 +292,14 @@ Verified across three standard viewports:
 1. **Mobile (390px × 844px)**: Responsive controls, touch-friendly tab pills, single-column KPI cards, wrapped header with APEX branding.
 2. **Tablet (768px × 1024px)**: 2-column responsive layout, full-bleed charts, optimized radar visual.
 3. **Desktop (1440px × 900px)**: Multi-column bento analytics, side-by-side radar overlay, AI telemetry diagnostics, live activity stream.
+
+---
+
+## 👥 Authors & Profiles
+- **Lead Developer**: [@evilswordboy-bot](https://github.com/evilswordboy-bot)
+- **Co-Developer**: [@kowshik152008-dk](https://github.com/kowshik152008-dk)
+- **Repository**: [evilswordboy-bot/apex-intelligence](https://github.com/evilswordboy-bot/apex-intelligence)
+- **Fork / Secondary Repo**: [kowshik152008-dk/apex-intelligence](https://github.com/kowshik152008-dk/apex-intelligence)
 
 ---
 
