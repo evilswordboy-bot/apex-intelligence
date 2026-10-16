@@ -235,6 +235,23 @@ export default function SportsIntelligenceAnalytics() {
 
       {/* Header & Global Filters Bar */}
       <div className="p-4 sm:p-6 rounded-2xl bg-[#0B1020] border border-[#1C2745] relative overflow-hidden flex flex-col gap-5 sm:gap-6 shadow-xl">
+        {/* Cinematic Anime Visual Backdrop */}
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+          <img
+            src={
+              sport === 'cricket'
+                ? '/images/cricket/apex_anime_cricket.jpg'
+                : sport === 'football'
+                ? '/images/football/apex_anime_football.jpg'
+                : sport === 'olympics'
+                ? '/images/olympics/apex_anime_olympics.jpg'
+                : '/images/hero/apex_anime_sports_cinematic.jpg'
+            }
+            alt="Anime Sports Analytics"
+            className="w-full h-full object-cover object-right opacity-30 mix-blend-lighten"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/80 to-transparent" />
+        </div>
         {/* Subtle Ambient Glow */}
         <div 
           className="absolute top-0 right-0 w-96 h-96 rounded-full blur-[140px] pointer-events-none opacity-20"

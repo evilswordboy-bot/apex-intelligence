@@ -333,8 +333,17 @@ export default function AIAgentWorkspace() {
           </div>
         </header>
 
-        {/* Messages Stream */}
-        <div className="flex-1 p-4 md:p-6 overflow-y-auto space-y-6">
+        {/* Messages Stream with Anime AI Cockpit Backdrop */}
+        <div className="flex-1 p-4 md:p-6 overflow-y-auto space-y-6 relative">
+          <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden opacity-15">
+            <img
+              src="/images/abstract/apex_anime_ai_cockpit.jpg"
+              alt="Anime Tactical Cockpit"
+              className="w-full h-full object-cover object-center mix-blend-lighten"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-[#0B1020]/90 via-[#0B1020]/80 to-[#0B1020]" />
+          </div>
+          <div className="relative z-10 space-y-6">
           {messages.map((msg, idx) => (
             <div
               key={msg.id || idx}
@@ -561,7 +570,8 @@ export default function AIAgentWorkspace() {
             </div>
           )}
 
-          <div ref={messagesEndRef} />
+            <div ref={messagesEndRef} />
+          </div>
         </div>
 
         {/* Suggested Prompt Chips */}

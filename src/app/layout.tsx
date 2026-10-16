@@ -27,10 +27,12 @@ export default function RootLayout({
       <body className="bg-[#05070D] text-[#F5F7FF] font-sans antialiased selection:bg-[#2D6BFF] selection:text-white relative min-h-screen">
         {/* Full-screen Cinematic Anime Stadium Background across all pages */}
         <div 
-          className="fixed inset-0 pointer-events-none z-0 opacity-25 bg-cover bg-center bg-no-repeat"
+          className="fixed inset-0 pointer-events-none z-0 opacity-40 sm:opacity-45 bg-cover bg-center bg-no-repeat transform scale-100 transition-opacity duration-1000"
           style={{ backgroundImage: "url('/images/hero/apex_anime_sports_cinematic.jpg')" }}
         />
-        <div className="fixed inset-0 pointer-events-none z-0 bg-gradient-to-b from-[#05070D]/75 via-[#05070D]/90 to-[#05070D]" />
+        {/* Anime Atmospheric Glow & Radial Vignette */}
+        <div className="fixed inset-0 pointer-events-none z-0 bg-gradient-to-b from-[#05070D]/70 via-[#05070D]/85 to-[#05070D]" />
+        <div className="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-600/10 via-transparent to-transparent" />
         <div className="relative z-10">
           {children}
         </div>

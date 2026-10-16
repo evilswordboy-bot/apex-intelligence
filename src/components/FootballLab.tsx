@@ -11,14 +11,15 @@ export default function FootballLab() {
     <div className="space-y-6">
       {/* Fixture Overview */}
       <div className="p-6 rounded-2xl bg-[#0B1020] border border-[#1C2745] flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative overflow-hidden">
-        {/* Real AI-Generated Football Match Visual Backdrop */}
-        <div className="absolute inset-0 z-0 pointer-events-none">
+        {/* Cinematic Anime Football Visual Backdrop */}
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
           <img
-            src="/images/football/football_striker_match.jpg"
-            alt="Football Match Tactical Intensity"
-            className="w-full h-full object-cover object-right opacity-20 mix-blend-screen"
+            src="/images/football/apex_anime_football.jpg"
+            alt="Anime Football Match"
+            className="w-full h-full object-cover object-right opacity-35 mix-blend-lighten"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/90 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0B1020] via-transparent to-transparent" />
         </div>
 
         <div className="relative z-10">

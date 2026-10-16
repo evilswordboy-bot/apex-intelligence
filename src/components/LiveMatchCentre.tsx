@@ -207,6 +207,21 @@ export default function LiveMatchCentre() {
 
       {/* Main Header Card */}
       <div className="p-6 rounded-2xl bg-[#0B1020] border border-[#1C2745] relative overflow-hidden flex flex-col gap-6 shadow-xl">
+        {/* Cinematic Anime Stadium Visual Backdrop */}
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+          <img
+            src={
+              sportFilter === 'football'
+                ? '/images/football/apex_anime_football.jpg'
+                : sportFilter === 'cricket'
+                ? '/images/cricket/apex_anime_cricket.jpg'
+                : '/images/hero/apex_anime_sports_cinematic.jpg'
+            }
+            alt="Anime Live Match Arena"
+            className="w-full h-full object-cover object-right opacity-30 mix-blend-lighten"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/80 to-transparent" />
+        </div>
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-[#1C2745] pb-5">
           <div>
             <div className="flex items-center gap-2 mb-1.5">

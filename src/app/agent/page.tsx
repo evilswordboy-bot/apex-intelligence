@@ -7,9 +7,9 @@ import AIAgentWorkspace from '@/components/AIAgentWorkspace';
 
 export default function AgentPage() {
   return (
-    <div className="min-h-screen bg-[#05070D] text-[#F5F7FF] flex flex-col p-4 md:p-8">
+    <div className="min-h-screen bg-transparent text-[#F5F7FF] flex flex-col p-4 md:p-8">
       {/* Top Header Navigation */}
-      <div className="max-w-7xl mx-auto w-full flex items-center justify-between pb-6 mb-6 border-b border-[#1C2745]">
+      <div className="max-w-7xl mx-auto w-full flex items-center justify-between pb-6 mb-6 border-b border-[#1C2745] bg-[#070B16]/60 backdrop-blur-md px-4 py-3 rounded-2xl">
         <div className="flex items-center gap-4">
           <Link
             href="/dashboard?tab=agent"

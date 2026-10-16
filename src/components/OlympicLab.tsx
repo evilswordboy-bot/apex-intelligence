@@ -101,13 +101,15 @@ export default function OlympicLab() {
     <div className="space-y-6">
       {/* Top Header with Mode Tabs */}
       <div className="p-6 rounded-2xl bg-[#0B1020] border border-[#1C2745] flex flex-col md:flex-row md:items-center justify-between gap-4 relative overflow-hidden">
-        <div className="absolute inset-0 z-0 pointer-events-none">
+        {/* Cinematic Anime Olympic Track Sprinter Visual Backdrop */}
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
           <img
-            src="/images/olympics/olympic_sprint_track.jpg"
-            alt="Olympic Track"
-            className="w-full h-full object-cover object-right opacity-20 mix-blend-screen"
+            src="/images/olympics/apex_anime_olympics.jpg"
+            alt="Anime Olympic Track"
+            className="w-full h-full object-cover object-right opacity-35 mix-blend-lighten"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/95 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0B1020] via-transparent to-transparent" />
         </div>
 
         <div className="relative z-10">

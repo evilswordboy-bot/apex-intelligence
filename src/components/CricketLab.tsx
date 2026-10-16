@@ -274,14 +274,15 @@ export default function CricketLab() {
     <div className="space-y-6">
       {/* Top Banner: Global Match Context & Filters */}
       <div className="p-6 rounded-2xl bg-[#0B1020] border border-[#1C2745] flex flex-col gap-6 relative overflow-hidden">
-        {/* Real AI-Generated Cricket Stadium Visual Backdrop */}
-        <div className="absolute inset-0 z-0 pointer-events-none">
+        {/* Cinematic Anime Cricket Visual Backdrop */}
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
           <img
-            src="/images/cricket/cricket_batter_stadium.jpg"
-            alt="Cricket Stadium Atmosphere"
-            className="w-full h-full object-cover object-right opacity-20 mix-blend-screen"
+            src="/images/cricket/apex_anime_cricket.jpg"
+            alt="Anime Cricket Atmosphere"
+            className="w-full h-full object-cover object-right opacity-35 mix-blend-lighten"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/90 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0B1020] via-transparent to-transparent" />
         </div>
 
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#1C2745] pb-4 relative z-10">

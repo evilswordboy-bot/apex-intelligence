@@ -105,6 +105,15 @@ export default function PredictionsLab() {
     <div className="space-y-6">
       {/* Top Banner & Control Deck */}
       <div className="p-6 rounded-3xl bg-[#0B1020] border border-[#1C2745] relative overflow-hidden shadow-2xl">
+        {/* Cinematic Anime AI Cockpit Backdrop */}
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+          <img
+            src="/images/abstract/apex_anime_ai_cockpit.jpg"
+            alt="Anime Tactical AI Cockpit"
+            className="w-full h-full object-cover object-right opacity-30 mix-blend-lighten"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/80 to-transparent" />
+        </div>
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#B6FF3B]/5 blur-[120px] pointer-events-none rounded-full" />
         <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-[#2D6BFF]/10 blur-[130px] pointer-events-none rounded-full" />
 

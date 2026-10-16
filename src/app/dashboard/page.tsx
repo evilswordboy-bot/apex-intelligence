@@ -481,21 +481,33 @@ function DashboardContent() {
           {activeTab === 'overview' && (
             <div className="space-y-6">
               {/* Header Banner */}
-              <div className="p-5 sm:p-7 rounded-2xl bg-gradient-to-r from-[#0B1020] via-[#121A2E] to-[#0B1020] border border-[#1C2745] relative overflow-hidden flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                {/* Visual Backdrop: Abstract Telemetry Mesh */}
-                <div className="absolute inset-0 z-0 pointer-events-none">
+              <div className="p-5 sm:p-7 rounded-2xl bg-gradient-to-r from-[#0B1020]/90 via-[#121A2E]/80 to-[#0B1020]/90 border border-[#1C2745] relative overflow-hidden flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-2xl backdrop-blur-md">
+                {/* Visual Backdrop: Dynamic Anime Sport Key Visual */}
+                <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
                   <img
-                    src="/images/abstract/sports_telemetry_mesh.jpg"
-                    alt="Sports Telemetry Mesh"
-                    className="w-full h-full object-cover object-right opacity-20 mix-blend-luminosity"
+                    src={
+                      globalSport === 'cricket'
+                        ? '/images/cricket/apex_anime_cricket.jpg'
+                        : globalSport === 'football'
+                        ? '/images/football/apex_anime_football.jpg'
+                        : globalSport === 'olympics'
+                        ? '/images/olympics/apex_anime_olympics.jpg'
+                        : '/images/hero/apex_anime_sports_cinematic.jpg'
+                    }
+                    alt="APEX Anime Sports Visual"
+                    className="w-full h-full object-cover object-center sm:object-right opacity-35 sm:opacity-40 mix-blend-lighten transition-all duration-700 hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/90 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#0B1020] via-[#0B1020]/80 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0B1020] via-transparent to-transparent" />
                 </div>
 
                 <div className="relative z-10 max-w-2xl">
                   <div className="flex flex-wrap items-center gap-2 mb-2">
                     <span className="text-xs font-mono tracking-wider uppercase" style={{ color: currentAccent }}>
                       APEX TELEMETRY CONSOLE
+                    </span>
+                    <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 font-bold shrink-0">
+                      ANIME TELEMETRY 4K
                     </span>
                     <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30 font-bold shrink-0">
                       DEMO DATA ACTIVE
