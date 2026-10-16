@@ -24,8 +24,16 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <meta name="theme-color" content="#05070D" />
       </head>
-      <body className="bg-[#05070D] text-[#F5F7FF] font-sans antialiased selection:bg-[#2D6BFF] selection:text-white">
-        {children}
+      <body className="bg-[#05070D] text-[#F5F7FF] font-sans antialiased selection:bg-[#2D6BFF] selection:text-white relative min-h-screen">
+        {/* Full-screen Cinematic Anime Stadium Background across all pages */}
+        <div 
+          className="fixed inset-0 pointer-events-none z-0 opacity-25 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/images/hero/apex_anime_sports_cinematic.jpg')" }}
+        />
+        <div className="fixed inset-0 pointer-events-none z-0 bg-gradient-to-b from-[#05070D]/75 via-[#05070D]/90 to-[#05070D]" />
+        <div className="relative z-10">
+          {children}
+        </div>
       </body>
     </html>
   );

@@ -48,139 +48,154 @@ export default function LandingPage() {
       <div className="absolute top-24 right-1/4 w-[550px] h-[320px] bg-[#B6FF3B]/10 blur-[150px] pointer-events-none rounded-full" />
       <div className="absolute top-[800px] left-1/3 w-[500px] h-[400px] bg-[#FF6B2C]/10 blur-[160px] pointer-events-none rounded-full" />
 
-      {/* Top Navbar */}
-      <header className="sticky top-0 z-40 border-b border-[#1C2745]/70 bg-[#05070D]/85 backdrop-blur-xl">
+      {/* Top Sleek Transparent Navbar */}
+      <header className="sticky top-0 z-50 border-b border-[#1C2745]/60 bg-[#05070D]/40 backdrop-blur-2xl transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-18 sm:h-20 flex items-center justify-between">
-          {/* APEX Brand Wordmark */}
+          {/* APEX AI Brand Wordmark */}
           <Link href="/" className="flex items-center gap-2.5 sm:gap-3 group shrink-0">
-            <img 
-              src="/branding/apex-logo.svg" 
-              alt="APEX Logo" 
-              className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl shadow-lg shadow-[#2D6BFF]/20 group-hover:shadow-[#B6FF3B]/30 transition-shadow shrink-0" 
-            />
+            <div className="relative">
+              <img 
+                src="/branding/apex-logo.svg" 
+                alt="APEX AI Logo" 
+                className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl shadow-lg shadow-[#2D6BFF]/30 group-hover:shadow-[#B6FF3B]/40 transition-all shrink-0 group-hover:scale-105" 
+              />
+              <span className="absolute -inset-1 rounded-xl bg-gradient-to-r from-[#2D6BFF] via-[#A855F7] to-[#B6FF3B] opacity-0 group-hover:opacity-30 blur transition-opacity" />
+            </div>
             <div>
-              <span className="font-display font-black text-xl sm:text-2xl tracking-wider text-white">
-                APEX
-              </span>
+              <div className="flex items-center gap-1.5">
+                <span className="font-display font-black text-xl sm:text-2xl tracking-wider text-white">
+                  APEX
+                </span>
+                <span className="font-display font-black text-xl sm:text-2xl tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-[#06B6D4] to-[#A855F7]">
+                  AI
+                </span>
+              </div>
               <span className="text-[8px] sm:text-[9px] block font-mono text-[#9AA4BF] tracking-widest uppercase">
-                SPORTS AI
+                SPORTS INTELLIGENCE
               </span>
             </div>
           </Link>
 
-          {/* Quick Nav Anchors - visible on large screens */}
-          <nav className="hidden lg:flex items-center gap-4 xl:gap-6 text-xs font-mono text-[#9AA4BF]">
-            <Link href="/predictions" className="text-white hover:text-purple-400 font-bold flex items-center gap-1.5 transition-colors">
-              <span className="w-2 h-2 rounded-full bg-purple-500 animate-pulse" />
-              AI PREDICTOR
+          {/* Transparent Nav Links: Home, Sports, Analytics, Contact */}
+          <nav className="hidden md:flex items-center gap-5 lg:gap-8 text-xs font-mono">
+            <Link href="/" className="text-white hover:text-[#06B6D4] font-bold tracking-wider transition-colors flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#06B6D4] animate-pulse" />
+              HOME
             </Link>
-            <Link href="/live" className="text-white hover:text-red-400 font-bold flex items-center gap-1.5 transition-colors">
-              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-              LIVE MATCHES
+            <a href="#sports" className="text-[#9AA4BF] hover:text-[#B6FF3B] font-semibold tracking-wider transition-colors">
+              SPORTS
+            </a>
+            <Link href="/analytics" className="text-[#9AA4BF] hover:text-[#2D6BFF] font-semibold tracking-wider transition-colors">
+              ANALYTICS
             </Link>
-            <Link href="/analytics" className="hover:text-[#2D6BFF] transition-colors text-white font-bold flex items-center gap-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#2D6BFF] animate-pulse" />
-              ANALYTICS AI
+            <Link href="/predictions" className="hidden lg:inline text-[#9AA4BF] hover:text-[#A855F7] font-semibold tracking-wider transition-colors">
+              PREDICTOR
             </Link>
-            <a href="#ticker" className="hover:text-white transition-colors">LIVE FEEDS</a>
-            <a href="#studio" className="hover:text-[#B6FF3B] transition-colors flex items-center gap-1 font-bold">
-              <Sparkles className="w-3 h-3 text-[#B6FF3B] animate-spin [animation-duration:6s]" />
+            <a href="#studio" className="hidden xl:inline text-[#9AA4BF] hover:text-[#FF6B2C] font-semibold tracking-wider transition-colors">
               SPATIAL STUDIO
             </a>
-            <a href="#bento-grid" className="hover:text-white transition-colors">PILLARS</a>
-            <a href="#sandbox" className="hover:text-white transition-colors">TELEMETRY SANDBOX</a>
-            <button 
-              onClick={() => setIsAIModalOpen(true)}
-              className="hover:text-[#B6FF3B] transition-colors"
-            >
-              VISION ARCHITECTURE
-            </button>
+            <Link href="/feedback" className="text-[#9AA4BF] hover:text-white font-semibold tracking-wider transition-colors">
+              CONTACT
+            </Link>
           </nav>
 
           {/* Header Action CTAs */}
           <div className="flex items-center gap-2 sm:gap-3">
             <Link
-              href="/profile"
-              className="hidden sm:flex px-3 sm:px-4 py-2 rounded-xl text-xs font-mono font-medium bg-[#121A2E] hover:bg-[#1C2745] border border-[#1C2745] text-white transition-all items-center gap-1.5"
+              href="/dashboard"
+              className="hidden sm:flex px-3.5 sm:px-4 py-2 rounded-xl text-xs font-mono font-medium bg-[#121A2E]/80 hover:bg-[#1C2745] border border-[#1C2745] text-white transition-all items-center gap-1.5 backdrop-blur-md"
             >
-              <User className="w-3.5 h-3.5 text-[#B6FF3B]" />
-              Profile
+              <User className="w-3.5 h-3.5 text-[#06B6D4]" />
+              Account
             </Link>
 
             <Link 
               href="/dashboard"
-              className="px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-[#2D6BFF] hover:bg-[#2558d6] text-white shadow-lg shadow-[#2D6BFF]/25 transition-all flex items-center gap-1.5 sm:gap-2 group whitespace-nowrap"
+              className="px-4 sm:px-6 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-gradient-to-r from-[#2D6BFF] via-[#A855F7] to-[#06B6D4] hover:opacity-95 text-white shadow-lg shadow-[#2D6BFF]/30 transition-all flex items-center gap-1.5 sm:gap-2 group whitespace-nowrap glow-blue"
             >
-              <span className="inline sm:hidden">Dashboard</span>
-              <span className="hidden sm:inline">Explore Dashboard</span>
-              <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 group-hover:translate-x-0.5 transition-transform" />
+              <span>Explore Sports</span>
+              <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>
       </header>
 
-      {/* Hero Section with Interactive Kinetic Canvas Mesh */}
-      <section className="relative pt-12 sm:pt-20 md:pt-24 pb-16 sm:pb-20 px-4 sm:px-6 max-w-7xl mx-auto">
-        {/* Interactive Mouse Constellation Canvas */}
+      {/* Hero Section with Full-Screen Futuristic Anime Stadium Scene */}
+      <section id="hero" className="relative pt-10 sm:pt-16 md:pt-20 pb-16 sm:pb-24 px-4 sm:px-6 max-w-7xl mx-auto">
+        {/* Interactive Kinetic Canvas Constellation */}
         <KineticCanvasGrid />
 
         <div className="text-center max-w-4xl mx-auto relative z-20">
-          {/* Badge with Google Nano Banana Visual Engine */}
-          <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-[#0B1020]/90 backdrop-blur-md border border-[#1C2745] text-[10px] sm:text-xs font-mono text-[#B6FF3B] mb-6 sm:mb-8 shadow-sm max-w-full">
-            <span className="w-2 h-2 rounded-full bg-[#B6FF3B] animate-pulse shrink-0" />
-            <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#B6FF3B] via-[#2D6BFF] to-[#FF6B2C]">GOOGLE NANO BANANA VISION 2.1</span>
-            <span className="text-slate-500">•</span>
-            <span className="hidden sm:inline">APEX KINEMATIC ENGINE ACTIVE</span>
-            <span className="inline sm:hidden">ENGINE ACTIVE</span>
+          {/* Futuristic Hologram Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#0B1020]/80 backdrop-blur-xl border border-[#2D6BFF]/40 text-[10px] sm:text-xs font-mono text-[#06B6D4] mb-6 sm:mb-8 shadow-lg shadow-[#2D6BFF]/10 max-w-full">
+            <span className="w-2 h-2 rounded-full bg-[#06B6D4] animate-ping shrink-0" />
+            <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#06B6D4] via-[#A855F7] to-[#FF6B2C]">
+              APEX AI CINEMATIC SUITE
+            </span>
+            <span className="text-slate-600">|</span>
+            <span className="text-white font-medium">OLYMPICS • CRICKET • FOOTBALL</span>
           </div>
 
-          {/* Oversized Animated Headline with responsive sizing */}
-          <h1 className="font-display text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-[1.08] sm:leading-[1.05] mb-5 sm:mb-6">
-            THE SCIENCE <br className="sm:hidden" />
-            OF BEING <br />
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B6FF3B] via-[#2D6BFF] to-[#FF6B2C] animate-pulse">
-              UNSTOPPABLE.
+          {/* Headline: RISE ABOVE. PLAY BEYOND. */}
+          <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tight leading-[1.05] sm:leading-[1.02] mb-4 sm:mb-5">
+            RISE ABOVE. <br className="sm:hidden" />
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#06B6D4] via-[#2D6BFF] via-[#A855F7] to-[#FF6B2C] animate-pulse">
+              PLAY BEYOND.
             </span>
           </h1>
 
-          {/* Compelling Supporting Text */}
-          <p className="max-w-2xl mx-auto text-sm sm:text-lg md:text-xl text-[#9AA4BF] font-normal leading-relaxed mb-8 sm:mb-10 px-2">
-            An elite, browser-accelerated sports performance analytics platform. Powered by Google Nano Banana spatial neural vision, tactical event kinematics, and ACWR fatigue prevention across Cricket, Football, and Olympic disciplines.
+          {/* Tagline: Where Sports Meet Intelligence. */}
+          <p className="text-lg sm:text-2xl md:text-3xl font-display font-bold text-white tracking-wide mb-4">
+            Where Sports Meet Intelligence.
           </p>
 
-          {/* Two Functional Hero Buttons */}
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3.5 sm:gap-4 mb-12 sm:mb-16 max-w-md sm:max-w-none mx-auto">
+          {/* Supporting Text */}
+          <p className="max-w-2xl mx-auto text-sm sm:text-base md:text-lg text-[#9AA4BF] font-normal leading-relaxed mb-8 sm:mb-10 px-2">
+            Harness sub-millimeter computer vision, tactical event kinematics, and ACWR fatigue prevention across Olympic athletics, dynamic football strikers, and powerful cricket batsmen.
+          </p>
+
+          {/* Two Buttons: Explore Sports & Discover Apex AI */}
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3.5 sm:gap-5 mb-12 sm:mb-16 max-w-md sm:max-w-none mx-auto">
             <Link
               href="/dashboard"
-              className="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl text-sm sm:text-base font-bold bg-[#B6FF3B] hover:bg-[#a5f02c] text-black shadow-xl shadow-[#B6FF3B]/20 transition-all flex items-center justify-center gap-2 group"
+              className="w-full sm:w-auto px-7 sm:px-9 py-3.5 sm:py-4 rounded-xl text-sm sm:text-base font-bold bg-gradient-to-r from-[#B6FF3B] to-[#06B6D4] text-black shadow-xl shadow-[#B6FF3B]/25 hover:scale-[1.02] transition-all flex items-center justify-center gap-2 group"
             >
               <Activity className="w-4 h-4 sm:w-5 sm:h-5 text-black group-hover:scale-110 transition-transform" />
-              Explore Dashboard
+              <span>Explore Sports</span>
               <ChevronRight className="w-4 h-4 text-black group-hover:translate-x-1 transition-transform" />
             </Link>
 
             <button
               onClick={() => setIsAIModalOpen(true)}
-              className="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl text-sm sm:text-base font-semibold bg-[#0B1020] hover:bg-[#121A2E] border border-[#1C2745] text-white transition-all flex items-center justify-center gap-2 group shadow-sm hover:border-[#2D6BFF]/50"
+              className="w-full sm:w-auto px-7 sm:px-9 py-3.5 sm:py-4 rounded-xl text-sm sm:text-base font-semibold bg-[#0B1020]/90 hover:bg-[#121A2E] border border-[#A855F7]/50 hover:border-[#06B6D4] text-white transition-all flex items-center justify-center gap-2 group shadow-lg shadow-[#A855F7]/15 backdrop-blur-md"
             >
-              <Video className="w-4 h-4 sm:w-5 sm:h-5 text-[#2D6BFF] group-hover:scale-110 transition-transform" />
-              Discover Performance AI
-              <Sparkles className="w-3.5 h-3.5 text-[#B6FF3B]" />
+              <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-[#A855F7] group-hover:scale-110 transition-transform" />
+              <span>Discover Apex AI</span>
+              <Video className="w-4 h-4 text-[#06B6D4]" />
             </button>
           </div>
         </div>
 
-        {/* Abstract Athlete Silhouette Graphics & Floating Telemetry HUD Elements */}
-        <div className="relative max-w-5xl mx-auto mt-6 mb-16 h-[380px] sm:h-[460px] rounded-3xl bg-gradient-to-b from-[#0B1020]/90 to-[#05070D] border border-[#1C2745] overflow-hidden flex items-center justify-center shadow-2xl group">
-          {/* Real AI-Generated Cinematic Hero Image Backdrop */}
+        {/* Cinematic Anime-Style Merged Scene & Holographic Telemetry HUD */}
+        <div className="relative max-w-6xl mx-auto mt-4 mb-16 h-[400px] sm:h-[500px] md:h-[560px] rounded-3xl bg-gradient-to-b from-[#0B1020]/80 to-[#05070D] border border-[#2D6BFF]/40 overflow-hidden flex items-center justify-center shadow-2xl group">
+          {/* Merged Anime-Style 4K Stadium Key Visual */}
           <div className="absolute inset-0 z-0">
             <img
-              src="/images/hero/apex_hero_stadium.jpg"
-              alt="APEX Elite Athlete Stadium Atmosphere"
-              className="w-full h-full object-cover object-center opacity-45 group-hover:scale-105 transition-transform duration-1000"
+              src="/images/hero/apex_anime_sports_cinematic.jpg"
+              alt="APEX AI Sports: Olympic Sprinter, Football Striker, and Cricket Batsman in Futuristic Stadium"
+              className="w-full h-full object-cover object-center group-hover:scale-[1.03] transition-transform duration-1000 ease-out"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#05070D] via-[#05070D]/60 to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#05070D] via-transparent to-[#05070D]/80" />
+            {/* Cinematic Lighting: Electric Blue, Purple, Cyan, and Orange Glazes */}
+            <div className="absolute inset-0 bg-gradient-to-t from-[#05070D] via-[#05070D]/40 to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#2D6BFF]/15 via-transparent to-[#A855F7]/20 pointer-events-none" />
+            <div className="absolute top-0 right-0 w-96 h-96 bg-[#06B6D4]/15 rounded-full blur-3xl pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#FF6B2C]/15 rounded-full blur-3xl pointer-events-none" />
+          </div>
+
+          {/* Futuristic AI Holographic HUD Rings & Energy Curves */}
+          <div className="absolute inset-0 pointer-events-none z-10 flex items-center justify-center">
+            <div className="w-[320px] sm:w-[480px] h-[320px] sm:h-[480px] rounded-full border border-[#06B6D4]/30 border-dashed animate-spin [animation-duration:35s]" />
+            <div className="absolute w-[240px] sm:w-[380px] h-[240px] sm:h-[380px] rounded-full border border-[#A855F7]/30 animate-spin [animation-duration:25s] [animation-direction:reverse]" />
           </div>
 
           {/* Tech Grid Backdrop */}
@@ -338,7 +353,7 @@ export default function LandingPage() {
       </section>
 
       {/* Responsive Bento Grid Highlighting 4 AI Pillars */}
-      <section id="bento-grid" className="py-24 px-4 sm:px-6 max-w-7xl mx-auto">
+      <section id="sports" className="py-24 px-4 sm:px-6 max-w-7xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono bg-[#121A2E] text-[#2D6BFF] border border-[#1C2745] mb-4">
             <Layers className="w-3.5 h-3.5" />
@@ -569,7 +584,7 @@ export default function LandingPage() {
       </section>
 
       {/* Professional Sports-Tech Footer */}
-      <footer className="border-t border-[#1C2745] bg-[#070B16] py-12 px-4 sm:px-6">
+      <footer id="contact" className="border-t border-[#1C2745] bg-[#070B16] py-12 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-[#2D6BFF] to-[#B6FF3B] p-[1px] flex items-center justify-center">
