@@ -122,10 +122,10 @@
 </head>
 <body class="selection:bg-apex-lime selection:text-black">
 
-  <!-- Full-screen Cinematic Anime Stadium Background across all pages -->
-  <div class="fixed inset-0 pointer-events-none z-0 opacity-40 bg-cover bg-center bg-no-repeat" style="background-image: url('images/hero/apex_anime_sports_cinematic.jpg');"></div>
-  <div class="fixed inset-0 pointer-events-none z-0 bg-gradient-to-b from-apex-black/70 via-apex-black/85 to-apex-black"></div>
-  <div class="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-600/10 via-transparent to-transparent"></div>
+  <!-- Full-Screen Masterpiece Anime Stadium Background across all pages -->
+  <div id="fullpage-anime-bg" class="fixed inset-0 pointer-events-none z-0 opacity-75 sm:opacity-80 bg-cover bg-center bg-no-repeat transition-all duration-1000" style="background-image: url('images/hero/apex_anime_sports_cinematic.jpg');"></div>
+  <div class="fixed inset-0 pointer-events-none z-0 bg-gradient-to-b from-apex-black/50 via-apex-black/70 to-apex-black/90"></div>
+  <div class="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-600/20 via-purple-600/15 to-transparent"></div>
 
   <!-- Interactive Background Kinetic Canvas -->
   <canvas id="kinetic-canvas" class="fixed inset-0 pointer-events-none z-0 w-full h-full opacity-80"></canvas>
@@ -219,10 +219,41 @@
       </a>
     </div>
 
+    <!-- Masterpiece Anime Interactive Scene Switcher -->
+    <div class="flex flex-wrap items-center justify-center gap-2 mb-6 z-20 relative">
+      <span class="text-[10px] font-mono text-cyan-400 uppercase tracking-wider px-2.5 py-1 rounded-full bg-apex-navy/90 border border-apex-blue/30 font-bold">
+        CINEMA THEATER 4K
+      </span>
+      <div class="inline-flex flex-wrap p-1 rounded-2xl bg-apex-navy/95 border border-apex-blue/40 backdrop-blur-2xl shadow-2xl">
+        <button onclick="switchAnimeScene('all')" id="btn-scene-all" class="px-3 sm:px-4 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-2 bg-apex-card text-cyan-400 border border-cyan-400/70 shadow-lg">
+          <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+          <span>All Disciplines</span>
+        </button>
+        <button onclick="switchAnimeScene('cricket')" id="btn-scene-cricket" class="px-3 sm:px-4 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-2 text-slate-400 hover:text-white border border-transparent">
+          <span class="w-2 h-2 rounded-full bg-apex-lime opacity-40"></span>
+          <span>Cricket</span>
+        </button>
+        <button onclick="switchAnimeScene('football')" id="btn-scene-football" class="px-3 sm:px-4 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-2 text-slate-400 hover:text-white border border-transparent">
+          <span class="w-2 h-2 rounded-full bg-apex-blue opacity-40"></span>
+          <span>Football</span>
+        </button>
+        <button onclick="switchAnimeScene('olympics')" id="btn-scene-olympics" class="px-3 sm:px-4 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-2 text-slate-400 hover:text-white border border-transparent">
+          <span class="w-2 h-2 rounded-full bg-apex-orange opacity-40"></span>
+          <span>Olympics</span>
+        </button>
+      </div>
+    </div>
+
     <!-- Cinematic 4K Anime Merged Scene Visual Stage -->
     <div class="relative max-w-6xl mx-auto mb-16 h-[380px] sm:h-[480px] md:h-[540px] rounded-3xl bg-gradient-to-b from-apex-navy/80 to-apex-black border border-apex-blue/40 overflow-hidden flex items-center justify-center shadow-2xl group">
+      <!-- Fullscreen 4K Cinema Trigger -->
+      <a href="images/hero/apex_anime_sports_cinematic.jpg" id="hero-anime-cinema-link" target="_blank" class="absolute top-4 right-4 z-30 px-3.5 py-2 rounded-xl bg-apex-black/85 hover:bg-apex-card border border-apex-blue/50 hover:border-cyan-400 text-white text-xs font-mono flex items-center gap-2 backdrop-blur-xl shadow-2xl transition-all group cursor-pointer">
+        <i data-lucide="maximize-2" class="w-3.5 h-3.5 text-cyan-400"></i>
+        <span class="font-bold">Fullscreen 4K Cinema</span>
+      </a>
+
       <!-- Merged Anime-Style 4K Stadium Key Visual -->
-      <img src="images/hero/apex_anime_sports_cinematic.jpg" alt="APEX AI: Olympic, Football, and Cricket Cinematic Anime Scene" class="w-full h-full object-cover object-center group-hover:scale-[1.03] transition-transform duration-1000 ease-out" />
+      <img id="hero-anime-img" src="images/hero/apex_anime_sports_cinematic.jpg" alt="APEX AI: Olympic, Football, and Cricket Cinematic Anime Scene" class="w-full h-full object-cover object-center group-hover:scale-[1.03] transition-transform duration-1000 ease-out" />
 
       <!-- Glowing Lighting Overlays: Electric Blue, Purple, Cyan, Orange -->
       <div class="absolute inset-0 bg-gradient-to-t from-apex-black via-apex-black/35 to-transparent pointer-events-none"></div>
@@ -1054,6 +1085,71 @@
 
     // Initial render of studio
     renderStudio('olympics');
+
+    /* =====================================================================
+       2.5 MASTERPIECE ANIME SCENE CONTROLLER (FULL-PAGE TRANSFORMATION)
+       ===================================================================== */
+    const animeScenes = {
+      all: {
+        img: 'images/hero/apex_anime_sports_cinematic.jpg',
+        color: '#06B6D4',
+        btnId: 'btn-scene-all'
+      },
+      cricket: {
+        img: 'images/cricket/apex_anime_cricket.jpg',
+        color: '#B6FF3B',
+        btnId: 'btn-scene-cricket'
+      },
+      football: {
+        img: 'images/football/apex_anime_football.jpg',
+        color: '#2D6BFF',
+        btnId: 'btn-scene-football'
+      },
+      olympics: {
+        img: 'images/olympics/apex_anime_olympics.jpg',
+        color: '#FF6B2C',
+        btnId: 'btn-scene-olympics'
+      }
+    };
+
+    function switchAnimeScene(sceneKey) {
+      const scene = animeScenes[sceneKey] || animeScenes.all;
+      
+      // Update full-page background
+      const fullBg = document.getElementById('fullpage-anime-bg');
+      if (fullBg) {
+        fullBg.style.backgroundImage = `url('${scene.img}')`;
+      }
+
+      // Update hero image & link
+      const heroImg = document.getElementById('hero-anime-img');
+      const cinemaLink = document.getElementById('hero-anime-cinema-link');
+      if (heroImg) heroImg.src = scene.img;
+      if (cinemaLink) cinemaLink.href = scene.img;
+
+      // Update button active states
+      ['all', 'cricket', 'football', 'olympics'].forEach(k => {
+        const btn = document.getElementById(animeScenes[k].btnId);
+        if (!btn) return;
+        const dot = btn.querySelector('span');
+        if (k === sceneKey) {
+          btn.className = 'px-3 sm:px-4 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-2 bg-apex-card text-white shadow-lg border';
+          btn.style.borderColor = `${scene.color}70`;
+          btn.style.color = scene.color;
+          btn.style.boxShadow = `0 0 15px ${scene.color}33`;
+          if (dot) {
+            dot.className = 'w-2 h-2 rounded-full animate-pulse';
+            dot.style.backgroundColor = scene.color;
+          }
+        } else {
+          btn.className = 'px-3 sm:px-4 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-2 text-slate-400 hover:text-white border border-transparent';
+          btn.style.borderColor = 'transparent';
+          btn.style.color = '';
+          btn.style.boxShadow = 'none';
+          if (dot) dot.className = 'w-2 h-2 rounded-full opacity-40';
+        }
+      });
+    }
 
     /* =====================================================================
        3. KINETIC SANDBOX SIMULATOR & TICKER DYNAMICS
