@@ -25,14 +25,6 @@ export default function RootLayout({
         <meta name="theme-color" content="#05070D" />
       </head>
       <body className="bg-[#05070D] text-[#F5F7FF] font-sans antialiased selection:bg-[#2D6BFF] selection:text-white relative min-h-screen">
-        {/* Full-screen Masterpiece Anime Stadium Background across all pages */}
-        <div 
-          className="fixed inset-0 pointer-events-none z-0 opacity-70 sm:opacity-75 bg-cover bg-center bg-no-repeat transform scale-100 transition-opacity duration-1000"
-          style={{ backgroundImage: "url('/images/hero/apex_anime_sports_cinematic.jpg')" }}
-        />
-        {/* Masterpiece Anime Atmospheric Lighting & Vignette */}
-        <div className="fixed inset-0 pointer-events-none z-0 bg-gradient-to-b from-[#05070D]/50 via-[#05070D]/70 to-[#05070D]/90" />
-        <div className="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-600/20 via-purple-600/15 to-transparent" />
         <div className="relative z-10">
           {children}
         </div>

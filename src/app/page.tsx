@@ -24,9 +24,7 @@ import {
   Layers,
   HeartPulse,
   Radio,
-  User,
-  Maximize2,
-  X
+  User
 } from 'lucide-react';
 
 import LiveTelemetrySandbox from '@/components/LiveTelemetrySandbox';
@@ -37,8 +35,6 @@ import NanoBananaVisualStudio from '@/components/NanoBananaVisualStudio';
 export default function LandingPage() {
   const [isAIModalOpen, setIsAIModalOpen] = useState(false);
   const [hoveredBento, setHoveredBento] = useState<number | null>(null);
-  const [activeAnimeScene, setActiveAnimeScene] = useState<'all' | 'cricket' | 'football' | 'olympics'>('all');
-  const [isFullscreenAnimeModalOpen, setIsFullscreenAnimeModalOpen] = useState(false);
 
   // Quick helper to scroll to bento
   const scrollToFeatures = () => {
@@ -46,28 +42,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-transparent text-[#F5F7FF] selection:bg-[#2D6BFF] selection:text-white relative overflow-hidden">
-      {/* Full-Page Masterpiece Anime Background with Dynamic Scene Switching */}
-      <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-        <img
-          key={activeAnimeScene}
-          src={
-            activeAnimeScene === 'cricket'
-              ? '/images/cricket/apex_anime_cricket.jpg'
-              : activeAnimeScene === 'football'
-              ? '/images/football/apex_anime_football.jpg'
-              : activeAnimeScene === 'olympics'
-              ? '/images/olympics/apex_anime_olympics.jpg'
-              : '/images/hero/apex_anime_sports_cinematic.jpg'
-          }
-          alt="APEX Masterpiece Anime Visual"
-          className="w-full h-full object-cover object-center transform scale-100 transition-all duration-1000 opacity-80 sm:opacity-85"
-        />
-        {/* Masterpiece Anime Lighting & Subtle High-Contrast Glazes */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#05070D]/45 via-[#05070D]/65 to-[#05070D]/90" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_30%,_#05070D_100%)] opacity-75" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#2D6BFF]/15 via-transparent to-[#A855F7]/15" />
-      </div>
+    <div className="min-h-screen bg-[#05070D] text-[#F5F7FF] selection:bg-[#2D6BFF] selection:text-white relative overflow-hidden">
       {/* Ambient Radial Glows */}
       <div className="absolute top-0 left-1/4 w-[650px] h-[380px] bg-[#2D6BFF]/15 blur-[160px] pointer-events-none rounded-full" />
       <div className="absolute top-24 right-1/4 w-[550px] h-[320px] bg-[#B6FF3B]/10 blur-[150px] pointer-events-none rounded-full" />
@@ -199,74 +174,19 @@ export default function LandingPage() {
               <Video className="w-4 h-4 text-[#06B6D4]" />
             </button>
           </div>
-
-          {/* Masterpiece Anime Interactive Scene Switcher */}
-          <div className="flex flex-wrap items-center justify-center gap-2 mb-6 z-20 relative">
-            <span className="text-[10px] font-mono text-[#06B6D4] uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#0B1020]/90 border border-[#2D6BFF]/30 font-bold">
-              CINEMA THEATER 4K
-            </span>
-            <div className="inline-flex flex-wrap p-1 rounded-2xl bg-[#070B16]/95 border border-[#2D6BFF]/40 backdrop-blur-2xl shadow-2xl">
-              {(
-                [
-                  { id: 'all', label: 'All Disciplines', sub: 'Triple Masterpiece', color: '#06B6D4' },
-                  { id: 'cricket', label: 'Cricket', sub: 'Lightning Strike', color: '#B6FF3B' },
-                  { id: 'football', label: 'Football', sub: 'Cyan Aura Volley', color: '#2D6BFF' },
-                  { id: 'olympics', label: 'Olympics', sub: 'Supersonic Sprint', color: '#FF6B2C' },
-                ] as const
-              ).map((scene) => {
-                const isActive = activeAnimeScene === scene.id;
-                return (
-                  <button
-                    key={scene.id}
-                    onClick={() => setActiveAnimeScene(scene.id)}
-                    className={`px-3 sm:px-4 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-2 ${
-                      isActive
-                        ? 'bg-[#121A2E] text-white shadow-lg border'
-                        : 'text-[#9AA4BF] hover:text-white hover:bg-[#121A2E]/40 border border-transparent'
-                    }`}
-                    style={isActive ? { borderColor: `${scene.color}70`, color: scene.color, boxShadow: `0 0 15px ${scene.color}33` } : {}}
-                  >
-                    <span
-                      className={`w-2 h-2 rounded-full ${isActive ? 'animate-pulse' : 'opacity-40'}`}
-                      style={{ backgroundColor: scene.color }}
-                    />
-                    <span>{scene.label}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
         </div>
 
         {/* Cinematic Anime-Style Merged Scene & Holographic Telemetry HUD */}
         <div className="relative max-w-6xl mx-auto mt-4 mb-16 h-[400px] sm:h-[500px] md:h-[560px] rounded-3xl bg-gradient-to-b from-[#0B1020]/80 to-[#05070D] border border-[#2D6BFF]/40 overflow-hidden flex items-center justify-center shadow-2xl group">
-          {/* Fullscreen 4K Cinema Trigger */}
-          <button
-            onClick={() => setIsFullscreenAnimeModalOpen(true)}
-            className="absolute top-4 right-4 z-30 px-3.5 py-2 rounded-xl bg-[#05070D]/85 hover:bg-[#121A2E] border border-[#2D6BFF]/50 hover:border-[#06B6D4] text-white text-xs font-mono flex items-center gap-2 backdrop-blur-xl shadow-2xl transition-all group cursor-pointer"
-          >
-            <Maximize2 className="w-3.5 h-3.5 text-[#06B6D4] group-hover:scale-125 transition-transform" />
-            <span className="font-bold">Fullscreen 4K Cinema</span>
-          </button>
-
-          {/* Dynamic Anime-Style 4K Key Visual */}
+          {/* Merged Anime-Style 4K Stadium Key Visual */}
           <div className="absolute inset-0 z-0">
             <img
-              key={activeAnimeScene}
-              src={
-                activeAnimeScene === 'cricket'
-                  ? '/images/cricket/apex_anime_cricket.jpg'
-                  : activeAnimeScene === 'football'
-                  ? '/images/football/apex_anime_football.jpg'
-                  : activeAnimeScene === 'olympics'
-                  ? '/images/olympics/apex_anime_olympics.jpg'
-                  : '/images/hero/apex_anime_sports_cinematic.jpg'
-              }
+              src="/images/hero/apex_anime_sports_cinematic.jpg"
               alt="APEX AI Sports: Olympic Sprinter, Football Striker, and Cricket Batsman in Futuristic Stadium"
               className="w-full h-full object-cover object-center group-hover:scale-[1.03] transition-transform duration-1000 ease-out"
             />
             {/* Cinematic Lighting: Electric Blue, Purple, Cyan, and Orange Glazes */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#05070D] via-[#05070D]/30 to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#05070D] via-[#05070D]/40 to-transparent pointer-events-none" />
             <div className="absolute inset-0 bg-gradient-to-r from-[#2D6BFF]/15 via-transparent to-[#A855F7]/20 pointer-events-none" />
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#06B6D4]/15 rounded-full blur-3xl pointer-events-none" />
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#FF6B2C]/15 rounded-full blur-3xl pointer-events-none" />
@@ -738,98 +658,6 @@ export default function LandingPage() {
         isOpen={isAIModalOpen}
         onClose={() => setIsAIModalOpen(false)}
       />
-
-      {/* Fullscreen Masterpiece Anime Cinema Modal */}
-      {isFullscreenAnimeModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-6 bg-black/95 backdrop-blur-2xl animate-in fade-in duration-300">
-          <div className="relative w-full max-w-7xl h-[92vh] rounded-3xl overflow-hidden border border-[#2D6BFF]/60 shadow-[0_0_80px_rgba(45,107,255,0.3)] flex flex-col bg-[#05070D]">
-            {/* Modal Top Bar */}
-            <div className="h-16 bg-[#070B16]/95 border-b border-[#1C2745] px-4 sm:px-6 flex items-center justify-between z-20 shrink-0">
-              <div className="flex items-center gap-3">
-                <span className="w-2.5 h-2.5 rounded-full bg-[#06B6D4] animate-pulse" />
-                <span className="font-display font-black text-white text-sm sm:text-lg tracking-wider">
-                  APEX MASTERPIECE ANIME 4K CINEMA
-                </span>
-                <span className="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-[#2D6BFF]/10 text-[#2D6BFF] border border-[#2D6BFF]/30 hidden sm:inline font-bold">
-                  STUDIO QUALITY ULTRA-HD
-                </span>
-              </div>
-              <div className="flex items-center gap-3">
-                {/* Scene Switcher inside Modal */}
-                <div className="hidden md:inline-flex p-1 rounded-xl bg-[#05070D] border border-[#1C2745]">
-                  {(['all', 'cricket', 'football', 'olympics'] as const).map((s) => (
-                    <button
-                      key={s}
-                      onClick={() => setActiveAnimeScene(s)}
-                      className={`px-3 py-1 rounded-lg text-xs font-mono capitalize transition-all ${
-                        activeAnimeScene === s 
-                          ? 'bg-[#121A2E] text-[#06B6D4] font-bold border border-[#06B6D4]/50 shadow-md' 
-                          : 'text-[#9AA4BF] hover:text-white'
-                      }`}
-                    >
-                      {s}
-                    </button>
-                  ))}
-                </div>
-                <button
-                  onClick={() => setIsFullscreenAnimeModalOpen(false)}
-                  className="p-2 rounded-xl bg-[#121A2E] hover:bg-red-500/20 text-[#9AA4BF] hover:text-red-400 border border-[#1C2745] hover:border-red-500/40 transition-all cursor-pointer"
-                  aria-label="Close Fullscreen Cinema"
-                >
-                  <X className="w-5 h-5" />
-                </button>
-              </div>
-            </div>
-
-            {/* Modal Image Viewport */}
-            <div className="relative flex-1 overflow-hidden flex items-center justify-center bg-black">
-              <img
-                key={activeAnimeScene}
-                src={
-                  activeAnimeScene === 'cricket'
-                    ? '/images/cricket/apex_anime_cricket.jpg'
-                    : activeAnimeScene === 'football'
-                    ? '/images/football/apex_anime_football.jpg'
-                    : activeAnimeScene === 'olympics'
-                    ? '/images/olympics/apex_anime_olympics.jpg'
-                    : '/images/hero/apex_anime_sports_cinematic.jpg'
-                }
-                alt="Fullscreen Masterpiece Anime"
-                className="w-full h-full object-cover sm:object-contain object-center transition-all duration-700"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#05070D]/90 via-transparent to-[#05070D]/30 pointer-events-none" />
-
-              {/* Bottom Holographic HUD Telemetry Bar */}
-              <div className="absolute bottom-4 left-4 right-4 z-20 flex flex-wrap items-center justify-between gap-3 p-4 rounded-2xl bg-[#070B16]/90 border border-[#1C2745] backdrop-blur-2xl shadow-2xl">
-                <div>
-                  <div className="text-white font-bold font-display text-base sm:text-lg capitalize flex items-center gap-2">
-                    <span>
-                      {activeAnimeScene === 'all' 
-                        ? 'Triple Apex Sports Titans • Cricket, Football & Olympic Athletics' 
-                        : `${activeAnimeScene} Biomechanical Kinematics`}
-                    </span>
-                    <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
-                      ACTIVE SCENE
-                    </span>
-                  </div>
-                  <div className="text-xs text-[#9AA4BF] font-mono mt-0.5">
-                    Studio Ufotable & Trigger High-Energy Anime Aesthetic • Real-Time Spatial Synthesis
-                  </div>
-                </div>
-                <div className="flex items-center gap-2.5">
-                  <Link
-                    href="/dashboard"
-                    onClick={() => setIsFullscreenAnimeModalOpen(false)}
-                    className="px-4 py-2 rounded-xl bg-gradient-to-r from-[#B6FF3B] to-[#06B6D4] text-black font-bold text-xs font-mono transition-all shadow-lg hover:scale-105"
-                  >
-                    Open Live Telemetry Lab →
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
