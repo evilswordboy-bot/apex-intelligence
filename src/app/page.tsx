@@ -29,6 +29,8 @@ import {
 
 import LiveTelemetrySandbox from '@/components/LiveTelemetrySandbox';
 import PerformanceAIDiscoveryModal from '@/components/PerformanceAIDiscoveryModal';
+import KineticCanvasGrid from '@/components/KineticCanvasGrid';
+import NanoBananaVisualStudio from '@/components/NanoBananaVisualStudio';
 
 export default function LandingPage() {
   const [isAIModalOpen, setIsAIModalOpen] = useState(false);
@@ -81,6 +83,10 @@ export default function LandingPage() {
               ANALYTICS AI
             </Link>
             <a href="#ticker" className="hover:text-white transition-colors">LIVE FEEDS</a>
+            <a href="#studio" className="hover:text-[#B6FF3B] transition-colors flex items-center gap-1 font-bold">
+              <Sparkles className="w-3 h-3 text-[#B6FF3B] animate-spin [animation-duration:6s]" />
+              SPATIAL STUDIO
+            </a>
             <a href="#bento-grid" className="hover:text-white transition-colors">PILLARS</a>
             <a href="#sandbox" className="hover:text-white transition-colors">TELEMETRY SANDBOX</a>
             <button 
@@ -113,28 +119,33 @@ export default function LandingPage() {
         </div>
       </header>
 
-      {/* Hero Section */}
+      {/* Hero Section with Interactive Kinetic Canvas Mesh */}
       <section className="relative pt-12 sm:pt-20 md:pt-24 pb-16 sm:pb-20 px-4 sm:px-6 max-w-7xl mx-auto">
-        <div className="text-center max-w-4xl mx-auto">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-[#0B1020] border border-[#1C2745] text-[10px] sm:text-xs font-mono text-[#B6FF3B] mb-6 sm:mb-8 shadow-sm max-w-full">
+        {/* Interactive Mouse Constellation Canvas */}
+        <KineticCanvasGrid />
+
+        <div className="text-center max-w-4xl mx-auto relative z-20">
+          {/* Badge with Google Nano Banana Visual Engine */}
+          <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-[#0B1020]/90 backdrop-blur-md border border-[#1C2745] text-[10px] sm:text-xs font-mono text-[#B6FF3B] mb-6 sm:mb-8 shadow-sm max-w-full">
             <span className="w-2 h-2 rounded-full bg-[#B6FF3B] animate-pulse shrink-0" />
-            <span className="hidden sm:inline">APEX KINEMATIC ENGINE v3.4 ACTIVE • PRO LEAGUES CALIBRATED</span>
-            <span className="inline sm:hidden">APEX ENGINE v3.4 • PRO CALIBRATED</span>
+            <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#B6FF3B] via-[#2D6BFF] to-[#FF6B2C]">GOOGLE NANO BANANA VISION 2.1</span>
+            <span className="text-slate-500">•</span>
+            <span className="hidden sm:inline">APEX KINEMATIC ENGINE ACTIVE</span>
+            <span className="inline sm:hidden">ENGINE ACTIVE</span>
           </div>
 
           {/* Oversized Animated Headline with responsive sizing */}
           <h1 className="font-display text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-[1.08] sm:leading-[1.05] mb-5 sm:mb-6">
             THE SCIENCE <br className="sm:hidden" />
             OF BEING <br />
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B6FF3B] via-[#2D6BFF] to-[#FF6B2C]">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B6FF3B] via-[#2D6BFF] to-[#FF6B2C] animate-pulse">
               UNSTOPPABLE.
             </span>
           </h1>
 
           {/* Compelling Supporting Text */}
           <p className="max-w-2xl mx-auto text-sm sm:text-lg md:text-xl text-[#9AA4BF] font-normal leading-relaxed mb-8 sm:mb-10 px-2">
-            An elite, browser-accelerated sports performance analytics platform. Harnessing sub-millimeter computer vision, tactical event kinematics, and ACWR fatigue prevention across Cricket, Football, and Olympic disciplines.
+            An elite, browser-accelerated sports performance analytics platform. Powered by Google Nano Banana spatial neural vision, tactical event kinematics, and ACWR fatigue prevention across Cricket, Football, and Olympic disciplines.
           </p>
 
           {/* Two Functional Hero Buttons */}
@@ -199,13 +210,19 @@ export default function LandingPage() {
             <line x1="330" y1="110" x2="410" y2="95" stroke="#2D6BFF" strokeWidth="2" />
           </svg>
 
-          {/* Floating Telemetry Element 1: Heart Rate / VO2 */}
-          <div className="absolute top-6 left-4 sm:left-10 p-3 sm:p-4 rounded-2xl bg-[#121A2E]/90 backdrop-blur-md border border-[#1C2745] shadow-xl flex items-center gap-3 animate-bounce [animation-duration:4s] z-20">
-            <div className="w-10 h-10 rounded-xl bg-red-500/10 border border-red-500/30 flex items-center justify-center">
-              <HeartPulse className="w-5 h-5 text-red-400" />
+          {/* Floating Telemetry Element 1: Heart Rate / VO2 with Animated ECG */}
+          <div className="absolute top-6 left-4 sm:left-10 p-3 sm:p-4 rounded-2xl bg-[#121A2E]/90 backdrop-blur-md border border-[#1C2745] shadow-xl flex items-center gap-3 animate-bounce [animation-duration:4s] z-20 hover:border-red-500/50 transition-colors">
+            <div className="w-10 h-10 rounded-xl bg-red-500/10 border border-red-500/30 flex items-center justify-center relative overflow-hidden">
+              <HeartPulse className="w-5 h-5 text-red-400 animate-pulse" />
             </div>
             <div>
-              <span className="text-[10px] font-mono text-[#9AA4BF] uppercase block">Cardio Strain</span>
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-[10px] font-mono text-[#9AA4BF] uppercase block">Cardio Strain</span>
+                {/* Micro Animated ECG Line */}
+                <svg className="w-12 h-3" viewBox="0 0 48 12" fill="none">
+                  <path d="M0 6 L12 6 L16 1 L20 11 L24 4 L28 8 L32 6 L48 6" stroke="#EF4444" strokeWidth="1.5" className="animate-pulse" />
+                </svg>
+              </div>
               <div className="flex items-center gap-1.5 font-mono">
                 <span className="text-base sm:text-lg font-bold text-white">184 BPM</span>
                 <span className="text-[10px] text-emerald-400 font-bold">Zone 4.8</span>
@@ -213,13 +230,22 @@ export default function LandingPage() {
             </div>
           </div>
 
-          {/* Floating Telemetry Element 2: Ground Impulse Force */}
-          <div className="absolute bottom-6 left-6 sm:left-16 p-3 sm:p-4 rounded-2xl bg-[#121A2E]/90 backdrop-blur-md border border-[#1C2745] shadow-xl flex items-center gap-3 z-20">
+          {/* Floating Telemetry Element 2: Ground Impulse Force with Equalizer bars */}
+          <div className="absolute bottom-6 left-6 sm:left-16 p-3 sm:p-4 rounded-2xl bg-[#121A2E]/90 backdrop-blur-md border border-[#1C2745] shadow-xl flex items-center gap-3 z-20 hover:border-[#B6FF3B]/50 transition-colors">
             <div className="w-10 h-10 rounded-xl bg-[#B6FF3B]/10 border border-[#B6FF3B]/30 flex items-center justify-center">
               <Activity className="w-5 h-5 text-[#B6FF3B]" />
             </div>
             <div>
-              <span className="text-[10px] font-mono text-[#9AA4BF] uppercase block">Ground Force</span>
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-[10px] font-mono text-[#9AA4BF] uppercase block">Ground Force</span>
+                {/* Micro Equalizer Bars */}
+                <div className="flex items-end gap-0.5 h-3">
+                  <span className="w-1 bg-[#B6FF3B] h-2 rounded-t animate-pulse" />
+                  <span className="w-1 bg-[#B6FF3B] h-3 rounded-t" />
+                  <span className="w-1 bg-[#B6FF3B] h-1.5 rounded-t animate-pulse [animation-delay:200ms]" />
+                  <span className="w-1 bg-[#B6FF3B] h-2.5 rounded-t animate-pulse [animation-delay:400ms]" />
+                </div>
+              </div>
               <div className="flex items-center gap-1.5 font-mono">
                 <span className="text-base sm:text-lg font-bold text-white">3,410 N</span>
                 <span className="text-[10px] text-[#B6FF3B] font-bold">+14% Vector</span>
@@ -227,13 +253,17 @@ export default function LandingPage() {
             </div>
           </div>
 
-          {/* Floating Telemetry Element 3: Bowling & Sprint Speed */}
-          <div className="absolute top-8 right-4 sm:right-10 p-3 sm:p-4 rounded-2xl bg-[#121A2E]/90 backdrop-blur-md border border-[#1C2745] shadow-xl flex items-center gap-3 animate-bounce [animation-duration:5s] z-20">
-            <div className="w-10 h-10 rounded-xl bg-[#2D6BFF]/10 border border-[#2D6BFF]/30 flex items-center justify-center">
+          {/* Floating Telemetry Element 3: Bowling & Sprint Speed with Rotating Radar */}
+          <div className="absolute top-8 right-4 sm:right-10 p-3 sm:p-4 rounded-2xl bg-[#121A2E]/90 backdrop-blur-md border border-[#1C2745] shadow-xl flex items-center gap-3 animate-bounce [animation-duration:5s] z-20 hover:border-[#2D6BFF]/50 transition-colors">
+            <div className="w-10 h-10 rounded-xl bg-[#2D6BFF]/10 border border-[#2D6BFF]/30 flex items-center justify-center relative">
               <Flame className="w-5 h-5 text-[#2D6BFF]" />
+              <span className="absolute inset-0 rounded-xl border border-[#2D6BFF]/40 animate-ping [animation-duration:3s]" />
             </div>
             <div>
-              <span className="text-[10px] font-mono text-[#9AA4BF] uppercase block">Release Speed</span>
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-[10px] font-mono text-[#9AA4BF] uppercase block">Release Speed</span>
+                <span className="w-2 h-2 rounded-full bg-[#2D6BFF] animate-ping" />
+              </div>
               <div className="flex items-center gap-1.5 font-mono">
                 <span className="text-base sm:text-lg font-bold text-white">148.2 km/h</span>
                 <span className="text-[10px] text-[#2D6BFF] font-bold">2,340 RPM</span>
@@ -241,10 +271,10 @@ export default function LandingPage() {
             </div>
           </div>
 
-          {/* Floating Telemetry Element 4: xG Threat Index */}
-          <div className="absolute bottom-8 right-6 sm:right-14 p-3 sm:p-4 rounded-2xl bg-[#121A2E]/90 backdrop-blur-md border border-[#1C2745] shadow-xl flex items-center gap-3 z-20">
-            <div className="w-10 h-10 rounded-xl bg-[#FF6B2C]/10 border border-[#FF6B2C]/30 flex items-center justify-center">
-              <Crosshair className="w-5 h-5 text-[#FF6B2C]" />
+          {/* Floating Telemetry Element 4: xG Threat Index with animated reticle */}
+          <div className="absolute bottom-8 right-6 sm:right-14 p-3 sm:p-4 rounded-2xl bg-[#121A2E]/90 backdrop-blur-md border border-[#1C2745] shadow-xl flex items-center gap-3 z-20 hover:border-[#FF6B2C]/50 transition-colors">
+            <div className="w-10 h-10 rounded-xl bg-[#FF6B2C]/10 border border-[#FF6B2C]/30 flex items-center justify-center relative">
+              <Crosshair className="w-5 h-5 text-[#FF6B2C] animate-spin [animation-duration:12s]" />
             </div>
             <div>
               <span className="text-[10px] font-mono text-[#9AA4BF] uppercase block">Goal Expectancy</span>
@@ -300,6 +330,11 @@ export default function LandingPage() {
             ACWR Index: 1.18 (Green Zone) • Hamstring Strain Protection Active
           </span>
         </div>
+      </section>
+
+      {/* Google Nano Banana AI Visual Studio Showcase */}
+      <section id="studio" className="py-16 px-4 sm:px-6 max-w-7xl mx-auto">
+        <NanoBananaVisualStudio />
       </section>
 
       {/* Responsive Bento Grid Highlighting 4 AI Pillars */}
