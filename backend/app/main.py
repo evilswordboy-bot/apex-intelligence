@@ -8,6 +8,7 @@ backend_dir = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(backend_dir))
 
 from app.database import init_db
+from app.services.olympic_etl import run_olympics_etl
 from app.routers.cricket import router as cricket_router
 from app.routers.agent import router as agent_router
 from app.routers.analytics import router as analytics_router
@@ -16,11 +17,12 @@ from app.routers.predictions import router as predictions_router
 from app.routers.auth import router as auth_router
 from app.routers.users import router as users_router
 from app.routers.platform import router as platform_router
+from app.routers.olympics import router as olympics_router
 
 app = FastAPI(
     title="APEX Sports Intelligence Engine API",
-    description="Production-grade backend API powering the APEX Sports Intelligence Platform with calibrated ML win probability, multi-sport analytics, live match telemetry, AI match prediction engine, user accounts, and platform monitoring.",
-    version="10.0.0"
+    description="Production-grade backend API powering the APEX Sports Intelligence Platform with Olympic Games Intelligence, calibrated ML win probability, multi-sport analytics, live match telemetry, AI match prediction engine, user accounts, and platform monitoring.",
+    version="11.0.0"
 )
 
 # Configure CORS for Next.js frontend (localhost:3000)
@@ -48,6 +50,7 @@ async def add_security_headers(request: Request, call_next):
 @app.on_event("startup")
 def on_startup():
     init_db()
+    run_olympics_etl()
 
 # Mount routers
 app.include_router(cricket_router)
@@ -58,14 +61,16 @@ app.include_router(predictions_router)
 app.include_router(auth_router)
 app.include_router(users_router)
 app.include_router(platform_router)
+app.include_router(olympics_router)
 
 @app.get("/")
 def root():
     return {
         "engine": "APEX Sports Intelligence API",
-        "version": "10.0.0",
+        "version": "11.0.0",
         "status": "online",
         "modules": [
+            "Olympic Games Intelligence Engine",
             "Cricket Intelligence Lab",
             "AI Sports Intelligence Agent",
             "Advanced Multi-Sport Analytics",
@@ -81,8 +86,9 @@ def root():
 def health():
     return {
         "status": "healthy",
-        "version": "9.0.0",
+        "version": "11.0.0",
         "database": "sqlite_ready",
+        "olympic_intelligence": "active",
         "prediction_models": "active",
         "win_probability_model": "calibrated_logistic_regression_active"
     }

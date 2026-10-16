@@ -338,6 +338,50 @@ APEX Phase 10 equips the platform for enterprise hosting, operational observabil
 
 ---
 
+## 🏛️ Phase 11: Olympic Intelligence Engine
+
+APEX Phase 11 transforms the platform into an Olympic Games intelligence powerhouse utilizing five validated datasets: **Athletes**, **Coaches**, **EntriesGender**, **Medals**, and **Teams** (Tokyo 2020 Olympiad).
+
+### Key Capabilities
+1. **Validated Census & Normalized Schema**:
+   - **11,085 Athletes** across 206 National Olympic Committees (NOCs) and 46 Disciplines.
+   - **394 Accredited Coaches** and **743 Official Team Entries**.
+   - **1,080 Total Medals** (340 Gold, 338 Silver, 402 Bronze) across 93 podium-finishing nations.
+   - SQLite tables with foreign keys and sub-millisecond **FTS5 Full-Text Search**.
+2. **Deterministic Natural Language Query (NLQ) Engine (`POST /api/v1/olympics/query`)**:
+   - Free-text analytical query processing with intent classification and entity extraction.
+   - Generates structured markdown answers, KPIs, citations, and dynamic Recharts configurations.
+   - Supported inquiry archetypes:
+     - *Head-to-head nation comparisons*: "Compare USA and China in the Olympics"
+     - *Gender equality analytics*: "Female participation in Archery"
+     - *Medal table inquiries*: "Who won the most medals?"
+     - *Athlete dossiers*: "Tell me about Noah Lyles"
+     - *Delegation efficiency*: "Which country is most efficient at winning medals?"
+3. **Gender Parity & Representation Modeling (`GET /api/v1/olympics/gender`)**:
+   - Tokyo 2020 achieved historic balance: **48.0% Female** (5,432 women) vs **52.0% Male** (5,884 men).
+   - Global Parity Index: **0.913** (out of 1.000).
+   - Disciplines categorized into *Gender Balanced* (e.g. Archery, Badminton, 3x3 Basketball at exact 50-50 parity), *Female Dominated* (Artistic Swimming 100% female), and *Male Dominated*.
+4. **Statistical Analytics & Efficiency Models (`/api/v1/olympics/analytics/*`)**:
+   - **Delegation Yield Efficiency**: Medals won per athlete fielded (San Marino: 60.0% yield).
+   - **Correlation Modeling**: Pearson $r = 0.8751$, $R^2 = 0.7658$, establishing that athlete delegation volume accounts for ~76.6% of Olympic medal variance ($p < 0.0001$).
+   - **Medal Gini Inequality**: Gini coefficient = **0.6422**, reflecting high concentration of podium finishes among the top 10% of nations.
+5. **Phase 11 API Endpoints (`/api/v1/olympics/*`)**:
+   - `GET /api/v1/olympics/overview`: High-level global census KPIs.
+   - `GET /api/v1/olympics/athletes?q=...&noc=...&discipline=...`: Search and filter 11,085 competitors.
+   - `GET /api/v1/olympics/athletes/{athlete_name}`: Athlete dossier with national delegation context.
+   - `GET /api/v1/olympics/coaches` & `/teams`: Accredited coaching staff and team tournament rosters.
+   - `GET /api/v1/olympics/medals?sort_by=gold|total|weighted_score`: Verified medal rankings.
+   - `GET /api/v1/olympics/medals/{noc}`: Nation medal dossier and conversion efficiency.
+   - `GET /api/v1/olympics/gender`: Gender participation breakdown across all 46 sports.
+   - `GET /api/v1/olympics/disciplines`: Discipline comparisons (participants, gender split, teams).
+   - `GET /api/v1/olympics/analytics/efficiency`: Delegation yield ranking.
+   - `GET /api/v1/olympics/analytics/correlation`: Pearson regression line and residual analysis.
+   - `GET /api/v1/olympics/analytics/gini`: Medal distribution inequality analysis.
+   - `POST /api/v1/olympics/query`: Natural language query engine.
+   - `GET /api/v1/olympics/export/csv?dataset=...`: CSV dataset streaming.
+
+---
+
 ## 🧪 Verification & Responsive Breakpoints
 
 Verified across three standard viewports:

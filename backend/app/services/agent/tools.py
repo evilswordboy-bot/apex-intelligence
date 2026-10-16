@@ -124,3 +124,37 @@ def tool_player_performance(player_name: str = "Virat Kohli") -> Dict[str, Any]:
         "average": 38.6,
         "impact_index": 85.0
     })
+
+def tool_olympic_query(query: str = "Who won the most medals?") -> Dict[str, Any]:
+    """Execute natural language analytical query against the Olympic datasets."""
+    from app.services.olympic_nlq_service import process_olympic_nlq
+    return process_olympic_nlq(query, include_chart=False)
+
+def tool_olympic_athlete_lookup(athlete_name: str = "LYLES Noah") -> Dict[str, Any]:
+    """Retrieve athlete record, national delegation context, and medal standing."""
+    from app.services.olympic_service import get_athlete_detail
+    detail = get_athlete_detail(athlete_name)
+    if not detail:
+        return {"error": f"Athlete '{athlete_name}' not found."}
+    return detail
+
+def tool_olympic_medal_standings(top_n: int = 5) -> Dict[str, Any]:
+    """Retrieve official Olympic Games medal standings."""
+    from app.services.olympic_service import get_medals_table
+    res = get_medals_table(sort_by="gold", limit=top_n)
+    return {
+        "total_nations_medaled": res["total_nations"],
+        "total_gold_awarded": res["total_gold"],
+        "top_nations": res["items"]
+    }
+
+def tool_olympic_gender_parity() -> Dict[str, Any]:
+    """Retrieve global Olympic gender parity index and discipline breakdown."""
+    from app.services.olympic_service import get_gender_participation
+    res = get_gender_participation()
+    return {
+        "female_percent": res["overall_female_percent"],
+        "male_percent": res["overall_male_percent"],
+        "parity_index": res["parity_index"],
+        "balanced_disciplines": res["balanced_disciplines_count"]
+    }

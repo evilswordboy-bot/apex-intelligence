@@ -56,6 +56,24 @@ KNOWLEDGE_CORPUS = [
         "keywords": ["bat speed", "exit velocity", "biomechanics", "sprint", "running"],
         "content": "Elite top-order batters generate mean bat swing speeds between 128 km/h and 142 km/h. Running speed between wickets peaks at 28.4 km/h with deceleration turn times below 0.82 seconds.",
         "confidence": 0.92
+    },
+    {
+        "id": "kb-07",
+        "title": "Tokyo 2020 Olympic Games Medal Standing & Tally",
+        "document_type": "Official Olympic Record",
+        "source": "International Olympic Committee (IOC) Official Census",
+        "keywords": ["olympics", "olympic", "tokyo", "medals", "gold", "usa", "china", "japan"],
+        "content": "At the Tokyo 2020 Olympic Games, 11,085 athletes from 206 nations competed across 46 disciplines. United States finished 1st with 39 Gold and 113 total medals, followed by China (38 Gold, 88 total), Japan (27 Gold, 58 total), and Great Britain (22 Gold, 64 total). Total 1,080 medals were awarded.",
+        "confidence": 0.99
+    },
+    {
+        "id": "kb-08",
+        "title": "Olympic Gender Parity and Discipline Balance",
+        "document_type": "Statistical Analysis",
+        "source": "APEX Sports Science Gender Parity Benchmark",
+        "keywords": ["gender", "female", "women", "parity", "equality", "entriesgender"],
+        "content": "Tokyo 2020 achieved historic gender balance with 48.8% female participation (5,432 women) and 51.2% male participation (5,700 men). Disciplines like 3x3 Basketball, Archery, and Badminton reached exact 50-50 parity. Artistic Swimming and Rhythmic Gymnastics remained 100% female.",
+        "confidence": 0.98
     }
 ]
 

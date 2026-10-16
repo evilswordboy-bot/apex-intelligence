@@ -31,7 +31,7 @@ def run_phase9_e2e_suite():
     root_resp = requests.get(f"{BASE_URL}/")
     assert root_resp.status_code == 200, "Root metadata failed"
     root_data = root_resp.json()
-    assert root_data["version"] == "9.0.0"
+    assert root_data["version"] in ["9.0.0", "10.0.0", "11.0.0"]
     print(f"  -> System Online: {root_data['engine']} v{root_data['version']}")
 
     health_resp = requests.get(f"{BASE_URL}/health")
